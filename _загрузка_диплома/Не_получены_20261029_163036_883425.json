@@ -1,0 +1,2872 @@
+[
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Графические файлы/Дегазатор 301.vsd",
+    "name": "Дегазатор 301.vsd",
+    "size": 134144,
+    "md5": "645a2fcbd47bd41ea6e3b0791d82146e",
+    "sha256": "8d9c8becec19834f8ca8d2a18242f3fdd23552d3641e2bd3bbfa62b5569414ba",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Графические файлы/Дегазатор 301.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Графические файлы/Дегазатор-401.vsd",
+    "name": "Дегазатор-401.vsd",
+    "size": 133120,
+    "md5": "6a29c42be8dd751b757f8091095a7cca",
+    "sha256": "f2be181d8403b1f6b26b4ca47cebfe93da7f0d144ecdd714e56907c7a1e1bcc0",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Графические файлы/Дегазатор-401.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Графические файлы/Испаритель.vsd",
+    "name": "Испаритель.vsd",
+    "size": 206848,
+    "md5": "7175b9c21af2771d8475b18ad60b8603",
+    "sha256": "002193876284fdcc1482c764c8b4ea75c9c6dd3750d47e5eca437e8d630b1255",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Графические файлы/Испаритель.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Графические файлы/Испаритель2.vsd",
+    "name": "Испаритель2.vsd",
+    "size": 111616,
+    "md5": "3624a458055efac64320e1defab10a77",
+    "sha256": "6b41fbbcb8801900c4aced3a49320f2a4a85ab01e3e8a4d638aa6775d8936553",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Графические файлы/Испаритель2.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Графические файлы/Колонна.vsd",
+    "name": "Колонна.vsd",
+    "size": 279552,
+    "md5": "a16144c1e2f0a0b8c525d5797cd53534",
+    "sha256": "6c426ffe4e10bb700adb7187b3fc46c25768b9760dd251576268307f8c440932",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Графические файлы/Колонна.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/GUB/doc/ГВК/ГВК 2А (1.01.39).doc",
+    "name": "ГВК 2А (1.01.39).doc",
+    "size": 135168,
+    "md5": "10c785b4ec48ee558d0c1e98daaf4ab3",
+    "sha256": "1c310bbc47f5d8a715dc77f479dedcedbb531169d06ad24800a09725233b81f1",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/GUB/doc/ГВК/ГВК 2А (1.01.39).doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/КАРТЫ/Всё 2А.doc",
+    "name": "Всё 2А.doc",
+    "size": 6501888,
+    "md5": "51bb48fab49ae696fb1b5c18c2af6585",
+    "sha256": "a01812ca809f9f8f052d4018b8c1f1ba9fd645758ee7fe73774021558087f83b",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/КАРТЫ/Всё 2А.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/КАРТЫ/Всё 3В.doc",
+    "name": "Всё 3В.doc",
+    "size": 7223296,
+    "md5": "53b32d0ffba6244fba837f907a81fd42",
+    "sha256": "90ddc3966928438a86ecf2cb5bada4f2b597d4a641b5b257916a1e57d5ca29a6",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/КАРТЫ/Всё 3В.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/КАРТЫ/Всё 4А.doc",
+    "name": "Всё 4А.doc",
+    "size": 7172096,
+    "md5": "f8d1b987ff4cc0ba51a25a3f932b3ee2",
+    "sha256": "ee957085c9d127a41ffffa2d17972784cc2618a3a5bef96f8763a77ff385c3f1",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/КАРТЫ/Всё 4А.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/РЕФЕРАТ/Таб 2.doc",
+    "name": "Таб 2.doc",
+    "size": 169984,
+    "md5": "d7f6002570f332d0a6a0f05aee04135b",
+    "sha256": "2638450192ca8d5d0c33aa67b570f61ae71d21782cce964876d2f12b285ff859",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/РЕФЕРАТ/Таб 2.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/РЕФЕРАТ/Таб 5.xls",
+    "name": "Таб 5.xls",
+    "size": 27648,
+    "md5": "58be0ac27b4a17eea334c551eccbd15f",
+    "sha256": "fe953485af31300a6e10b1b32ee4edf3e31fa902f7b521fdcda02915f4342d6a",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/РЕФЕРАТ/Таб 5.xls"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/РЕФЕРАТ/Табл П 3.xls",
+    "name": "Табл П 3.xls",
+    "size": 187392,
+    "md5": "9a5751a15f39113f4e17fa0b5be33ecf",
+    "sha256": "09d50c46ae2b0e5365b540942ac7c42497b721705c1db2d0fa92f539e989f284",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/РЕФЕРАТ/Табл П 3.xls"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/РЕФЕРАТ/Текст.doc",
+    "name": "Текст.doc",
+    "size": 4838912,
+    "md5": "e8d6e0a5ea7e3822e6a315bd6c8aab94",
+    "sha256": "da5cddd25b0bb3c718c6385c9c1d33ab92795865f8b019f3f628bc175172f89e",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/РЕФЕРАТ/Текст.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/ris5_zzz.xls",
+    "name": "ris5_zzz.xls",
+    "size": 123904,
+    "md5": "6775b80ebed1f4315f8c61d1efac8f1e",
+    "sha256": "17e1fa6521a9e2d2a60472b37974db55578abbefc41187bd764b263a91c473a6",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/ris5_zzz.xls"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Глава 1.doc",
+    "name": "Глава 1.doc",
+    "size": 311808,
+    "md5": "04ecf5ed0d169ccf26d378667f0771a5",
+    "sha256": "2165df4b86923ac6fcf884a9df685ebff2197d29ca8893c80b7209a5f068bd4f",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Глава 1.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Глава 5.doc",
+    "name": "Глава 5.doc",
+    "size": 105984,
+    "md5": "2567684f16e9bfab80c4b1e956c9a8df",
+    "sha256": "05a4cb28ea58c46c016566a696e9a156c8285ccdd17558718077ed33ebe9bab8",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Глава 5.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Глава 8.doc",
+    "name": "Глава 8.doc",
+    "size": 265216,
+    "md5": "da0b59d24d96a86f450df31e6ae608c6",
+    "sha256": "53399945cea857f3a3c282e29adafa6a285523961553703e7ae521970fd53c4b",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Глава 8.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Рис.1.2.xls",
+    "name": "Рис.1.2.xls",
+    "size": 454144,
+    "md5": "a7352e9bd590534d7a41313152dcd804",
+    "sha256": "8c0f104609a3d3d7508e8cdce3bb63d62574a1c917f72d9c0659eb4ec258b354",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Рис.1.2.xls"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Рис.7.1.xls",
+    "name": "Рис.7.1.xls",
+    "size": 22528,
+    "md5": "ee3f913c6318a4a16e50b17b043c81ff",
+    "sha256": "a6e3b38dc9e57c1cd94d54e94367ed4d2fd763562aeea5d34e2b075945dc57ad",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Рис.7.1.xls"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Таб 1.7.xls",
+    "name": "Таб 1.7.xls",
+    "size": 40448,
+    "md5": "a164a11aee3c30d9c3af1d97b8cdae04",
+    "sha256": "0b1c9fa8afab38b36d15b9d75730f12f4d55e0ef695e321d8aa0012d8013040f",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Таб 1.7.xls"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Таб 3.1.doc",
+    "name": "Таб 3.1.doc",
+    "size": 59392,
+    "md5": "fb1185f282e5c2890f02add17ded4d72",
+    "sha256": "5a41a5edb4bbeb06d7fb41eb6013b713ff71617717efb3b3d48ca929faa46269",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Таб 3.1.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Таб 5.2.doc",
+    "name": "Таб 5.2.doc",
+    "size": 27648,
+    "md5": "6bcd8ca3a0230577badc5e2e3fee0090",
+    "sha256": "2302ec592ec3cf7b93428ce0aed0ac12b4d5895569f5b31a2995d7d00ccc2ae6",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Таб 5.2.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Таб_1-1.doc",
+    "name": "Таб_1-1.doc",
+    "size": 180224,
+    "md5": "c8650f9eac8b9ec63bc96a04d29e8a9a",
+    "sha256": "8e18ed6d0dc94527ecbce0ce95ed08e1473875560ac2ac567eb63aae817da6a3",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Таб_1-1.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Таб_1-4.doc",
+    "name": "Таб_1-4.doc",
+    "size": 31232,
+    "md5": "38d0181493db153dfa4315509fd4bda5",
+    "sha256": "c7bb163c031c2c08313e3535209a905bbf73a3e4151f760a10430e789631309a",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Таб_1-4.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл 4.10.xls",
+    "name": "Табл 4.10.xls",
+    "size": 207872,
+    "md5": "42dcd7ee56d651571a5776d6a078717b",
+    "sha256": "605f9fd06ec8c81c41185e7e92928356962904123224f5ebd985e4666f3e533b",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл 4.10.xls"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл 4.14.xls",
+    "name": "Табл 4.14.xls",
+    "size": 107008,
+    "md5": "5c2158c1b32d808e10c8671cfe4b85a9",
+    "sha256": "2d6b4b5ec30431f4c84c9ab47b6b66a02f4b15427136addd86b2cd14fa4cff84",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл 4.14.xls"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл 4.16......doc",
+    "name": "Табл 4.16......doc",
+    "size": 2028544,
+    "md5": "99c39e23186e7f65d76a4f18d36e15b5",
+    "sha256": "8f0779eff5d65b150134999d210992b1c6082cbb578b909b12803c2b04d56ab3",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл 4.16......doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл 4.5.xls",
+    "name": "Табл 4.5.xls",
+    "size": 26624,
+    "md5": "56e6e4993fd276e49920050069011b3a",
+    "sha256": "b1dee906be24f40dca5e17fd75a14e5bf11af22d2e940a75ac1df0c4a15b5b40",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл 4.5.xls"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл 5.6.doc",
+    "name": "Табл 5.6.doc",
+    "size": 71168,
+    "md5": "cfb3fa746df140cb24d7760f45b89f71",
+    "sha256": "1297cc9a23585aae756ba7b1da13b5c9a3f198014060925f3f085e634b6b82a7",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл 5.6.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл. 8.4-8.5.xls",
+    "name": "Табл. 8.4-8.5.xls",
+    "size": 37888,
+    "md5": "08d8602f07c1043ba8a1a6c3b47be0ca",
+    "sha256": "b9ffa21e969cd01903c8d1a1e9040062656d6e76f1c5d0f4971d2270dab82494",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл. 8.4-8.5.xls"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл.5.1.xls",
+    "name": "Табл.5.1.xls",
+    "size": 26112,
+    "md5": "cd94c1f84564d2c251b33cf62ac36712",
+    "sha256": "8277ef82cd6f53b88f2a9417a3bc8972e706bfcb7e5fee528f74fec939f0592f",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/Табл.5.1.xls"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/таб 3.3.XLS",
+    "name": "таб 3.3.XLS",
+    "size": 73216,
+    "md5": "7705f83018d202d6d5f9c05096ed5fce",
+    "sha256": "74c5c5329f3424bbaaa0e98ed6a36c9c0fe668fd47ed38f38be59978760c44dc",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/таб 3.3.XLS"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/таб_1.8.XLS",
+    "name": "таб_1.8.XLS",
+    "size": 44032,
+    "md5": "acbb49076a94f6cbfbededd612c2c5f4",
+    "sha256": "2da9163ef423d2698b9b5529087a95e11b2d7a63df4ed06a16c6c8aae68d5753",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/КОРРЕКТИВЫ ГЕОЛОГОВ/таб_1.8.XLS"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Месторождение/ГГП.png",
+    "name": "ГГП.png",
+    "size": 106196,
+    "md5": "51813858f2247d2be6fc7b83e3beba3c",
+    "sha256": "8f7e990d421eb150352ddc3d553f91ea28e7e7cbb26adc0431d812a3053f85ae",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Месторождение/ГГП.png"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Месторождение/ГГП4.png",
+    "name": "ГГП4.png",
+    "size": 52214,
+    "md5": "17ae03b5523819d3ea0204057670123b",
+    "sha256": "c1d93670d33b6a8bb78460be3c9169974a49585d33e0b87a04fed2fe42318e38",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Месторождение/ГГП4.png"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Месторождение/ГГПизм.png",
+    "name": "ГГПизм.png",
+    "size": 189611,
+    "md5": "aec773c31826c315feb0fa710823d9b3",
+    "sha256": "1a987d75f301a3ce8667cf0d8ee64a7d06c852e2540ed721456431bf42e2d0b9",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Месторождение/ГГПизм.png"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Насосная метанола. Склад/Емкость Е-3 БВМ c изменениями.vsd",
+    "name": "Емкость Е-3 БВМ c изменениями.vsd",
+    "size": 120832,
+    "md5": "6dd613b55194a35f76869f4124e7f815",
+    "sha256": "37dc59655e2aab3e2749a382ff99a9b8d99b98b35f5f917d006475d087a4b6a1",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Насосная метанола. Склад/Емкость Е-3 БВМ c изменениями.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Насосная метанола. Склад/Копия Насосная метанола вид сверху.vsd",
+    "name": "Копия Насосная метанола вид сверху.vsd",
+    "size": 126464,
+    "md5": "401c9b3bb50d71713c2d0b5a5795685a",
+    "sha256": "70895b06c225914d62026329098a852cc4b81c37803626d3a01c1b6d433f9cf7",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Насосная метанола. Склад/Копия Насосная метанола вид сверху.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Насосная метанола. Склад/Насосная метанола вид сверху.vsd",
+    "name": "Насосная метанола вид сверху.vsd",
+    "size": 146944,
+    "md5": "367332d1dda41409d469e620a64d3443",
+    "sha256": "02ab638426e2d2b3863b81b96573e713cee6b5776dfae37601da1c50ef3728e4",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Насосная метанола. Склад/Насосная метанола вид сверху.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Насосная метанола. Склад/Склад метанола с выделеным всасом.vsd",
+    "name": "Склад метанола с выделеным всасом.vsd",
+    "size": 155648,
+    "md5": "6ed11f1d7fbf9645f6ee7e31a36e412e",
+    "sha256": "2b3412ebad1dbde04ccb04426d16c98cae010991c73e57be4c3bff9943aa5d1f",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Насосная метанола. Склад/Склад метанола с выделеным всасом.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/Вентсистемы/вентУПТИГальб.vsd",
+    "name": "вентУПТИГальб.vsd",
+    "size": 110592,
+    "md5": "25c6a9bf3e1fe169c5dcb2045f934a49",
+    "sha256": "5b85410dfffb594a18e2183913a21cea0bc3867a38abcba85b1d92908e57f0b7",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/Вентсистемы/вентУПТИГальб.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/Вентсистемы/вентУПТИГприт.vsd",
+    "name": "вентУПТИГприт.vsd",
+    "size": 99840,
+    "md5": "fd68896c15fe0bb868147b9943e24f5f",
+    "sha256": "b53b7b52dfd575a45aea8870900aa2c3e0b202adf0acf2bb2b8cb888fa0db217",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/Вентсистемы/вентУПТИГприт.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/Масло/Маслохозяйство акс.vsd",
+    "name": "Маслохозяйство акс.vsd",
+    "size": 357888,
+    "md5": "bf4c17256dd86e2dd4412fd8555686bf",
+    "sha256": "bd96db13c249293d1226c2373b581d5d5093ff821b78f16baa133f19dcbd7c20",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/Масло/Маслохозяйство акс.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/УПТИГ/УПТИГ ДКС ГГП.vsd",
+    "name": "УПТИГ ДКС ГГП.vsd",
+    "size": 905216,
+    "md5": "0c2efa470b40d22a9ac0c458e8a8554e",
+    "sha256": "74e0b5bcc48466ba058d349370b2daae9840ed727410e053657b2cbc1df76eda",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/УПТИГ/УПТИГ ДКС ГГП.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/УПТИГ/УПТИГ ФС-2.1.vsd",
+    "name": "УПТИГ ФС-2.1.vsd",
+    "size": 167424,
+    "md5": "a9646c88155a2202f95438b815eaa272",
+    "sha256": "882c141fcc0bf8970598658349994de7f4711fd7f8510508819af0dc6a766788",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/УПТИГ/УПТИГ ФС-2.1.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/ЦОГ/ЦОГ/ЦОГ ФС-3.vsd",
+    "name": "ЦОГ ФС-3.vsd",
+    "size": 178688,
+    "md5": "c4642676bb53cf5593f682eab2403168",
+    "sha256": "078bb6179ed67ac81590cc627a058a4e559b84fed85008772278fbebfe2e0df3",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/ЦОГ/ЦОГ/ЦОГ ФС-3.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/ЦОГ/ЦОГ ФС-3.vsd",
+    "name": "ЦОГ ФС-3.vsd",
+    "size": 178688,
+    "md5": "c4642676bb53cf5593f682eab2403168",
+    "sha256": "078bb6179ed67ac81590cc627a058a4e559b84fed85008772278fbebfe2e0df3",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/ЦОГ/ЦОГ ФС-3.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/Электро/Схема эл_снабжения ГГП.vsd",
+    "name": "Схема эл_снабжения ГГП.vsd",
+    "size": 2241024,
+    "md5": "11201192257eed63dbaacf6845f535a5",
+    "sha256": "4ebae1b83d446fc35b436ad3573bcaa12626a3166171e8e5d95c9c8c34e2241c",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/Электро/Схема эл_снабжения ГГП.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/регламент/3.jpg",
+    "name": "3.jpg",
+    "size": 114258,
+    "md5": "43b074a8e3718bb617220f5a2907a0ba",
+    "sha256": "f8858e09dabea36c2c6089df240502f2831cc1989ebc415afb9039396b20a1e6",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/регламент/3.jpg"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/регламент/Регламент ДКС ГГП 11.doc",
+    "name": "Регламент ДКС ГГП 11.doc",
+    "size": 2125312,
+    "md5": "9302ac1858973ec8d44aac13e518960e",
+    "sha256": "0a78c10ca35a0f4d1ba2157b4ddd240f0c96145db9cb9ea68e30bf7d031c70df",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Регламент ГГП ДКС/регламент/Регламент ДКС ГГП 11.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/газосборные сети/Схема ГСС с параметрами для ПОДГ1.vsd",
+    "name": "Схема ГСС с параметрами для ПОДГ1.vsd",
+    "size": 210432,
+    "md5": "3608eed74afc77d5cf291c72048aeb96",
+    "sha256": "beaa57a4c37845bbe6a1f2a41773ccb74e84ee794814b9f150f41c3b076f1934",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/газосборные сети/Схема ГСС с параметрами для ПОДГ1.vsd"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/ДПБ ГГП Информационный лист.doc",
+    "name": "ДПБ ГГП Информационный лист.doc",
+    "size": 95232,
+    "md5": "81132901860a4c5430e955d9fea08a50",
+    "sha256": "6be1ef719d13be8018059d1b07c68fcee8ff15290572e5a03ecd340c1a71605c",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/ДПБ ГГП Информационный лист.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Копия Пояснительная ГКС  2009г (рассмотрен.) .doc",
+    "name": "Копия Пояснительная ГКС  2009г (рассмотрен.) .doc",
+    "size": 223232,
+    "md5": "4ce35d95f941d77391bfeb214f3a4f42",
+    "sha256": "a3e7820ad5faf78777517f27027e928508de74bf57dcd4277cfa98930cc74d83",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Копия Пояснительная ГКС  2009г (рассмотрен.) .doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Техпаспорт ГГП 2006 оконч.rtf",
+    "name": "Техпаспорт ГГП 2006 оконч.rtf",
+    "size": 1560918,
+    "md5": "e392fc6cbbb1e09ccf86c439c4759325",
+    "sha256": "814dff4db47db121d84277bab7a55f1a585d9aff84dc270b12f9a5c434758a9e",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Данные по ГГП/Техпаспорт ГГП 2006 оконч.rtf"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Мощная геология.docx",
+    "name": "Мощная геология.docx",
+    "size": 551596,
+    "md5": "2e0496a04a3e246b6ed46e1f112c9cb5",
+    "sha256": "57ad7d1ab48ddce0a6a7e4988f0c56288773ffd1d34fdc2cce057c0aa31dbd59",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Мощная геология.docx"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Отчет 2011.docx",
+    "name": "Отчет 2011.docx",
+    "size": 2296932,
+    "md5": "34d9ac38e90de9c9d6727197eecce6b7",
+    "sha256": "bf3f729cf9e84803909548489ab6189f1c135bdbbcef13a0b33e9e694614fa9b",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Отчет 2011.docx"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Схема потоков.docx",
+    "name": "Схема потоков.docx",
+    "size": 139993,
+    "md5": "db4724bf97ec9462626b0b8e1a9a2ac0",
+    "sha256": "f76d565518ef32199afcbd3f4c17f36f940e95fafffd79118e0ff54e458f1ddb",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Схема потоков.docx"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Технология добычи, сбора и подготовки газа на Губкинском газовом прмысле.doc",
+    "name": "Технология добычи, сбора и подготовки газа на Губкинском газовом прмысле.doc",
+    "size": 11622912,
+    "md5": "e4f02a6c6212abc3bafc3226065034ee",
+    "sha256": "67dfd129e4bcbb0df586abeb9b7dcab541949093bfba03f25cef2c1844e98740",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ГУБКИНСКИЙ ГАЗОВЫЙ ПРОМЫСЕЛ/Технология добычи, сбора и подготовки газа на Губкинском газовом прмысле.doc"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/Анализ разработки, совершенствование системы разработки Губкинского месторождения.rtf",
+    "name": "Анализ разработки, совершенствование системы разработки Губкинского месторождения.rtf",
+    "size": 14825127,
+    "md5": "6b79156b67dda0be2bcc92012ab8391b",
+    "sha256": "6faacec8188a6b3225e7ac25d6acb19d2226d63c08cc929716f04d51f2faac61",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/Анализ разработки, совершенствование системы разработки Губкинского месторождения.rtf"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/Огранизация Надымгаздобыча.rtf",
+    "name": "Огранизация Надымгаздобыча.rtf",
+    "size": 3792068,
+    "md5": "c95490d890bd9a681d3d9f8eecea9c1d",
+    "sha256": "b45c724f3407aab1a4e3138559d78e6dbdd063afb0fe8abfad71b34e46740561",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/Огранизация Надымгаздобыча.rtf"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/ЦКБН.docx",
+    "name": "ЦКБН.docx",
+    "size": 100269,
+    "md5": "a77f216c9c6f1a803b6d9b2dc68d093c",
+    "sha256": "733a7c86975e00e9abbbf66ed00545bfd5c5f1428f207b06f3206bfeee47657d",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/ЦКБН.docx"
+  },
+  {
+    "source": 1,
+    "url": "https://disk.yandex.ru/d/QLw9R2kHSnMuFA",
+    "remote_path": "/Ямбургское месторождение.pdf",
+    "name": "Ямбургское месторождение.pdf",
+    "size": 703627,
+    "md5": "c4762d5aaf99a04cfb074375270d5f42",
+    "sha256": "7f715d9e57ad375b26e6259bb209946db0f070aee0dc1c64d06794340e1d3ec3",
+    "local": "/home/tori/student/01 ОСНОВНОЙ МАТЕРИАЛ/Ямбургское месторождение.pdf"
+  },
+  {
+    "source": 2,
+    "url": "https://disk.yandex.ru/d/2BPQM3gYMz721w",
+    "remote_path": "/Диплом ГДИС/28.doc",
+    "name": "28.doc",
+    "size": 24064,
+    "md5": "a1e902cc9331439b0685e76853e94799",
+    "sha256": "5418edb139ebe9a2bd627a6cafb5a9e768f3affdd46b4cf238e84a61808ab0de",
+    "local": "/home/tori/student/02 Диплом ГДИС/Диплом ГДИС/28.doc"
+  },
+  {
+    "source": 2,
+    "url": "https://disk.yandex.ru/d/2BPQM3gYMz721w",
+    "remote_path": "/Диплом ГДИС/36.doc",
+    "name": "36.doc",
+    "size": 46592,
+    "md5": "deb9970b47ebb912cd9dcc7742090db3",
+    "sha256": "5ef5019977373965167d3044de3299e977ec4ca5835c4f5a9d44d63897e37a9e",
+    "local": "/home/tori/student/02 Диплом ГДИС/Диплом ГДИС/36.doc"
+  },
+  {
+    "source": 2,
+    "url": "https://disk.yandex.ru/d/2BPQM3gYMz721w",
+    "remote_path": "/Диплом ГДИС/40.doc",
+    "name": "40.doc",
+    "size": 23552,
+    "md5": "35aa08318fa785fa40423edf910c43b9",
+    "sha256": "320fb6de7f78fd403a3f007bf95f1d842d459a48cc843e6037486b472a36f2c7",
+    "local": "/home/tori/student/02 Диплом ГДИС/Диплом ГДИС/40.doc"
+  },
+  {
+    "source": 2,
+    "url": "https://disk.yandex.ru/d/2BPQM3gYMz721w",
+    "remote_path": "/Диплом ГДИС/41.doc",
+    "name": "41.doc",
+    "size": 24064,
+    "md5": "cf2fb047bff3b5a37ea6de66c32760f1",
+    "sha256": "ff6b56fb8ab8207edffffba31dc9e19cb01e2189159bead51c6f21f3a57517c5",
+    "local": "/home/tori/student/02 Диплом ГДИС/Диплом ГДИС/41.doc"
+  },
+  {
+    "source": 2,
+    "url": "https://disk.yandex.ru/d/2BPQM3gYMz721w",
+    "remote_path": "/Диплом ГДИС/43.doc",
+    "name": "43.doc",
+    "size": 27648,
+    "md5": "c3acadab6313dedaadae79cf222a7518",
+    "sha256": "9bb73e101754d4e0d5552054fe5a54d1ccdebb4f1fba489384b771e99a4f4320",
+    "local": "/home/tori/student/02 Диплом ГДИС/Диплом ГДИС/43.doc"
+  },
+  {
+    "source": 2,
+    "url": "https://disk.yandex.ru/d/2BPQM3gYMz721w",
+    "remote_path": "/Диплом ГДИС/52.doc",
+    "name": "52.doc",
+    "size": 23040,
+    "md5": "ecd983362ff58e285314fc1c3119b8c7",
+    "sha256": "899f75aa6303d472babf686f49354dd6a4060ca956128012dbc6dead184fc19f",
+    "local": "/home/tori/student/02 Диплом ГДИС/Диплом ГДИС/52.doc"
+  },
+  {
+    "source": 2,
+    "url": "https://disk.yandex.ru/d/2BPQM3gYMz721w",
+    "remote_path": "/Диплом ГДИС/6.doc",
+    "name": "6.doc",
+    "size": 24576,
+    "md5": "57ddc931235532be45f7426058b1f9c3",
+    "sha256": "2606ef94db3ab817257448b7ae3a46e93ca6615851415cb0b1f88452aa931373",
+    "local": "/home/tori/student/02 Диплом ГДИС/Диплом ГДИС/6.doc"
+  },
+  {
+    "source": 2,
+    "url": "https://disk.yandex.ru/d/2BPQM3gYMz721w",
+    "remote_path": "/Диплом ГДИС/60.doc",
+    "name": "60.doc",
+    "size": 25088,
+    "md5": "9026bd30bca07b63b1a019be114991e0",
+    "sha256": "4f958f51f392d3d6a50fd60087644b173328a1e80ffa20ce23b0beda80d2cb67",
+    "local": "/home/tori/student/02 Диплом ГДИС/Диплом ГДИС/60.doc"
+  },
+  {
+    "source": 2,
+    "url": "https://disk.yandex.ru/d/2BPQM3gYMz721w",
+    "remote_path": "/Диплом ГДИС/61.doc",
+    "name": "61.doc",
+    "size": 25088,
+    "md5": "165ce81c36c1934fa89197d8a3d01ee8",
+    "sha256": "d614fc08b9feb86420b1283d041bc73d603611a677981ec35b461e3c49b3a46c",
+    "local": "/home/tori/student/02 Диплом ГДИС/Диплом ГДИС/61.doc"
+  },
+  {
+    "source": 2,
+    "url": "https://disk.yandex.ru/d/2BPQM3gYMz721w",
+    "remote_path": "/Диплом ГДИС/раздел 5 показат  РАЗРОБОТКИ ССГКМ.doc",
+    "name": "раздел 5 показат  РАЗРОБОТКИ ССГКМ.doc",
+    "size": 31744,
+    "md5": "3f06276a7645b3d893a59edd1fc165ac",
+    "sha256": "c6283836e2f19a11a65c23dc73ddc963081eadef43e9e73ad6ef09cf0735f25d",
+    "local": "/home/tori/student/02 Диплом ГДИС/Диплом ГДИС/раздел 5 показат  РАЗРОБОТКИ ССГКМ.doc"
+  },
+  {
+    "source": 2,
+    "url": "https://disk.yandex.ru/d/2BPQM3gYMz721w",
+    "remote_path": "/Диплом ГДИС/раздел2 ГДИС.doc",
+    "name": "раздел2 ГДИС.doc",
+    "size": 187904,
+    "md5": "e0704f4000a8adf25eaf9c9950697bdd",
+    "sha256": "d6748cb80b9d71724b5ed966acd530f6036bf4963016a4512f6531d721bccef8",
+    "local": "/home/tori/student/02 Диплом ГДИС/Диплом ГДИС/раздел2 ГДИС.doc"
+  },
+  {
+    "source": 2,
+    "url": "https://disk.yandex.ru/d/2BPQM3gYMz721w",
+    "remote_path": "/Диплом ГДИС/раздел3 Краткая геолого-пром.doc",
+    "name": "раздел3 Краткая геолого-пром.doc",
+    "size": 165376,
+    "md5": "413c09ff35c6bfa8fe24e5ecd28c5cc0",
+    "sha256": "671c50c1c2f4f23303ef5db7f6516d5bdf17ee29e350043ccc0cb69979eafeb0",
+    "local": "/home/tori/student/02 Диплом ГДИС/Диплом ГДИС/раздел3 Краткая геолого-пром.doc"
+  },
+  {
+    "source": 4,
+    "url": "https://disk.yandex.ru/d/1qddPwpoKpdqnQ",
+    "remote_path": "/Александров И.А. Ректификационные и абсорбционные аппараты. Методы расчета и основы конструирования.djvu",
+    "name": "Александров И.А. Ректификационные и абсорбционные аппараты. Методы расчета и основы конструирования.djvu",
+    "size": 3016578,
+    "md5": "44eb089b6c551923032c68a9e6b60528",
+    "sha256": "7acb3e84356d34206728ad137aa3802639a9301adcfafa83cf046943c2de3001",
+    "local": "/home/tori/student/04 КНИГИ/Александров И.А. Ректификационные и абсорбционные аппараты. Методы расчета и основы конструирования.djvu"
+  },
+  {
+    "source": 4,
+    "url": "https://disk.yandex.ru/d/1qddPwpoKpdqnQ",
+    "remote_path": "/Основы технологии добычи газа.pdf",
+    "name": "Основы технологии добычи газа.pdf",
+    "size": 32618669,
+    "md5": "b2a573f644a6e2e57f577c1bc82a814a",
+    "sha256": "a3751b66a1795817673a3be7e5d1d0062021a246e2abdbe3b8c6c9ab18a47f95",
+    "local": "/home/tori/student/04 КНИГИ/Основы технологии добычи газа.pdf"
+  },
+  {
+    "source": 5,
+    "url": "https://disk.yandex.ru/d/h1oj0XsirNusAA",
+    "remote_path": "/Артур диплом/5 лет, а толку/показуха.xls",
+    "name": "показуха.xls",
+    "size": 114688,
+    "md5": "bff5450a4d823a1321cefb89d6f30578",
+    "sha256": "c0df1bba8349cf194f8644445b803647763bbea35662960f11144af1356a9ce1",
+    "local": "/home/tori/student/05 Артур диплом/Артур диплом/5 лет, а толку/показуха.xls"
+  },
+  {
+    "source": 5,
+    "url": "https://disk.yandex.ru/d/h1oj0XsirNusAA",
+    "remote_path": "/Артур диплом/QBASIC/NORA.BAS.doc",
+    "name": "NORA.BAS.doc",
+    "size": 22016,
+    "md5": "013c3acc6dd454edc5a20aca51f2f96a",
+    "sha256": "02292b4a52c5e9f3d0dcbca733c0a954869b7eabb507e00bf80e7107ce3aae65",
+    "local": "/home/tori/student/05 Артур диплом/Артур диплом/QBASIC/NORA.BAS.doc"
+  },
+  {
+    "source": 5,
+    "url": "https://disk.yandex.ru/d/h1oj0XsirNusAA",
+    "remote_path": "/Артур диплом/QBASIC/QB.HLP",
+    "name": "QB.HLP",
+    "size": 48814,
+    "md5": "4daa734b9b2a512bdf6d2fe2811dca89",
+    "sha256": "31c8a844f29489dae472cf0648a29bc4a222f547d6062aa1652e65ba96b81875",
+    "local": "/home/tori/student/05 Артур диплом/Артур диплом/QBASIC/QB.HLP"
+  },
+  {
+    "source": 5,
+    "url": "https://disk.yandex.ru/d/h1oj0XsirNusAA",
+    "remote_path": "/Артур диплом/QBASIC/VA1.BAS",
+    "name": "VA1.BAS",
+    "size": 2660,
+    "md5": "2f0d230ea50e8ab042a5195263e6593c",
+    "sha256": "1442edf3b7466fc628c96e1241cbb4f4951d83b9220ee60139f7c5df65074c86",
+    "local": "/home/tori/student/05 Артур диплом/Артур диплом/QBASIC/VA1.BAS"
+  },
+  {
+    "source": 5,
+    "url": "https://disk.yandex.ru/d/h1oj0XsirNusAA",
+    "remote_path": "/Артур диплом/QBASIC/МФА.BAS",
+    "name": "МФА.BAS",
+    "size": 16731,
+    "md5": "990fc2d18e1fc8e98d56000f91f3134e",
+    "sha256": "f8c05d23ebc5fbabd479c5295b11ff67153f79c92c8e246d4b92e6e3f086905f",
+    "local": "/home/tori/student/05 Артур диплом/Артур диплом/QBASIC/МФА.BAS"
+  },
+  {
+    "source": 5,
+    "url": "https://disk.yandex.ru/d/h1oj0XsirNusAA",
+    "remote_path": "/Артур диплом/QBASIC/МФА502.BAS",
+    "name": "МФА502.BAS",
+    "size": 13400,
+    "md5": "b5f62cdac55fe6b43c3ba32a69d7c152",
+    "sha256": "63957bb75fb17685adae6f3831e4a875ff623d4f7d4f197e0c3cb25929263c4a",
+    "local": "/home/tori/student/05 Артур диплом/Артур диплом/QBASIC/МФА502.BAS"
+  },
+  {
+    "source": 5,
+    "url": "https://disk.yandex.ru/d/h1oj0XsirNusAA",
+    "remote_path": "/Артур диплом/QBASIC/артур.txt",
+    "name": "артур.txt",
+    "size": 10,
+    "md5": "4f2ff9ffa7804eda78d638248cd4c73d",
+    "sha256": "6c990c6d204279a26d16298a2c1f43a34a7f8661c4d0b014241a9ef77c6821d2",
+    "local": "/home/tori/student/05 Артур диплом/Артур диплом/QBASIC/артур.txt"
+  },
+  {
+    "source": 5,
+    "url": "https://disk.yandex.ru/d/h1oj0XsirNusAA",
+    "remote_path": "/Артур диплом/Мой диплом/4 КРС.doc",
+    "name": "4 КРС.doc",
+    "size": 74752,
+    "md5": "45d6003eab11e4b0a717f32a25c45bb1",
+    "sha256": "c4b269a7110039690b0830f4e32d7d6811598663b31bb0f31d4e7ceb0d494fec",
+    "local": "/home/tori/student/05 Артур диплом/Артур диплом/Мой диплом/4 КРС.doc"
+  },
+  {
+    "source": 5,
+    "url": "https://disk.yandex.ru/d/h1oj0XsirNusAA",
+    "remote_path": "/Артур диплом/Мой диплом/таблицы к разделу 2.doc",
+    "name": "таблицы к разделу 2.doc",
+    "size": 52736,
+    "md5": "ccb1011c6d053b502e8037305b3e446a",
+    "sha256": "6db2507ecc60b6ec545f86f8d3da522918d5d09dfd1283f2ac87b5282533a001",
+    "local": "/home/tori/student/05 Артур диплом/Артур диплом/Мой диплом/таблицы к разделу 2.doc"
+  },
+  {
+    "source": 5,
+    "url": "https://disk.yandex.ru/d/h1oj0XsirNusAA",
+    "remote_path": "/Артур диплом/Мой диплом/титул к диплому.doc",
+    "name": "титул к диплому.doc",
+    "size": 21504,
+    "md5": "39bc8bb62b33471a3821812da8089673",
+    "sha256": "7b4df43761a9b841391b725bcc86cf1ab6c93a373fa808d78137385fbfaff379",
+    "local": "/home/tori/student/05 Артур диплом/Артур диплом/Мой диплом/титул к диплому.doc"
+  },
+  {
+    "source": 5,
+    "url": "https://disk.yandex.ru/d/h1oj0XsirNusAA",
+    "remote_path": "/Артур диплом/2 исследования.doc",
+    "name": "2 исследования.doc",
+    "size": 1352192,
+    "md5": "e16afdcb699f8bc8de226eba59d372c5",
+    "sha256": "24130ee56a6032030529ea6a649330631fe48c81bbf9b6f59f77e33c956b8018",
+    "local": "/home/tori/student/05 Артур диплом/Артур диплом/2 исследования.doc"
+  },
+  {
+    "source": 5,
+    "url": "https://disk.yandex.ru/d/h1oj0XsirNusAA",
+    "remote_path": "/Артур диплом/ГРАФИКИ.xls",
+    "name": "ГРАФИКИ.xls",
+    "size": 94720,
+    "md5": "66bc714291568238e062886da6884b87",
+    "sha256": "b1f1a86a2d38157cf6aaa164d4bc6c84fc5d6d7b085d4c73dbce60d02b3bdced",
+    "local": "/home/tori/student/05 Артур диплом/Артур диплом/ГРАФИКИ.xls"
+  },
+  {
+    "source": 5,
+    "url": "https://disk.yandex.ru/d/h1oj0XsirNusAA",
+    "remote_path": "/Артур диплом/Типа БЖД.doc",
+    "name": "Типа БЖД.doc",
+    "size": 239616,
+    "md5": "656a7d5d98e6588f3dc2061b4e3982df",
+    "sha256": "f19ef6e22eb776329caa4016f6240d5670bd9df994024c667d0df15255355f44",
+    "local": "/home/tori/student/05 Артур диплом/Артур диплом/Типа БЖД.doc"
+  },
+  {
+    "source": 6,
+    "url": "https://disk.yandex.ru/i/5QqJfadkzm1yiw",
+    "remote_path": "/",
+    "name": "презентация Репин.pptx",
+    "size": 2197512,
+    "md5": "4badcf78beac6f99cb48c0d1c6373922",
+    "sha256": "b5fa1e9758be68e59a03dc0bae339c3a32c32d963ef4997d50b28c3f86d52eb7",
+    "local": "/home/tori/student/06 презентация Репин.pptx/презентация Репин.pptx"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Кеша/Диплом-Кеша/1 Гео.doc",
+    "name": "1 Гео.doc",
+    "size": 768512,
+    "md5": "85e9bbb64039badd581cf7d46add6fc6",
+    "sha256": "d509c5969836ddc7f5c00fba016dfa28623c632bccb02a7bbba980c0d1fe6300",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Кеша/Диплом-Кеша/1 Гео.doc"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Кеша/Диплом-Кеша/11111.doc",
+    "name": "11111.doc",
+    "size": 5860352,
+    "md5": "ce757508a51d753fc1de527ea7701830",
+    "sha256": "7cd236da3a583a81c61c9de9592b77ec8f7f87b429c25bf4c5822fb9f118cffb",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Кеша/Диплом-Кеша/11111.doc"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Кеша/Диплом-Кеша/Таблица 9.doc",
+    "name": "Таблица 9.doc",
+    "size": 90624,
+    "md5": "ea2d6ddae136032dcd0a113bfc4ac13d",
+    "sha256": "bcd463def409e3a015722ecf39a1c9bee72f933c2477a3e95bfd2580f3a54446",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Кеша/Диплом-Кеша/Таблица 9.doc"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Кеша/Диплом-Кеша/тектоника и  структура2.doc",
+    "name": "тектоника и  структура2.doc",
+    "size": 1090048,
+    "md5": "416372d109e52c9a32645eabfe74f447",
+    "sha256": "ba862e04f05717f229e8bcf737e36cc0910733de4124c9a32a8ca45d60a54c27",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Кеша/Диплом-Кеша/тектоника и  структура2.doc"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Кеша/Кеша/Новая папка/10.30.doc",
+    "name": "10.30.doc",
+    "size": 32768,
+    "md5": "b104fb332c8416beec8cc585bc80383b",
+    "sha256": "6b895a5295fb37b929805aa6f91b0c439071b1b5e66a42630b1389e7491d78ba",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Кеша/Кеша/Новая папка/10.30.doc"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Кеша/Кеша/7.РАСЧЕТ ИНГИБИТОР гатовая.doc",
+    "name": "7.РАСЧЕТ ИНГИБИТОР гатовая.doc",
+    "size": 860160,
+    "md5": "746cbad41faee118a10ac5d73af3e19a",
+    "sha256": "98499c618a019ebae388b602f8e052b5402587b5b90bdfe08f2684fa911149f9",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Кеша/Кеша/7.РАСЧЕТ ИНГИБИТОР гатовая.doc"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Кеша/Кеша/8 Пути снижения затрат на добычу газа422 гатовая.doc",
+    "name": "8 Пути снижения затрат на добычу газа422 гатовая.doc",
+    "size": 69120,
+    "md5": "5c0d254d695e63ada6f19cbfda201158",
+    "sha256": "2e79032f14aa4586e9ff5d0974ac81734e1b9be1f34ca89983298916a9cc60c2",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Кеша/Кеша/8 Пути снижения затрат на добычу газа422 гатовая.doc"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Кеша/Кеша-Остатки/Новая папка (2)/кеша3.doc",
+    "name": "кеша3.doc",
+    "size": 100352,
+    "md5": "6884afcb3a05380a20c1aa6e09a45b2e",
+    "sha256": "0af4edc32c1008e01bbdfe504d0acc15bc0bb9153b7a230dc658433bdae99103",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Кеша/Кеша-Остатки/Новая папка (2)/кеша3.doc"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Кеша/Кеша-Остатки/Новая папка (2)/кеша6.doc",
+    "name": "кеша6.doc",
+    "size": 27136,
+    "md5": "21d9ec1954485a368f0485bcfd961acf",
+    "sha256": "575f87aee86c000bd0afe849df99e61ad5f7f54907a866603fee36c811bf9368",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Кеша/Кеша-Остатки/Новая папка (2)/кеша6.doc"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Кеша/Кеша-Остатки/9 БЖД26.05.04.doc",
+    "name": "9 БЖД26.05.04.doc",
+    "size": 126976,
+    "md5": "5393fe52ebfb8329942890d3a551ce4f",
+    "sha256": "97dcf85f7984b84241f1fba512546d46f8fccc3d558beb9b2c84fbf62900ef05",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Кеша/Кеша-Остатки/9 БЖД26.05.04.doc"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/dm.rar",
+    "name": "dm.rar",
+    "size": 322674,
+    "md5": "661e448c08d78c394e1864fc7989d093",
+    "sha256": "8c23f2877a4523b6ca19c9dfb510d518e956191ba6fe67149019f2c7f58e0551",
+    "local": "/home/tori/student/08 ХАЛЯВА/dm.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Анали МУН на больших местор.rar",
+    "name": "Анали МУН на больших местор.rar",
+    "size": 168285,
+    "md5": "caa26001d69e0319ea612d5e37a0e682",
+    "sha256": "26b874f75a7af3022801c20d9fc9158260ef3607b4eda4a3b55d3b7c8cb3806c",
+    "local": "/home/tori/student/08 ХАЛЯВА/Анали МУН на больших местор.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/БЖД.rar",
+    "name": "БЖД.rar",
+    "size": 99384,
+    "md5": "de338cd032d5016ac2a026213beb9559",
+    "sha256": "c4918e9e22a4254890c1f33a990269d966383e42f6f915cf30e85dd6fa71c241",
+    "local": "/home/tori/student/08 ХАЛЯВА/БЖД.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/ВОПРОСЫ(СПНГВ).rar",
+    "name": "ВОПРОСЫ(СПНГВ).rar",
+    "size": 3655,
+    "md5": "7837208a7332bf4812a59ebb596c3cd9",
+    "sha256": "b10192dcf575f37a6c8f7163cad4a6d47ab1a5a3d4650096964d587d047499b0",
+    "local": "/home/tori/student/08 ХАЛЯВА/ВОПРОСЫ(СПНГВ).rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/ГБ-ТБНГС-1.rar",
+    "name": "ГБ-ТБНГС-1.rar",
+    "size": 456175,
+    "md5": "cec4e9206cba25b1e6d9ab27c6b786a7",
+    "sha256": "c869b1473d8f267f734d6f6ab244eb0975365d5b878c92cc810c1e5a5dcd8805",
+    "local": "/home/tori/student/08 ХАЛЯВА/ГБ-ТБНГС-1.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/ГБ-экономика.rar",
+    "name": "ГБ-экономика.rar",
+    "size": 381635,
+    "md5": "d70ff11cd9312e248b90a824da51fa70",
+    "sha256": "7e4f36bdf47a4c008200d4a2f9c8fba7790fedcdcfd6d5554cb706740ad014c5",
+    "local": "/home/tori/student/08 ХАЛЯВА/ГБ-экономика.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/ГДИс-Сканер.rar",
+    "name": "ГДИс-Сканер.rar",
+    "size": 654823,
+    "md5": "21abbf6253b283067407a52d6b4b15c9",
+    "sha256": "e459bc82967439e50ac60d5ef2ac0bc93d280cdfcad3f65bd6bbe76dabf19d4a",
+    "local": "/home/tori/student/08 ХАЛЯВА/ГДИс-Сканер.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/ГРП-Когалым.rar",
+    "name": "ГРП-Когалым.rar",
+    "size": 74982,
+    "md5": "834df627a2764adf4509356855892264",
+    "sha256": "cf6dfcb41de3dada1c16ce180a42d59736ac662f14a698c19e48b1fc18308983",
+    "local": "/home/tori/student/08 ХАЛЯВА/ГРП-Когалым.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Гб-5к-химия.rar",
+    "name": "Гб-5к-химия.rar",
+    "size": 179187,
+    "md5": "73ac3d971bbc9ab866e18c9f78cd6394",
+    "sha256": "6f2509676f9b9352b09fa795fdc84b1f6d7363ea22e2b3694e71b46bb396750a",
+    "local": "/home/tori/student/08 ХАЛЯВА/Гб-5к-химия.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/ДИПЛОМ-Южно-Ягунское.rar",
+    "name": "ДИПЛОМ-Южно-Ягунское.rar",
+    "size": 8279327,
+    "md5": "c41c0ce77013c280699e88d5c71c3a3a",
+    "sha256": "73a0762c86432bd9ff04c2c07baaa7f31718963bd56961b282babfc768b51096",
+    "local": "/home/tori/student/08 ХАЛЯВА/ДИПЛОМ-Южно-Ягунское.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/ДОКЛАД~1.zip",
+    "name": "ДОКЛАД~1.zip",
+    "size": 179654,
+    "md5": "2065d25219941e1a1503b051e38e3b93",
+    "sha256": "92b61440ad9641947c0ff772d98323083a3ae335777721fd2d59ba13d585c76f",
+    "local": "/home/tori/student/08 ХАЛЯВА/ДОКЛАД~1.zip"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом Лангепаснефтегаз.rar",
+    "name": "Диплом Лангепаснефтегаз.rar",
+    "size": 644654,
+    "md5": "e18860e0d8ee2c91ccee77b496cffad7",
+    "sha256": "50f2b1905332810dbff7962f577adb0ce85b8e69c51b5877cfa06419a4ceb8ab",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом Лангепаснефтегаз.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом Лината 529.rar",
+    "name": "Диплом Лината 529.rar",
+    "size": 340887,
+    "md5": "aa287505b1859db5044278a918fb936a",
+    "sha256": "f1846c833777f9307981492a561c8ee1cb74ba2e633938760360dc8ef3afac76",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом Лината 529.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом в сборе.rar",
+    "name": "Диплом в сборе.rar",
+    "size": 1168209,
+    "md5": "b8c3e306182645c30c2fd50e03f2a57b",
+    "sha256": "f5203c34566280ad4c56a7f4f7c7b746677fd49ba2c04efb7eaa1f608328a34e",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом в сборе.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-ГГ-Ильдус.rar",
+    "name": "Диплом-ГГ-Ильдус.rar",
+    "size": 627880,
+    "md5": "9eb2fd8ff25bff53211132e625267432",
+    "sha256": "b8d5d1d154c5eec64166013b1d6e8505299a31fb4e8ffbf9070fa17ff33f8966",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-ГГ-Ильдус.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-ГР-МУН-1.rar",
+    "name": "Диплом-ГР-МУН-1.rar",
+    "size": 1155100,
+    "md5": "c9424776d23d9367c8fb11d5cf6d8d44",
+    "sha256": "ba890bc500068d4e5e9c9fcdf8b246d44b24f00ba9c1dfc532873ba9d48aff52",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-ГР-МУН-1.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Кеша.rar",
+    "name": "Диплом-Кеша.rar",
+    "size": 35039140,
+    "md5": "b79deb67b8a6aa50719b8dcfc11ef450",
+    "sha256": "fb9d74554c5af40776f1774a8ad002003fb234d33904a48723e78b6c2cc939c7",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Кеша.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-ОПЗ.rar",
+    "name": "Диплом-ОПЗ.rar",
+    "size": 879031,
+    "md5": "055d9f0e9dc9e4306e64873d8c6ce859",
+    "sha256": "e407b0069a4a6f3156974de5b14800025e195c35b4beb1d5b15b094ac51fc362",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-ОПЗ.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Петр.rar",
+    "name": "Диплом-Петр.rar",
+    "size": 967472,
+    "md5": "eb09b7870e9e629f06b8444ecf935972",
+    "sha256": "30e3e01248ad0201f93fe8c81a26b09f83b6d9cf44aa235f2bd80ef5dbed5360",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Петр.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Роман-МУН-ВДС.rar",
+    "name": "Диплом-Роман-МУН-ВДС.rar",
+    "size": 1008494,
+    "md5": "bc30a33c94f59a1bade8df777c27ba76",
+    "sha256": "a42ac468c4b2a4885dc6a5d2aa1b9bd667ead4fa80e24be9a624396b4fcb1c95",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Роман-МУН-ВДС.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-Самотлор.rar",
+    "name": "Диплом-Самотлор.rar",
+    "size": 575881,
+    "md5": "682a741509f1c6a169b76c210ac043ed",
+    "sha256": "fd06598915d1b8f32df6c265f6ed3a5dda88f5cac23ae3fb6a2d95e2223736ca",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-Самотлор.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-ШСНУ-Линат(готово).rar",
+    "name": "Диплом-ШСНУ-Линат(готово).rar",
+    "size": 1374522,
+    "md5": "8aba0341ff93d512ff6f97404a6e3b37",
+    "sha256": "4645c7b738108aafec7f6ec2a4812cbde0a3f0dd18a59e7d9a63b92aa671305d",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-ШСНУ-Линат(готово).rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом-наркомания.rar",
+    "name": "Диплом-наркомания.rar",
+    "size": 75978,
+    "md5": "0922ff91397ed9d8caeca0d090f8c22c",
+    "sha256": "f6d213d00e65c6477d112cfacc213f129a320033e52cfdd67e7b633336608b30",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом-наркомания.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом_Барсуковское НГДП0.rar",
+    "name": "Диплом_Барсуковское НГДП0.rar",
+    "size": 2906787,
+    "md5": "5ead7e4980c2aed5c49d7c22977f4038",
+    "sha256": "635563a9c452413aaa604eb785cb220bab211d0983224c1d8364791005d43909",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом_Барсуковское НГДП0.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Диплом_Макс.rar",
+    "name": "Диплом_Макс.rar",
+    "size": 51122641,
+    "md5": "529c95edf86b00c7522c0121f9a122f1",
+    "sha256": "a6bc41ec076fc5ca8303af5f4adea4289bc8ef2d44efcad7116d5d387fc2a318",
+    "local": "/home/tori/student/08 ХАЛЯВА/Диплом_Макс.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Для диплома-Тюмень.rar",
+    "name": "Для диплома-Тюмень.rar",
+    "size": 54214,
+    "md5": "e39bb8f5509353b29255a172d343dd5d",
+    "sha256": "f5eaeb14f42ed7613842c57bf2e4733f189dda660c98e9e328a1e67da1c41a3e",
+    "local": "/home/tori/student/08 ХАЛЯВА/Для диплома-Тюмень.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Доклад к социологии.rar",
+    "name": "Доклад к социологии.rar",
+    "size": 6883,
+    "md5": "11598a8f9b61cfd864600039c8f247c5",
+    "sha256": "329fd8c7233e8d36594c853e12413c2e552a645a752e833afefe80caeb2549c4",
+    "local": "/home/tori/student/08 ХАЛЯВА/Доклад к социологии.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Доклад-1.rar",
+    "name": "Доклад-1.rar",
+    "size": 7943,
+    "md5": "868f5dd1dd989508d652dbf8d45e9a9a",
+    "sha256": "ea8cd16b25fa461eb764ad72ef638b34685f8480ddb234ff02b4d08b01a2c4d8",
+    "local": "/home/tori/student/08 ХАЛЯВА/Доклад-1.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Задачи ГГ-00 по  скважинке.rar",
+    "name": "Задачи ГГ-00 по  скважинке.rar",
+    "size": 582626,
+    "md5": "f874d981872c6db4094c33b462d08a27",
+    "sha256": "72614510ce8cf39e297efb80397e757ea733a004dcc80c48a0bca30cda01fe3e",
+    "local": "/home/tori/student/08 ХАЛЯВА/Задачи ГГ-00 по  скважинке.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Задачи по прим. ЭВМ.rar",
+    "name": "Задачи по прим. ЭВМ.rar",
+    "size": 412063,
+    "md5": "6afaf844ca59114b4d625f77278d958b",
+    "sha256": "744c87ac011b5a457720de08f197d4abbeb2452e7a10768c313ee87358c73b14",
+    "local": "/home/tori/student/08 ХАЛЯВА/Задачи по прим. ЭВМ.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/История Башкортостана.rar",
+    "name": "История Башкортостана.rar",
+    "size": 341117,
+    "md5": "c9685820b3903f6d26121702bce75fc3",
+    "sha256": "69100e0f2d2c0f6f73044b5acafb7ca3a794b451fbf5ea5cf42522d47e842736",
+    "local": "/home/tori/student/08 ХАЛЯВА/История Башкортостана.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/К.П. по экономике.rar",
+    "name": "К.П. по экономике.rar",
+    "size": 19610,
+    "md5": "b3d602f5e7a3b49fa25ceaf3260f2da3",
+    "sha256": "08c8ecd15484bc1a023eda3663bfd807043b0b9f471fb75a6476b9dcdade97aa",
+    "local": "/home/tori/student/08 ХАЛЯВА/К.П. по экономике.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/КАРТА ИЗО..rar",
+    "name": "КАРТА ИЗО..rar",
+    "size": 231466,
+    "md5": "dc336ecba28e11f607b64af077a52ed2",
+    "sha256": "b63159f2ed19dff44f9cac005200c8df618b41d629f489baee5c853b16980266",
+    "local": "/home/tori/student/08 ХАЛЯВА/КАРТА ИЗО..rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/КП по сбору и подготовке нефти1.rar",
+    "name": "КП по сбору и подготовке нефти1.rar",
+    "size": 554518,
+    "md5": "a932d7b33b12d6433fc2c0dd72df281b",
+    "sha256": "1459ad07c9fa12b03a1d10df86b53a68decd826cd36da4bca67014aa4dab5b89",
+    "local": "/home/tori/student/08 ХАЛЯВА/КП по сбору и подготовке нефти1.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/КП-ТОРНМ-амбал.rar",
+    "name": "КП-ТОРНМ-амбал.rar",
+    "size": 259887,
+    "md5": "97e43fa56babc08cde52c747973d3832",
+    "sha256": "d2788c4a69bebc0478bad290ea5712a0faf97420d996c2f94826c896baa30c91",
+    "local": "/home/tori/student/08 ХАЛЯВА/КП-ТОРНМ-амбал.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/КР по экономике-Повховнефть.rar",
+    "name": "КР по экономике-Повховнефть.rar",
+    "size": 45511,
+    "md5": "46d365cf0a7823a63ea6e98a76e3d65e",
+    "sha256": "ee8a28d9bdf32b5aa377ba4f8b37fa2c4d0cd499468936cc3abbee018c136ec0",
+    "local": "/home/tori/student/08 ХАЛЯВА/КР по экономике-Повховнефть.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Курсач ТОРНМ.rar",
+    "name": "Курсач ТОРНМ.rar",
+    "size": 553843,
+    "md5": "17535f4d7087104c4a059cf29f8a4510",
+    "sha256": "92fc2d900d7ba3b8432363ad724d1e167b5b2e528cd2ec4d0dc044676e5a8c3e",
+    "local": "/home/tori/student/08 ХАЛЯВА/Курсач ТОРНМ.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Курсач по ГДИСу tt.rar",
+    "name": "Курсач по ГДИСу tt.rar",
+    "size": 136963,
+    "md5": "382747449b6230431ab6fa9c570bc1ba",
+    "sha256": "4f092a17a763a378f78c22111ee468ded1c9ad45d3938581f5ecd011aaa08e93",
+    "local": "/home/tori/student/08 ХАЛЯВА/Курсач по ГДИСу tt.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Курсач по экономике .rar",
+    "name": "Курсач по экономике .rar",
+    "size": 328333,
+    "md5": "cc94756fd26ab442989b8acb4ae84524",
+    "sha256": "7375a0874ff42b90ab01dba227a223a49688c7bd3a11e0c7ae8c3265a94a59b2",
+    "local": "/home/tori/student/08 ХАЛЯВА/Курсач по экономике .rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Курсач-РНПГ-ГГ-00.rar",
+    "name": "Курсач-РНПГ-ГГ-00.rar",
+    "size": 61786,
+    "md5": "b71850c996b6aa1e1fa17c0241eda3b5",
+    "sha256": "3a4507d50c533ccb2c56acf7448cbc7e0d80a7127aadb5411fa7dcc2595a8118",
+    "local": "/home/tori/student/08 ХАЛЯВА/Курсач-РНПГ-ГГ-00.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Курсач-ЦНС.rar",
+    "name": "Курсач-ЦНС.rar",
+    "size": 3166587,
+    "md5": "0d9d93c9aa915d4db72dcbc202f4e3fd",
+    "sha256": "0ef501ef3c84ab9b787a501431f89249486e8cc901d6c76feaaa8ee7a2aecb92",
+    "local": "/home/tori/student/08 ХАЛЯВА/Курсач-ЦНС.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Курсач-гдис.ace",
+    "name": "Курсач-гдис.ace",
+    "size": 219912,
+    "md5": "90e82f73d68302367ac9d1d3d6f090f6",
+    "sha256": "2d1e5bf44eca404d168b0f9a7cae887472d0e43fc4a0bd28545ff6972acd5fff",
+    "local": "/home/tori/student/08 ХАЛЯВА/Курсач-гдис.ace"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Курсач-карты изобар.rar",
+    "name": "Курсач-карты изобар.rar",
+    "size": 195178,
+    "md5": "0f2e2d440d32e8e2eacc410d5b19963a",
+    "sha256": "49fb84bff3009a16e471a2f77d20d86b1da3dad03cb6d519e9e44ffbe999c7fd",
+    "local": "/home/tori/student/08 ХАЛЯВА/Курсач-карты изобар.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Курсач-экономика-ГГ-00-02.rar",
+    "name": "Курсач-экономика-ГГ-00-02.rar",
+    "size": 36873,
+    "md5": "647c0f1fe0ac3cda11916ecd413832bd",
+    "sha256": "ac316ebf7bf4dc08c97acdd4a1e6de1b284faeff9bd71db8866931c2e94bb8ca",
+    "local": "/home/tori/student/08 ХАЛЯВА/Курсач-экономика-ГГ-00-02.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Курсач-экономика-ГГ-10.rar",
+    "name": "Курсач-экономика-ГГ-10.rar",
+    "size": 891307,
+    "md5": "e0d4bdb85276c68abdd1a0209e18ab61",
+    "sha256": "2110183620d8c0fa0f6dfa2c5ff403463316b3eb6070230e59c242153a3ce658",
+    "local": "/home/tori/student/08 ХАЛЯВА/Курсач-экономика-ГГ-10.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/КурсачПОгидр.rar",
+    "name": "КурсачПОгидр.rar",
+    "size": 126021,
+    "md5": "5ba97be33ca43e2369673703096d03b9",
+    "sha256": "00da9273cf38c15575eafdf4925774c2cd1098f9a7d33515e5208d629c27c848",
+    "local": "/home/tori/student/08 ХАЛЯВА/КурсачПОгидр.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Курсачи ГГ2.rar",
+    "name": "Курсачи ГГ2.rar",
+    "size": 1783031,
+    "md5": "67a2e385b7edc382843085c2e5a81634",
+    "sha256": "d5f0b89297ccbb9fe910bb0e2e1c12e83caab57352d55605df0d06c6de12f01c",
+    "local": "/home/tori/student/08 ХАЛЯВА/Курсачи ГГ2.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Курсачи-ГБфы.rar",
+    "name": "Курсачи-ГБфы.rar",
+    "size": 540964,
+    "md5": "d9db3daecad44fdf7056f4ffdac165dc",
+    "sha256": "601fff7ffed698f4f39bbb8548717c418ecd623e73af5b848961a92925723a01",
+    "local": "/home/tori/student/08 ХАЛЯВА/Курсачи-ГБфы.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Курсовая работа по КРРНГМ(МОЯ).rar",
+    "name": "Курсовая работа по КРРНГМ(МОЯ).rar",
+    "size": 225628,
+    "md5": "d59bee9ba8e18b70a5f704d2a4b01be3",
+    "sha256": "673c4c3f99411b21b89bc92a3619460be7afd8da11293ef14e40b0204d860221",
+    "local": "/home/tori/student/08 ХАЛЯВА/Курсовая работа по КРРНГМ(МОЯ).rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Курсовая работа по судам.rar",
+    "name": "Курсовая работа по судам.rar",
+    "size": 28536,
+    "md5": "de4e04912f20b7a48210a48c92a8adab",
+    "sha256": "ac6f9c42950fed361c4e077553a2bcc493ab7b8ee510badaad3cf6202bdbb7bb",
+    "local": "/home/tori/student/08 ХАЛЯВА/Курсовая работа по судам.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Лабы бурение-ГР.rar",
+    "name": "Лабы бурение-ГР.rar",
+    "size": 1456469,
+    "md5": "b6a7341d79f54e2b82281e3aae92fa5b",
+    "sha256": "7306b7fc18a249fe528a9e865c2361c5333ea16d8ea657be20e8787fbb0d50fc",
+    "local": "/home/tori/student/08 ХАЛЯВА/Лабы бурение-ГР.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Лабы по подземке.rar",
+    "name": "Лабы по подземке.rar",
+    "size": 968050,
+    "md5": "049dbd4d06aefd32fdf6dff814a93504",
+    "sha256": "25bb8b2550f720c97b20d4e67214a29854526d796faf27292ad5455ccefef80b",
+    "local": "/home/tori/student/08 ХАЛЯВА/Лабы по подземке.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Лабы-НГПО..rar",
+    "name": "Лабы-НГПО..rar",
+    "size": 2243592,
+    "md5": "91ea71175203a86009416978d3f40829",
+    "sha256": "cf11d5389dfa8f2eb2ac24ce9918d67e2e6fe4a0ee5999ab066c2547910a691d",
+    "local": "/home/tori/student/08 ХАЛЯВА/Лабы-НГПО..rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Лабы-добыча-МП-4К-2.rar",
+    "name": "Лабы-добыча-МП-4К-2.rar",
+    "size": 3764350,
+    "md5": "42a7197ac8eb926b823ef8469fa18369",
+    "sha256": "c644862706467c7d13ba5652bacf67d3cd5106da9bca5c62f0732cd7c5180463",
+    "local": "/home/tori/student/08 ХАЛЯВА/Лабы-добыча-МП-4К-2.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Лабы-добыча-МП4к-1.rar",
+    "name": "Лабы-добыча-МП4к-1.rar",
+    "size": 3467816,
+    "md5": "aa2ca9bd76fa3698c1cc863f48bb768e",
+    "sha256": "bd6c27e409c73521df285057da04649fdfc6b6f0814aab8f7722332c48dd7f76",
+    "local": "/home/tori/student/08 ХАЛЯВА/Лабы-добыча-МП4к-1.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Лекции по предметам.rar",
+    "name": "Лекции по предметам.rar",
+    "size": 4143336,
+    "md5": "ecabc905555878c7346900a2070051f1",
+    "sha256": "892f74480191cc4d76bd8d2268f0b945c5a2cb433f62a53dc4048c1f8c59bc3f",
+    "local": "/home/tori/student/08 ХАЛЯВА/Лекции по предметам.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Лекции-Интегральные системы проектирования и управления.rar",
+    "name": "Лекции-Интегральные системы проектирования и управления.rar",
+    "size": 2838483,
+    "md5": "69c637ad7f10043d6e95c9451f15b426",
+    "sha256": "4277bd95054ed242f30f923ddd1c9e020963ca340e74694c5c248fed89c2ebb0",
+    "local": "/home/tori/student/08 ХАЛЯВА/Лекции-Интегральные системы проектирования и управления.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/МУН-Селикатно-щелочное заводнение.rar",
+    "name": "МУН-Селикатно-щелочное заводнение.rar",
+    "size": 651973,
+    "md5": "72edefdc066b8eeec90ab07900c4c16f",
+    "sha256": "2368a58bc4eb0cc7bf14cde7aa61a475f8129a6fde127ede5a2f89a0bdd45247",
+    "local": "/home/tori/student/08 ХАЛЯВА/МУН-Селикатно-щелочное заводнение.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/МУН-салават.rar",
+    "name": "МУН-салават.rar",
+    "size": 136190,
+    "md5": "a8b6116fdb4877bee13517983e268035",
+    "sha256": "de29faa3db771230565cf64084a55b955dd3847ebb899d5c5a0577404d1f15f3",
+    "local": "/home/tori/student/08 ХАЛЯВА/МУН-салават.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Метрология.rar",
+    "name": "Метрология.rar",
+    "size": 773599,
+    "md5": "cde93a55348a00f5d59f19c7f9992a0e",
+    "sha256": "1be7adcab933ed1f3269d2c9e4e3a78692ec139971b1ebc86751a65218ef04bd",
+    "local": "/home/tori/student/08 ХАЛЯВА/Метрология.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/НГПО.rar",
+    "name": "НГПО.rar",
+    "size": 3036560,
+    "md5": "4f612f3a0e99befb91c50b5b49462233",
+    "sha256": "422e584015cd4bf1534da81a4eeae59976b5d4a031abf9ccd06a58c3f497aa76",
+    "local": "/home/tori/student/08 ХАЛЯВА/НГПО.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Оказание первой до врачебной помощи.rar",
+    "name": "Оказание первой до врачебной помощи.rar",
+    "size": 107232,
+    "md5": "4f11c595af3aa9f515a5d5ec6a969b0f",
+    "sha256": "060376ae39762c97515d7d890c91ed9a5b017694a0a2281dd83327c01ba20fd3",
+    "local": "/home/tori/student/08 ХАЛЯВА/Оказание первой до врачебной помощи.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Отчет Лукойл.rar",
+    "name": "Отчет Лукойл.rar",
+    "size": 2757399,
+    "md5": "8d12b7453969bb2c2dc266d2b4ed4560",
+    "sha256": "d1e2594e11236bf4dac765a2d0283f81939e46b6065d2193f45bde67483b5472",
+    "local": "/home/tori/student/08 ХАЛЯВА/Отчет Лукойл.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Отчет по 2-й практике Повховнефть.rar",
+    "name": "Отчет по 2-й практике Повховнефть.rar",
+    "size": 117560,
+    "md5": "e00e454a9c531b209197c9c037c698ed",
+    "sha256": "f9b6852d80005be1a77d2633330ea00224fa0f2bc8ec3f3f92cda8f03a7d371c",
+    "local": "/home/tori/student/08 ХАЛЯВА/Отчет по 2-й практике Повховнефть.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Отчет по 2ПП-Октябрьскнефть.rar",
+    "name": "Отчет по 2ПП-Октябрьскнефть.rar",
+    "size": 973875,
+    "md5": "26453b22e3ddfe470e2f67e31400551b",
+    "sha256": "e5f61c2d7ecbd5a31df7af0a6ac3908ab49e149daa9c47e5f22bfdcf36cdec89",
+    "local": "/home/tori/student/08 ХАЛЯВА/Отчет по 2ПП-Октябрьскнефть.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Отчет-2ПП-ГБ--рус.rar",
+    "name": "Отчет-2ПП-ГБ--рус.rar",
+    "size": 264781,
+    "md5": "647867c5bbed0575c2adea88acc5d249",
+    "sha256": "34781272fc3c38658c646ab15119939981e1e4c61cfe1ee8b7fd1603c801c4af",
+    "local": "/home/tori/student/08 ХАЛЯВА/Отчет-2ПП-ГБ--рус.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Отчет-Ямбургское месторождение.rar",
+    "name": "Отчет-Ямбургское месторождение.rar",
+    "size": 1269021,
+    "md5": "7797806ea6fddc2ea4815321884452ed",
+    "sha256": "bc8e4ba1ba5b6a802ede03125361cae75715715424c782f6b461fbe512640482",
+    "local": "/home/tori/student/08 ХАЛЯВА/Отчет-Ямбургское месторождение.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Отчёт по 2 практике Октябрьск нефть.rar",
+    "name": "Отчёт по 2 практике Октябрьск нефть.rar",
+    "size": 234680,
+    "md5": "e6d0d85470651c7d76bafa2345052179",
+    "sha256": "8be832efdbd4737dd988dbade50e444e2fa07ce46c1ab682fde32f51a2082a17",
+    "local": "/home/tori/student/08 ХАЛЯВА/Отчёт по 2 практике Октябрьск нефть.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/ПДК.rar",
+    "name": "ПДК.rar",
+    "size": 495402,
+    "md5": "849190fcd272d81f26dc7629762a836a",
+    "sha256": "3778bf0c8262c3b4a405a840fc96f1b66fc647fc113faeb6dee2568fdd1a5ae0",
+    "local": "/home/tori/student/08 ХАЛЯВА/ПДК.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/ПМ-00-расчеты.rar",
+    "name": "ПМ-00-расчеты.rar",
+    "size": 183893,
+    "md5": "efe28bf360b1e96a8895352727dc3bec",
+    "sha256": "298bfd1184cb162ca881f0ccc275f25c064974b4e49200b26e978928b6f7758f",
+    "local": "/home/tori/student/08 ХАЛЯВА/ПМ-00-расчеты.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Подбор ЭЦН ГР-00.rar",
+    "name": "Подбор ЭЦН ГР-00.rar",
+    "size": 415356,
+    "md5": "fd8c7eeb91fa6452419869887425c417",
+    "sha256": "8eaea56268a338750c62f66a3ab0f5eeae248d6c8b6530eaa355a0c04870c3a5",
+    "local": "/home/tori/student/08 ХАЛЯВА/Подбор ЭЦН ГР-00.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Подземка.rar",
+    "name": "Подземка.rar",
+    "size": 1581993,
+    "md5": "d23067ce0c1eb10705ed21c5c5899b94",
+    "sha256": "69c10d9a874e09a9035341c759c0deeaff616f8e92a589b9d65ea0c2a07fab81",
+    "local": "/home/tori/student/08 ХАЛЯВА/Подземка.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Поздеева Конспект лекций по экон 2.rar",
+    "name": "Поздеева Конспект лекций по экон 2.rar",
+    "size": 174472,
+    "md5": "d677cf65ba86fb04c8b88a2ae78ba5ef",
+    "sha256": "90d26a7f04984badc5f36c1aaa470e435a20c08a040a0204607a7771d10ff3cd",
+    "local": "/home/tori/student/08 ХАЛЯВА/Поздеева Конспект лекций по экон 2.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Проект GRP.rar",
+    "name": "Проект GRP.rar",
+    "size": 68974,
+    "md5": "2cb459d7068294b9345ae6c52cffce41",
+    "sha256": "7e381244efa257c8e2e322d7d478051bf4b9d71d79ccde92dbb1084690fd7606",
+    "local": "/home/tori/student/08 ХАЛЯВА/Проект GRP.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/РНМГ-ГГ-Тарвсовскнефть.rar",
+    "name": "РНМГ-ГГ-Тарвсовскнефть.rar",
+    "size": 123274,
+    "md5": "981fd635f99e18fb168685c80b200951",
+    "sha256": "db3ec47cf94e2dbba6e62706a1b252e1d0ff7c8caa98fa3ca5f048e820bc055e",
+    "local": "/home/tori/student/08 ХАЛЯВА/РНМГ-ГГ-Тарвсовскнефть.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Работы-4 курс.rar",
+    "name": "Работы-4 курс.rar",
+    "size": 868310,
+    "md5": "b4ae98a673b90b029aa3ba11f868a52e",
+    "sha256": "88ed9ab428862a174ff9729231e8434e56197cfc288644fec7c3621c1baa7db3",
+    "local": "/home/tori/student/08 ХАЛЯВА/Работы-4 курс.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Реф-полит.rar",
+    "name": "Реф-полит.rar",
+    "size": 25908,
+    "md5": "d5b6018f3b98c8c4cb3df7e59fd554b8",
+    "sha256": "753affb130f4bfa33184441c3d0bedfd74192af7c3e7507a8afa54ab39556416",
+    "local": "/home/tori/student/08 ХАЛЯВА/Реф-полит.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Реф-экомоника.zip",
+    "name": "Реф-экомоника.zip",
+    "size": 46501,
+    "md5": "309cfefba6b423eababbfcc6c445411c",
+    "sha256": "329d26bf2886ef6b33c6344183afe73cab11fbde4c7a66bdbb14b715dcbff62f",
+    "local": "/home/tori/student/08 ХАЛЯВА/Реф-экомоника.zip"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Реферат ОНГД.rar",
+    "name": "Реферат ОНГД.rar",
+    "size": 1232691,
+    "md5": "cd329a40ce4ca6e86dae2f0b957ba0d4",
+    "sha256": "defd8e73dd7a758a4d23c166ae8d6a0a7568c7fa32fc7e8dce1bba0551c7d82d",
+    "local": "/home/tori/student/08 ХАЛЯВА/Реферат ОНГД.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Реферат по РНГМ.rar",
+    "name": "Реферат по РНГМ.rar",
+    "size": 29036,
+    "md5": "81ba23071dc1679b9dab5471c5b2c561",
+    "sha256": "5df6c97b423e4a978f81707e390b88751c1298dd02adce22e775a6c370212f0c",
+    "local": "/home/tori/student/08 ХАЛЯВА/Реферат по РНГМ.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Реферат по истории-2.rar",
+    "name": "Реферат по истории-2.rar",
+    "size": 52477,
+    "md5": "c4eea7b9b8dfc203e26406310432d4d8",
+    "sha256": "32bf00504a48fb566ceef954dbe21beb454389ddfd08c4cc15d9c45e8851a5cf",
+    "local": "/home/tori/student/08 ХАЛЯВА/Реферат по истории-2.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Реферат по физике.rar",
+    "name": "Реферат по физике.rar",
+    "size": 197024,
+    "md5": "72f7bbd698642d35db98eeb12299260a",
+    "sha256": "ebfff25be7a8d45a46b6687534b8a9b4742724082272ba326749dc9c8933e600",
+    "local": "/home/tori/student/08 ХАЛЯВА/Реферат по физике.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Реферат по экологии.rar",
+    "name": "Реферат по экологии.rar",
+    "size": 21612,
+    "md5": "716228710b8ba5096c447b79b961ca4a",
+    "sha256": "532e81b22cd9c2911192bd6cf5883a9d13be3d03dba9e74f06217db990659eb5",
+    "local": "/home/tori/student/08 ХАЛЯВА/Реферат по экологии.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Реферат-Гражданская война в  Башкортостане.rar",
+    "name": "Реферат-Гражданская война в  Башкортостане.rar",
+    "size": 22316,
+    "md5": "fb87e8ab7e45d15415a606ee324aa44b",
+    "sha256": "41e928b9685a69cb3843df2e5b2e16fe822df931345195033967147f926934be",
+    "local": "/home/tori/student/08 ХАЛЯВА/Реферат-Гражданская война в  Башкортостане.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Реферат-Нравственный выбор.rar",
+    "name": "Реферат-Нравственный выбор.rar",
+    "size": 26658,
+    "md5": "14ecac10a70476a04bbc127347058334",
+    "sha256": "00a3b3a47dfa1e4f354bf0cf5aa0d55fbd41b066351115128d18a4e383104524",
+    "local": "/home/tori/student/08 ХАЛЯВА/Реферат-Нравственный выбор.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Реферат-Этика-1.rar",
+    "name": "Реферат-Этика-1.rar",
+    "size": 13704,
+    "md5": "677b019042f574962392364eda8e420e",
+    "sha256": "59697a26035dfe378dcd3abc63ffb9b0df234d9cfb4215aac4940b06d8dd76a9",
+    "local": "/home/tori/student/08 ХАЛЯВА/Реферат-Этика-1.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Реферат-философья.rar",
+    "name": "Реферат-философья.rar",
+    "size": 8710,
+    "md5": "458d340f5db6d27238ecea1f8c2ac6ff",
+    "sha256": "2b8c579e08c1ccb1d1cd05981685313177e17c692ec85905d19731a20e569b92",
+    "local": "/home/tori/student/08 ХАЛЯВА/Реферат-философья.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Сбор и подготовка +.rar",
+    "name": "Сбор и подготовка +.rar",
+    "size": 900589,
+    "md5": "7205821dafcfd0b886ceb4c8a72c1a33",
+    "sha256": "392a30b2d18735049ce9b61b71b18eed1deea1233ce0133397d1a0539f0a96a3",
+    "local": "/home/tori/student/08 ХАЛЯВА/Сбор и подготовка +.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Сбор и подготовка.rar",
+    "name": "Сбор и подготовка.rar",
+    "size": 546521,
+    "md5": "34167234032179c6dff97cc144b45242",
+    "sha256": "1f128e71448a407141b342af845d9689f2b16243c43fd7a4a0ffb8d3afd37ad2",
+    "local": "/home/tori/student/08 ХАЛЯВА/Сбор и подготовка.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Скважинная добыча .rar",
+    "name": "Скважинная добыча .rar",
+    "size": 5586130,
+    "md5": "e83e0ead8e7c46e1f620726e0a21fe74",
+    "sha256": "39d640c3d42c9232ec75fb135bfcb6e61c435849f63999f7da27dfb21f6c1a09",
+    "local": "/home/tori/student/08 ХАЛЯВА/Скважинная добыча .rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/ТОРНМ 4 курс.rar",
+    "name": "ТОРНМ 4 курс.rar",
+    "size": 1755868,
+    "md5": "94ee92437d36473409b115a36ddc4aa1",
+    "sha256": "9d5ef859213e25252cf67323e5b5c77441df9dc63034d6c993c22b1805a9c069",
+    "local": "/home/tori/student/08 ХАЛЯВА/ТОРНМ 4 курс.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Теория по сбору и подготовке.rar",
+    "name": "Теория по сбору и подготовке.rar",
+    "size": 23137486,
+    "md5": "a8e5fe05b80795932c3f49e1e9a3e795",
+    "sha256": "a8b299e8e640d837d2cd83ec3bf48f128f7022258675e1de51b6a1b07522e299",
+    "local": "/home/tori/student/08 ХАЛЯВА/Теория по сбору и подготовке.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/Теплотех-Курсовая 62.rar",
+    "name": "Теплотех-Курсовая 62.rar",
+    "size": 271245,
+    "md5": "9001a4d203b2817a3f12a20f07032091",
+    "sha256": "7dd823648fb9ca37f7790cfcfbacbd8b2b57c4e423db76ca8409a016e269163f",
+    "local": "/home/tori/student/08 ХАЛЯВА/Теплотех-Курсовая 62.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/бжд0.rar",
+    "name": "бжд0.rar",
+    "size": 303600,
+    "md5": "97c7c1610d702d40a06f75c88273f2cf",
+    "sha256": "d9e549f549fc815e601c0a2165d8e631974a6d43459b90803570a48b0bf58ca6",
+    "local": "/home/tori/student/08 ХАЛЯВА/бжд0.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/все курсовые-гг.rar",
+    "name": "все курсовые-гг.rar",
+    "size": 46978653,
+    "md5": "35f3b8e4d067a0a9763cee8dfdcecdb6",
+    "sha256": "3018dd0f7fe1b619632cb0f17353c0c35cc888c6538b7e41ccaf3c8e972d6c23",
+    "local": "/home/tori/student/08 ХАЛЯВА/все курсовые-гг.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/все термены и основы РНМ и СДН.rar",
+    "name": "все термены и основы РНМ и СДН.rar",
+    "size": 558731,
+    "md5": "bb1ff9cbbca3ab73d54e4a7508380934",
+    "sha256": "e3dd7b54c41816f1775fd27f3fd59765901c49bbb9b2dff649b5f0a1153abc07",
+    "local": "/home/tori/student/08 ХАЛЯВА/все термены и основы РНМ и СДН.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/геологическая часть-Уренгой.rar",
+    "name": "геологическая часть-Уренгой.rar",
+    "size": 53599,
+    "md5": "7dbb79528da31451326fb3e9f9f28542",
+    "sha256": "d9426077223c75cc5063b8e30457669354a66ca6ee2dd04b043a87029a6a10ba",
+    "local": "/home/tori/student/08 ХАЛЯВА/геологическая часть-Уренгой.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/диплом Ялчина Э.Р. (ГР-99-02).rar",
+    "name": "диплом Ялчина Э.Р. (ГР-99-02).rar",
+    "size": 8873610,
+    "md5": "a0868aacc2542ad077fefa647adab717",
+    "sha256": "b157790c4ca4fa7660301329e6684b6abcb0bc4e2270fe07cd0b8aad16cb7e66",
+    "local": "/home/tori/student/08 ХАЛЯВА/диплом Ялчина Э.Р. (ГР-99-02).rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/к.п.по бур.р-рам эдика.rar",
+    "name": "к.п.по бур.р-рам эдика.rar",
+    "size": 106894,
+    "md5": "d2c7135d93117f8ec9e0302652d9cf77",
+    "sha256": "abaf4a7f075360fa6e2d75f067aecd55ffa83348a0cda34b0e01ee932931f34e",
+    "local": "/home/tori/student/08 ХАЛЯВА/к.п.по бур.р-рам эдика.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/кп рнм гиза.rar",
+    "name": "кп рнм гиза.rar",
+    "size": 399040,
+    "md5": "f8b5d187d2db684a2c5f975456119d07",
+    "sha256": "44559bcc11451575f2c78a00b61edfd5586ee61f3cf8f48045983a2be695a863",
+    "local": "/home/tori/student/08 ХАЛЯВА/кп рнм гиза.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/курс.работа по ШГН.rar",
+    "name": "курс.работа по ШГН.rar",
+    "size": 550194,
+    "md5": "f2617bbf28a85ef7799fee08894ff837",
+    "sha256": "451fe0edd5a61fb92504e65251eda2439d2e58d6cd525c483b5342dbca793455",
+    "local": "/home/tori/student/08 ХАЛЯВА/курс.работа по ШГН.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/курсач чеба испр.rar",
+    "name": "курсач чеба испр.rar",
+    "size": 8840698,
+    "md5": "38336073b591644492410054fa344058",
+    "sha256": "8b2d184f8cec8f48f65d0cbcdec7d24d82e55819f439bee8ab2f10900c77aba9",
+    "local": "/home/tori/student/08 ХАЛЯВА/курсач чеба испр.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/курсач эк..rar",
+    "name": "курсач эк..rar",
+    "size": 46492,
+    "md5": "55442803d6d876ec3cb654894a0efbb0",
+    "sha256": "5060a820ec454be6609dc57eff99c71678c13806431aa80b6e55f32c4ab2aa1a",
+    "local": "/home/tori/student/08 ХАЛЯВА/курсач эк..rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/курсовая пою.rar",
+    "name": "курсовая пою.rar",
+    "size": 113022,
+    "md5": "c1f1414d92dc7f4868096965db31c68c",
+    "sha256": "2121b27dad38074c6d10428f6395b11dc3f8b91ec523e0fd94ee71026525d84b",
+    "local": "/home/tori/student/08 ХАЛЯВА/курсовая пою.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/отчёт по практике(Ромазан).rar",
+    "name": "отчёт по практике(Ромазан).rar",
+    "size": 1649673,
+    "md5": "24ce89845efb591ce90b2ab76731b55a",
+    "sha256": "67fd527f6bdf2bdc181eaeb9b950fe7db720bd5dfa1658dbcda425701c5bfec8",
+    "local": "/home/tori/student/08 ХАЛЯВА/отчёт по практике(Ромазан).rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/реферат-развитие УГНТУ.rar",
+    "name": "реферат-развитие УГНТУ.rar",
+    "size": 50706,
+    "md5": "27df6a26ea3aebf5d3c35f051626e09e",
+    "sha256": "05a3e503512a7fac9f44acc4c7a633e7bf617c3c4038ff36a6c57714f591f616",
+    "local": "/home/tori/student/08 ХАЛЯВА/реферат-развитие УГНТУ.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/с.п.с.п.rar",
+    "name": "с.п.с.п.rar",
+    "size": 3197367,
+    "md5": "55a8f9b55fe8e021f905148c88d840a0",
+    "sha256": "15f83240e9db46d0013a39bd509131a83e58c3a2896420f238f17cd4f7dfc762",
+    "local": "/home/tori/student/08 ХАЛЯВА/с.п.с.п.rar"
+  },
+  {
+    "source": 8,
+    "url": "https://disk.yandex.ru/d/ISKfK5RPxxyUeQ",
+    "remote_path": "/серофимовское месторождение.rar",
+    "name": "серофимовское месторождение.rar",
+    "size": 2966809,
+    "md5": "04067e9ad9a42318bedeca79dc9fc0ee",
+    "sha256": "e695b5178102d696a590378547c0eb59c5979861fe601612fb296b01e71b716d",
+    "local": "/home/tori/student/08 ХАЛЯВА/серофимовское месторождение.rar"
+  },
+  {
+    "source": 11,
+    "url": "https://disk.yandex.ru/d/ov_HYLiFsGeFEw",
+    "remote_path": "/диплом-2.1.docx",
+    "name": "диплом-2.1.docx",
+    "size": 5920130,
+    "md5": "270ecba63146fe30f80c834fe564aa95",
+    "sha256": "aea67f4ec366d2357c904c6e876975c6bb72a0a19a16b5f7615824bab112247d",
+    "local": "/home/tori/student/11 диплом/диплом-2.1.docx"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/Word 2003/На цветную печать/Цветные страницы.docx",
+    "name": "Цветные страницы.docx",
+    "size": 2624163,
+    "md5": "92e5d4630ba80cde8c0a00c2a7c03a08",
+    "sha256": "67a699f84a0509e40b89b611db04e5748163dd7f2bc756e58d90818ff3595df1",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/Word 2003/На цветную печать/Цветные страницы.docx"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/Word 2003/4 ОРГАНИЗАЦИОННО-ЭКОНОМИЧЕСКИЙ РАЗДЕЛ.doc",
+    "name": "4 ОРГАНИЗАЦИОННО-ЭКОНОМИЧЕСКИЙ РАЗДЕЛ.doc",
+    "size": 705024,
+    "md5": "36a1b474b5d45dc259a1f53de5b6e888",
+    "sha256": "df0ba8941f66efe55df5db3114024d158006b2693538869932074d0ac87bd0ca",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/Word 2003/4 ОРГАНИЗАЦИОННО-ЭКОНОМИЧЕСКИЙ РАЗДЕЛ.doc"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/Word 2003/Задание.doc",
+    "name": "Задание.doc",
+    "size": 45056,
+    "md5": "ce29c49d3cbfd2694941103af1a39393",
+    "sha256": "873b290ae817ea64cc91ff389d0e5e89bcd3a205643d90914ea3593d807d341a",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/Word 2003/Задание.doc"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/Word 2003/Заключение.doc",
+    "name": "Заключение.doc",
+    "size": 31744,
+    "md5": "dafe8d9cf5e59e8084ee5cb338987120",
+    "sha256": "f02a87e08d02facd134a19c0bff975490d3e158f2da223f9087ab8410ee77441",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/Word 2003/Заключение.doc"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/Word 2003/Содержание.doc",
+    "name": "Содержание.doc",
+    "size": 33792,
+    "md5": "a3a0d3087a51eb60284b50a4c9c92558",
+    "sha256": "5af682992f6c64099fd3179b5d91becf59f1415a39d3d8818b36ed6123a47826",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/Word 2003/Содержание.doc"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/Word 2003/Список использованных источников.doc",
+    "name": "Список использованных источников.doc",
+    "size": 29184,
+    "md5": "7266d676cd9d7f8d477fe5f007a2bdeb",
+    "sha256": "3eb97fec9e08e6d84e2610721ede07a0c610be99d527e93073ab2925486fd0dd",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/Word 2003/Список использованных источников.doc"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/Графические файлы/На ватманы/ЦВЕТНЫЕ/Схема потоков.docx",
+    "name": "Схема потоков.docx",
+    "size": 147807,
+    "md5": "9e8059ace532283fff4d3a6f95147982",
+    "sha256": "dc428aa87cc9bda821118a6fc5d5aa2179557aca2f1da710caf13fe0de9695df",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/Графические файлы/На ватманы/ЦВЕТНЫЕ/Схема потоков.docx"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/Графические файлы/На ватманы/Сравнение параметров работы абсорберов.docx",
+    "name": "Сравнение параметров работы абсорберов.docx",
+    "size": 22443,
+    "md5": "3aa9aba48420c5c3dd6ea95f92acd9df",
+    "sha256": "e93d16c0399e843ba5bf372f25ee652f36528b189ba8092a55d26fd03e3c8551",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/Графические файлы/На ватманы/Сравнение параметров работы абсорберов.docx"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/Графические файлы/На ватманы/Экономика.docx",
+    "name": "Экономика.docx",
+    "size": 21191,
+    "md5": "f889af84fec915886902a322f44600c3",
+    "sha256": "ea024dccd27bd5362521988c2d41ae8873da8784721f3f7f4e9a86c63a71f4e1",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/Графические файлы/На ватманы/Экономика.docx"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/Графические файлы/На цветную печать/Цветные страницы.docx",
+    "name": "Цветные страницы.docx",
+    "size": 2624163,
+    "md5": "92e5d4630ba80cde8c0a00c2a7c03a08",
+    "sha256": "67a699f84a0509e40b89b611db04e5748163dd7f2bc756e58d90818ff3595df1",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/Графические файлы/На цветную печать/Цветные страницы.docx"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/Графические файлы/Абсорбер3.vsd",
+    "name": "Абсорбер3.vsd",
+    "size": 253952,
+    "md5": "3c4fe79ff6aecd57d06d8dacfd8a5058",
+    "sha256": "52139e7b7125e8d24e49efc8789177cb40d2d373ba64ff6dcba7564f7e165aae",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/Графические файлы/Абсорбер3.vsd"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/1 ОБЩИЙ РАЗДЕЛ.docx",
+    "name": "1 ОБЩИЙ РАЗДЕЛ.docx",
+    "size": 797694,
+    "md5": "a88dae84d642cea3866a349844138abd",
+    "sha256": "ed942c98cecc2fccbd8da0172b9f427967366eec72a150f0db052a0e2cfb5a00",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/1 ОБЩИЙ РАЗДЕЛ.docx"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/2 ТЕХНИКО-ТЕХНОЛОГИЧЕСКИЙ РАЗДЕЛ.docx",
+    "name": "2 ТЕХНИКО-ТЕХНОЛОГИЧЕСКИЙ РАЗДЕЛ.docx",
+    "size": 5602622,
+    "md5": "fb97bdbc58e2bff5e0c99922806d8ceb",
+    "sha256": "3ef17ff2a4e822ec196e8307ce62331ade9aaa4c697bf9ecab0d61db5a1ecb83",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/2 ТЕХНИКО-ТЕХНОЛОГИЧЕСКИЙ РАЗДЕЛ.docx"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/Введение.docx",
+    "name": "Введение.docx",
+    "size": 25298,
+    "md5": "552de148f7a85bbb9c9c975f7c33e915",
+    "sha256": "fc08de26c65762b7d9fcda50ee2067aebe8c2fa2f87c85269f86389952779f40",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/Введение.docx"
+  },
+  {
+    "source": 14,
+    "url": "https://disk.yandex.ru/d/E-nfXqY1X3Tj_g",
+    "remote_path": "/Заключение.docx",
+    "name": "Заключение.docx",
+    "size": 21479,
+    "md5": "fec2884bc0f8805efe7c3f44faa92548",
+    "sha256": "3a220059afccdab5855d0d43f6c8f5166d364431ebd17733de02bfd251e01bc4",
+    "local": "/home/tori/student/14 МОЙ ДИПЛОМ/Заключение.docx"
+  },
+  {
+    "source": 15,
+    "url": "https://disk.yandex.ru/i/GayZ-BtSlK9IMA",
+    "remote_path": "/",
+    "name": "ДП(готовое2003).ppt",
+    "size": 8952320,
+    "md5": "4fe4d324657af45a61925a42d0bc738f",
+    "sha256": "7f96af581e8901bf9fd8a60f97085352ec976347e9f25bf8788d6ec63e2c0bb8",
+    "local": "/home/tori/student/15 ДП(готовое2003).ppt/ДП(готовое2003).ppt"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Вспомогат.файлы к диплому/Копия Графические приложения/Газодинамическая модель.vsd",
+    "name": "Газодинамическая модель.vsd",
+    "size": 1601536,
+    "md5": "18987cfbe0aca28f5246ba4430f32978",
+    "sha256": "8716941acfbb7a9c3dff0abd6a1505b95082519bf18295036c0d78cca2f7fb6d",
+    "local": "/home/tori/student/16 Диплом Рожкова/Вспомогат.файлы к диплому/Копия Графические приложения/Газодинамическая модель.vsd"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Вспомогат.файлы к диплому/Копия Графические приложения/Зона действия пораж.факторов.vsd",
+    "name": "Зона действия пораж.факторов.vsd",
+    "size": 1619456,
+    "md5": "b2ec9dd24e65ae25e31c2f1680240b93",
+    "sha256": "e2078b29872628fb3a9305cb200fe5babd2f9327977bd507a64621bcb3b104c7",
+    "local": "/home/tori/student/16 Диплом Рожкова/Вспомогат.файлы к диплому/Копия Графические приложения/Зона действия пораж.факторов.vsd"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Вспомогат.файлы к диплому/Копия Графические приложения/Сопост.показ Губк.xls",
+    "name": "Сопост.показ Губк.xls",
+    "size": 78336,
+    "md5": "ba950984aca7e0055471dfff8f14a1ff",
+    "sha256": "bfab8351ef3330fc18d229e75479ebdf6768e8f81e4cf772169aae55bf9aef1d",
+    "local": "/home/tori/student/16 Диплом Рожкова/Вспомогат.файлы к диплому/Копия Графические приложения/Сопост.показ Губк.xls"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Вспомогат.файлы к диплому/Копия Графические приложения/Таблица сопоставлений.vsd",
+    "name": "Таблица сопоставлений.vsd",
+    "size": 452608,
+    "md5": "f6c2bdba3094d2945dfd54cc151aadc1",
+    "sha256": "c90ef0ceade9c5f739d8cfc692e69c63fb6d51ada8a97760d887f7ec5241e53d",
+    "local": "/home/tori/student/16 Диплом Рожкова/Вспомогат.файлы к диплому/Копия Графические приложения/Таблица сопоставлений.vsd"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Вспомогат.файлы к диплому/Копия Графические приложения/Цеха.xls",
+    "name": "Цеха.xls",
+    "size": 2039808,
+    "md5": "9b78e68c382ad96367791dff4f309e1e",
+    "sha256": "f59db245db95e42bf44bc312bf06bc87db7134ca9681b8b855bf7eafbf82be9e",
+    "local": "/home/tori/student/16 Диплом Рожкова/Вспомогат.файлы к диплому/Копия Графические приложения/Цеха.xls"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Графические приложения/Газодинамическая модель.vsd",
+    "name": "Газодинамическая модель.vsd",
+    "size": 1601536,
+    "md5": "90de5095d0b039ba7d40fd5469d48558",
+    "sha256": "ffa5d1264f2b79800ea5795b41f5558ad432147b4a279f653acebe11e7abf462",
+    "local": "/home/tori/student/16 Диплом Рожкова/Графические приложения/Газодинамическая модель.vsd"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Графические приложения/Геологический разрез.vsd",
+    "name": "Геологический разрез.vsd",
+    "size": 509440,
+    "md5": "7c2e5944d872e8e16b7b895ee9c8ac9c",
+    "sha256": "f57be6841c263936978aca3292d3edeab28b262de5807e3ff2ce391bee860e23",
+    "local": "/home/tori/student/16 Диплом Рожкова/Графические приложения/Геологический разрез.vsd"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Графические приложения/Графики НПДН и ЧТС.vsd",
+    "name": "Графики НПДН и ЧТС.vsd",
+    "size": 230400,
+    "md5": "2171069cfd522a6e28e61055655178f9",
+    "sha256": "c43f5309763798603dc43105f01928622dd2502c4a8c30ed76b2e1da354ce149",
+    "local": "/home/tori/student/16 Диплом Рожкова/Графические приложения/Графики НПДН и ЧТС.vsd"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Графические приложения/Зона действия пораж.факторов.vsd",
+    "name": "Зона действия пораж.факторов.vsd",
+    "size": 1619456,
+    "md5": "e0361133c1caf803110d385a9b2dddf8",
+    "sha256": "ce4dd7d9cc2dee6197ea60682bdbd5a3514003a2c87edeb8171d252f14338dd9",
+    "local": "/home/tori/student/16 Диплом Рожкова/Графические приложения/Зона действия пораж.факторов.vsd"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Графические приложения/Модернизация абсорбера.vsd",
+    "name": "Модернизация абсорбера.vsd",
+    "size": 716800,
+    "md5": "03d07162e32b9fcc649a4fc5bf16200c",
+    "sha256": "d593a7aa6cb1151ff600e6e625ac3a98d2866e1c589cd1c2a7982d2b895fe3f5",
+    "local": "/home/tori/student/16 Диплом Рожкова/Графические приложения/Модернизация абсорбера.vsd"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Графические приложения/Принципиальные схемы цехов.vsd",
+    "name": "Принципиальные схемы цехов.vsd",
+    "size": 2477056,
+    "md5": "992dd230cd43a03bc1c3e6e0ebcc51e8",
+    "sha256": "a18fd2030072196c0f0d136758ba121bdc96c4639d9d145a92f3dbf025ca1c31",
+    "local": "/home/tori/student/16 Диплом Рожкова/Графические приложения/Принципиальные схемы цехов.vsd"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Графические приложения/Цеха.xls",
+    "name": "Цеха.xls",
+    "size": 2039808,
+    "md5": "bd31d55173ca46d26b3bc6a6a5c7dde8",
+    "sha256": "9f0972186398e4c2100c0675ad5a16bdad15c9555e265871f7c157f02c85e0db",
+    "local": "/home/tori/student/16 Диплом Рожкова/Графические приложения/Цеха.xls"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/4 Техническая часть.doc",
+    "name": "4 Техническая часть.doc",
+    "size": 14965248,
+    "md5": "a09354531290e9463dd4b7e6b6ae8f87",
+    "sha256": "6613d726ce0946f5a215cd195fc7888f1134224855c89a520b56257758eb3c83",
+    "local": "/home/tori/student/16 Диплом Рожкова/4 Техническая часть.doc"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Введение.doc",
+    "name": "Введение.doc",
+    "size": 29696,
+    "md5": "20464fa6e525e0839cf331ed1fdf9770",
+    "sha256": "127a9d915ddfa8ff034c78d3e66cc2422d540e9bc6e0364b6f4db200b58fd963",
+    "local": "/home/tori/student/16 Диплом Рожкова/Введение.doc"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Титул конструкция скважины часть.doc",
+    "name": "Титул конструкция скважины часть.doc",
+    "size": 34816,
+    "md5": "b6565f31b6583a124cd5f4ae51603365",
+    "sha256": "0cb987bf1304c1d8029944a6d829f2cb603212839137cfc00cc04feace0567ce",
+    "local": "/home/tori/student/16 Диплом Рожкова/Титул конструкция скважины часть.doc"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/Титул общая часть.doc",
+    "name": "Титул общая часть.doc",
+    "size": 37376,
+    "md5": "0ffcde2842a991ed3b20bebe44d23def",
+    "sha256": "3482de2ddd8904a197875f9480a3977ef48b9f2e3e925eecb5956b89a983795a",
+    "local": "/home/tori/student/16 Диплом Рожкова/Титул общая часть.doc"
+  },
+  {
+    "source": 16,
+    "url": "https://disk.yandex.ru/d/3YKPAyNckuHwvQ",
+    "remote_path": "/список графических приложений.doc",
+    "name": "список графических приложений.doc",
+    "size": 21504,
+    "md5": "a83646b1e8f490c6373d8598a0374770",
+    "sha256": "a9b267309fc323db8e5757a0161ad9d772bf90c88cf4c04032e64cebe7e17eda",
+    "local": "/home/tori/student/16 Диплом Рожкова/список графических приложений.doc"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/Дополнения, изменения к ТР 2012/Анализ реализации проектного набора блокировок ГП-1В (вариант. Замечания устранены).doc",
+    "name": "Анализ реализации проектного набора блокировок ГП-1В (вариант. Замечания устранены).doc",
+    "size": 877056,
+    "md5": "d927c52fb18cd45ac97b9ea71d35a3fa",
+    "sha256": "7f9b8cffe50886614ced4ddb1490babea58c088ac94f106e67b87ff10e13fb4d",
+    "local": "/home/tori/student/18 РАБОТА/Дополнения, изменения к ТР 2012/Анализ реализации проектного набора блокировок ГП-1В (вариант. Замечания устранены).doc"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/Дополнения, изменения к ТР 2012/Изменение  Т.Р. ДКС-1В.doc",
+    "name": "Изменение  Т.Р. ДКС-1В.doc",
+    "size": 50176,
+    "md5": "91aadeab6aeffb1556b736eb32afaf9b",
+    "sha256": "9bea2e92a87cb9f1eedcae063b8a9ad848802c93604cff9dabbd4a0cd602561f",
+    "local": "/home/tori/student/18 РАБОТА/Дополнения, изменения к ТР 2012/Изменение  Т.Р. ДКС-1В.doc"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/Дополнения, изменения к ТР 2012/п.6.1.doc",
+    "name": "п.6.1.doc",
+    "size": 44544,
+    "md5": "ea20ad3534154f36137f71afd6d173c0",
+    "sha256": "8b33a34bd48d607866be712205af3998283e6e27bd648044bcf06ca10d4a1f01",
+    "local": "/home/tori/student/18 РАБОТА/Дополнения, изменения к ТР 2012/п.6.1.doc"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/Дополнения, изменения к ТР 2012/п.8.doc",
+    "name": "п.8.doc",
+    "size": 98304,
+    "md5": "7322159183b9507c6b10dc4a2d435d3f",
+    "sha256": "a7c87a85ef24a560c0b5dc13b74014da316638185f06a8b8eea6eea5c647d3aa",
+    "local": "/home/tori/student/18 РАБОТА/Дополнения, изменения к ТР 2012/п.8.doc"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/Инструкции/тит.ИОТ-ВР-01-12 огн.PDF",
+    "name": "тит.ИОТ-ВР-01-12 огн.PDF",
+    "size": 8434,
+    "md5": "77121369d09163b8da683c6aebb83f3d",
+    "sha256": "c50bec92cbc33b04fef78db6496392e3848284687cb3f5e3261c0a178d3bfce1",
+    "local": "/home/tori/student/18 РАБОТА/Инструкции/тит.ИОТ-ВР-01-12 огн.PDF"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/Схемы/JMB_SEP_I.dwg",
+    "name": "JMB_SEP_I.dwg",
+    "size": 239443,
+    "md5": "15028886d647bc1772009c30a03fc1d8",
+    "sha256": "433ee9d129b621c809529e843ba2f6d2ca13ce087dc99d41d81b32d38c109e91",
+    "local": "/home/tori/student/18 РАБОТА/Схемы/JMB_SEP_I.dwg"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/Схемы/JMB_kor_I.dwg",
+    "name": "JMB_kor_I.dwg",
+    "size": 346772,
+    "md5": "1cfa227c7e5d79803cd2d10cc034ce9d",
+    "sha256": "39c3540e19723eb485fbbb17011cf8107818a1c012fb13cc979b062bdfb271c3",
+    "local": "/home/tori/student/18 РАБОТА/Схемы/JMB_kor_I.dwg"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/Схемы/OSX11.DWG",
+    "name": "OSX11.DWG",
+    "size": 273928,
+    "md5": "19d3eda68ac65e7f2b27627a98ef937d",
+    "sha256": "c9d137c74b192f38256826258c36b7cc37b591d9e749e0c3bc70fbebd1e63210",
+    "local": "/home/tori/student/18 РАБОТА/Схемы/OSX11.DWG"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/Схемы/SKLAD_1V.DWG",
+    "name": "SKLAD_1V.DWG",
+    "size": 364137,
+    "md5": "c078df3f7e7a7ec142da57bf1f85ccd4",
+    "sha256": "82295c6bce791db095bdaaa730adbd04b4f0e79153a5115481629c382e801ff7",
+    "local": "/home/tori/student/18 РАБОТА/Схемы/SKLAD_1V.DWG"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/Схемы/Генпл.dwg",
+    "name": "Генпл.dwg",
+    "size": 29216,
+    "md5": "1b81b8d07bed65ca72dc185be898bfd3",
+    "sha256": "4b52f4b9bbfc2a73f23277c82a5dfd1ccfdb0d37e9102f64bd3da0beb32b4be2",
+    "local": "/home/tori/student/18 РАБОТА/Схемы/Генпл.dwg"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/Схемы/однолинейная схема.dwg",
+    "name": "однолинейная схема.dwg",
+    "size": 127862,
+    "md5": "eae78d08a035b8406fcf602d461721df",
+    "sha256": "4cd63dc85b26d23919a6db86018d57e5689acf166b692592ca97aba49661ac92",
+    "local": "/home/tori/student/18 РАБОТА/Схемы/однолинейная схема.dwg"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/ТР 2010/Дополнения, изменения к ТР 2012/Анализ реализации проектного набора блокировок ГП-1В (вариант. Замечания устранены).doc",
+    "name": "Анализ реализации проектного набора блокировок ГП-1В (вариант. Замечания устранены).doc",
+    "size": 877056,
+    "md5": "d927c52fb18cd45ac97b9ea71d35a3fa",
+    "sha256": "7f9b8cffe50886614ced4ddb1490babea58c088ac94f106e67b87ff10e13fb4d",
+    "local": "/home/tori/student/18 РАБОТА/ТР 2010/Дополнения, изменения к ТР 2012/Анализ реализации проектного набора блокировок ГП-1В (вариант. Замечания устранены).doc"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/ТР 2010/Дополнения, изменения к ТР 2012/Изменение  Т.Р. ДКС-1В.doc",
+    "name": "Изменение  Т.Р. ДКС-1В.doc",
+    "size": 50176,
+    "md5": "91aadeab6aeffb1556b736eb32afaf9b",
+    "sha256": "9bea2e92a87cb9f1eedcae063b8a9ad848802c93604cff9dabbd4a0cd602561f",
+    "local": "/home/tori/student/18 РАБОТА/ТР 2010/Дополнения, изменения к ТР 2012/Изменение  Т.Р. ДКС-1В.doc"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/ТР 2010/Дополнения, изменения к ТР 2012/п.6.1.doc",
+    "name": "п.6.1.doc",
+    "size": 44544,
+    "md5": "ea20ad3534154f36137f71afd6d173c0",
+    "sha256": "8b33a34bd48d607866be712205af3998283e6e27bd648044bcf06ca10d4a1f01",
+    "local": "/home/tori/student/18 РАБОТА/ТР 2010/Дополнения, изменения к ТР 2012/п.6.1.doc"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/ТР 2010/Дополнения, изменения к ТР 2012/п.8.doc",
+    "name": "п.8.doc",
+    "size": 98304,
+    "md5": "7322159183b9507c6b10dc4a2d435d3f",
+    "sha256": "a7c87a85ef24a560c0b5dc13b74014da316638185f06a8b8eea6eea5c647d3aa",
+    "local": "/home/tori/student/18 РАБОТА/ТР 2010/Дополнения, изменения к ТР 2012/п.8.doc"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/ТР 2010/Доп. к рег. Т-3а.doc",
+    "name": "Доп. к рег. Т-3а.doc",
+    "size": 452608,
+    "md5": "63d1d3bf7c0069e7c868fcb32da21a68",
+    "sha256": "a3563c90ca37136949e31b5708b831ffd266a3a00cac737fd9c49bdacd922daf",
+    "local": "/home/tori/student/18 РАБОТА/ТР 2010/Доп. к рег. Т-3а.doc"
+  },
+  {
+    "source": 18,
+    "url": "https://disk.yandex.ru/d/tEgjm0AkoBpooA",
+    "remote_path": "/ТР 2010/ТР УПМТ.DOC",
+    "name": "ТР УПМТ.DOC",
+    "size": 1160704,
+    "md5": "8b20078bfdf431e5df16a66467ec9721",
+    "sha256": "ebae9a528cfac0d5bfc69c290b38aa1b2354bd29f263eae182ae47718e4f9e3f",
+    "local": "/home/tori/student/18 РАБОТА/ТР 2010/ТР УПМТ.DOC"
+  },
+  {
+    "source": 19,
+    "url": "https://disk.yandex.ru/d/cZ_cUGQEaExF6g",
+    "remote_path": "/",
+    "name": "по диплому.rar",
+    "size": 87298813,
+    "md5": "301fa88cac7a32ec01a475a217355d4a",
+    "sha256": "6ea41e87c5d23572938d244de668390f477794d72032ee6496e72ff2c87853d8",
+    "local": "/home/tori/student/19 по диплому.rar/по диплому.rar"
+  },
+  {
+    "source": 22,
+    "url": "https://disk.yandex.ru/d/RqRKyUVWIdr79g",
+    "remote_path": "/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/GL_11_1.DOC",
+    "name": "GL_11_1.DOC",
+    "size": 44544,
+    "md5": "8a8a9aed0f2b025f326c9a34a4bb759d",
+    "sha256": "fd9d3b8f0c15f23bdb3860583e33143b8c43154ab3d9ddb0ac41fd0cfda9985a",
+    "local": "/home/tori/student/22 гидродинамические методы исследования/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/GL_11_1.DOC"
+  },
+  {
+    "source": 22,
+    "url": "https://disk.yandex.ru/d/RqRKyUVWIdr79g",
+    "remote_path": "/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/OTCHET2.EXE",
+    "name": "OTCHET2.EXE",
+    "size": 158944,
+    "md5": "d4adbd4621a2342ef8ed8290d2d99af9",
+    "sha256": "d478e5bc27382a4dd9405a5794fb4b99edb215a9450bbfee559d48ab49885905",
+    "local": "/home/tori/student/22 гидродинамические методы исследования/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/OTCHET2.EXE"
+  },
+  {
+    "source": 22,
+    "url": "https://disk.yandex.ru/d/RqRKyUVWIdr79g",
+    "remote_path": "/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/TABISL.PRN",
+    "name": "TABISL.PRN",
+    "size": 598016,
+    "md5": "d5dde2342baeb81c710c3792ed0c3ec6",
+    "sha256": "17a53f7abd4990c8483146abba7cbf928297c1e40686573bbd35030e9b40cae5",
+    "local": "/home/tori/student/22 гидродинамические методы исследования/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/TABISL.PRN"
+  },
+  {
+    "source": 22,
+    "url": "https://disk.yandex.ru/d/RqRKyUVWIdr79g",
+    "remote_path": "/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/TEH06_00.RAR",
+    "name": "TEH06_00.RAR",
+    "size": 204706,
+    "md5": "732dbf8bf40a102dcd53ef50dcfb026d",
+    "sha256": "bb27c63f0be66ac02ed234b81f4756c5a879a5ca8ef75a628cab9dc01412b6a4",
+    "local": "/home/tori/student/22 гидродинамические методы исследования/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/TEH06_00.RAR"
+  },
+  {
+    "source": 22,
+    "url": "https://disk.yandex.ru/d/RqRKyUVWIdr79g",
+    "remote_path": "/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/к отчету по практике.doc",
+    "name": "к отчету по практике.doc",
+    "size": 29696,
+    "md5": "8b8e0eb2780680a2c855723e07afdcc4",
+    "sha256": "a32849e236e84d4b7bcf3ee460abbfb74038518a3d114295b8e202f896cb925c",
+    "local": "/home/tori/student/22 гидродинамические методы исследования/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/к отчету по практике.doc"
+  },
+  {
+    "source": 22,
+    "url": "https://disk.yandex.ru/d/RqRKyUVWIdr79g",
+    "remote_path": "/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/отчет альберта.doc",
+    "name": "отчет альберта.doc",
+    "size": 498176,
+    "md5": "346b71744684b3158e44191933a50c43",
+    "sha256": "2021e76bba228cb1eb939bc2cc10f2e95589175e98dfbde0c051f12fda2509e5",
+    "local": "/home/tori/student/22 гидродинамические методы исследования/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/отчет альберта.doc"
+  },
+  {
+    "source": 22,
+    "url": "https://disk.yandex.ru/d/RqRKyUVWIdr79g",
+    "remote_path": "/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/паспорт ГП-6.doc",
+    "name": "паспорт ГП-6.doc",
+    "size": 566272,
+    "md5": "90f6e52efc8c42485369089cc9f7fce2",
+    "sha256": "b2a63c2fc4a5819c9549ccae5a2d0e50f963d0602caf71913a5e1b937d6a2931",
+    "local": "/home/tori/student/22 гидродинамические методы исследования/гидродинамические методы исследования в условиях Северо-Соленинского месторождения/Алберт/паспорт ГП-6.doc"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/Методички/Attachments_promec@mail.ru_2012-04-17_13-44-47/BGD2.doc",
+    "name": "BGD2.doc",
+    "size": 5818880,
+    "md5": "6adf2788d0aedf0b9052b6309a73f49a",
+    "sha256": "0217489488398095f12e630d65da27b69ebd8e09b73cc47aaaf6ae7dce1874dd",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/Методички/Attachments_promec@mail.ru_2012-04-17_13-44-47/BGD2.doc"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/Методички/Attachments_promec@mail.ru_2012-04-17_13-49-29/Му для ДП всех спец.doc",
+    "name": "Му для ДП всех спец.doc",
+    "size": 1909248,
+    "md5": "bf8a79af547e1cf27af2a3ca86742405",
+    "sha256": "8881000ac7bc12968d9b211b1cee5d3ea73eb0e26c2cf23a989e3b70a0acc1fa",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/Методички/Attachments_promec@mail.ru_2012-04-17_13-49-29/Му для ДП всех спец.doc"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/Методички/Attachments_promec@mail.ru_2012-04-17_13-49-29/Экологическая часть диплома НРГ.doc",
+    "name": "Экологическая часть диплома НРГ.doc",
+    "size": 323584,
+    "md5": "517193da49c85ffe99e51b53071be563",
+    "sha256": "9a26829e156574b53032eae0fb4fb3fd00ab8537b3d193a32dcacf4dd330bff4",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/Методички/Attachments_promec@mail.ru_2012-04-17_13-49-29/Экологическая часть диплома НРГ.doc"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/презентация/Курманов Рустам Тельманович НРГ-07-1.ppt",
+    "name": "Курманов Рустам Тельманович НРГ-07-1.ppt",
+    "size": 1866240,
+    "md5": "855db4f7c91501d97c88f525ea1253d3",
+    "sha256": "d3f14b7d898ef47043551e198f01b84bad2c8dbb4d41ef5dde4df101a0521488",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/презентация/Курманов Рустам Тельманович НРГ-07-1.ppt"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/3.2.doc",
+    "name": "3.2.doc",
+    "size": 1393152,
+    "md5": "62d01bad5a0cd6de810fcd3e54d2a9e1",
+    "sha256": "c04b3630d4fb90c749475d4c7a4ab1d1c01d2f788a229acea2823edcbd84d4ab",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/3.2.doc"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/~WRL0001.tmp",
+    "name": "~WRL0001.tmp",
+    "size": 389120,
+    "md5": "b5ebc7429a5b1e96fd4833227092dc26",
+    "sha256": "d5bba1651f5b29d8565a02c8644c479f85bcd17fd64ac66ec26ef0e03c68b1af",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/~WRL0001.tmp"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/~WRL0002.tmp",
+    "name": "~WRL0002.tmp",
+    "size": 4845056,
+    "md5": "473e795b9c5def8261f448498acf1ec7",
+    "sha256": "674c093cd7e49e864a6d5dd090f54891775596cfea98ada1e3df6bc76005c254",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/~WRL0002.tmp"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/~WRL0003.tmp",
+    "name": "~WRL0003.tmp",
+    "size": 413184,
+    "md5": "0c4a3589e3e35d57bdd87eeca97aca1d",
+    "sha256": "c4a77590117677e1b4e236d7362faa907a67b468c4b463b865b86df193200e36",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/~WRL0003.tmp"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/~WRL2861.tmp",
+    "name": "~WRL2861.tmp",
+    "size": 5437440,
+    "md5": "662e64d2814763f56fd5b2734b2bccf0",
+    "sha256": "b33883e871f105315cc78ec1fffa810de56283bece7f7c9b9795115d32926bea",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/~WRL2861.tmp"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/~WRL3428.tmp",
+    "name": "~WRL3428.tmp",
+    "size": 5440000,
+    "md5": "a0810a7fcdfcfc69df79f3e07fb1c181",
+    "sha256": "c65f50632554f3ea75fea8bc3118d050ee1fdc227da048932a7f3a27bc37ef20",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/~WRL3428.tmp"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/~WRL3510.tmp",
+    "name": "~WRL3510.tmp",
+    "size": 5408256,
+    "md5": "8ef0a48bc6235e6f49a6da6e9d865491",
+    "sha256": "ba1494a6d589ef67f88296c6ddb56024dd87577f61d2612b837e5fe1a9994c40",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/~WRL3510.tmp"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/В сборе.doc",
+    "name": "В сборе.doc",
+    "size": 1709551,
+    "md5": "08e88028f8beb48dde2cf595a19d5119",
+    "sha256": "1907cf28dd45c0788f552b4476a123152532758c2a9224b07938b8b20993c6aa",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/В сборе.doc"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/ВВЕДЕНИЕ.docx",
+    "name": "ВВЕДЕНИЕ.docx",
+    "size": 1709336,
+    "md5": "8a51f8da778d35053aac0ae96620209f",
+    "sha256": "918c0e935c4ddba7d34045e817d6f02806ade9fe3e933dd760bfb114b7b0fce8",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/ВВЕДЕНИЕ.docx"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/Весь.docx",
+    "name": "Весь.docx",
+    "size": 2412596,
+    "md5": "053ddc278186025f42b641f7d4b16bb6",
+    "sha256": "83c9bcb07fdfc644125a870ce9f77037817b2b43ba3fde9225d5c00fdcf80128",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/Весь.docx"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/Глава 3.doc",
+    "name": "Глава 3.doc",
+    "size": 1081856,
+    "md5": "739c347b714b6840c8b6a28585721ab8",
+    "sha256": "13326c80fb3c8533d00849667275c344874fcf316f3007bea23172537ee7967a",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/Глава 3.doc"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/Глава 4.doc",
+    "name": "Глава 4.doc",
+    "size": 104448,
+    "md5": "a0e8d146657c3eecbaad554e86b207d7",
+    "sha256": "c1810de63abe4f82138aa2f7c01ea38da7cd43ef42905cec753cfcd317267e7c",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/Глава 4.doc"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/Глава 6.doc",
+    "name": "Глава 6.doc",
+    "size": 392192,
+    "md5": "b2b69e0ddb7a0e41b72123811f7abeef",
+    "sha256": "9ba614ef42aa7518a0436a615a4fc4a9d00f9b1996bacd5f0f63731278b7bb63",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/Глава 6.doc"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/СОДЕРЖАНИЕ.doc",
+    "name": "СОДЕРЖАНИЕ.doc",
+    "size": 49664,
+    "md5": "ddf6f98fde2b66ccf35eb9bd3a4436ca",
+    "sha256": "37985b1dac1db69c59da7288657f4b547acf0a2aa2cfec7644fe3c9ac4741590",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/СОДЕРЖАНИЕ.doc"
+  },
+  {
+    "source": 24,
+    "url": "https://disk.yandex.ru/d/dBi3fbfmLB-GLA",
+    "remote_path": "/диплом.docx",
+    "name": "диплом.docx",
+    "size": 1696577,
+    "md5": "5401156c082980eb9317a28f98dc1642",
+    "sha256": "54175f38fd7d9f0460cda9d5a6acbd364545eee3eac5ff91fd99e52ea59be29d",
+    "local": "/home/tori/student/24 Диплом ГРП, мой/диплом.docx"
+  },
+  {
+    "source": 25,
+    "url": "https://disk.yandex.ru/i/iofvjLuqQbdfGQ",
+    "remote_path": "/",
+    "name": "Доклад.doc",
+    "size": 60416,
+    "md5": "5ea9bb74ffa50897bfedacc56f8d7138",
+    "sha256": "75d5fd32d50164781b503051b31ceb5a4e7c7f9e361aeafa125582436ddc0540",
+    "local": "/home/tori/student/25 Доклад.doc/Доклад.doc"
+  }
+]

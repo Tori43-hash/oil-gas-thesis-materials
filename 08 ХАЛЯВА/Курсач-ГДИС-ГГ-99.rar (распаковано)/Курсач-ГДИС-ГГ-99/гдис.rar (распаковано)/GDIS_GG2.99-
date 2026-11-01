@@ -1,0 +1,32 @@
+CLS
+
+INPUT "Введите N, Pпл*, Cпл:"; n, ppli, cpl
+sigma1 = -ppli + SQR(ppli ^ 2 - cpl)
+ppl = ppli + sigma1
+DIM pz(n), q(n)
+FOR i = 1 TO n
+READ pz(i), q(i)
+NEXT i
+
+sx = 0: sy = 0: sxy = 0: sx2 = 0: sy2 = 0
+FOR i = 1 TO n
+y = (ppl ^ 2 - pz(i) ^ 2) / q(i)
+x = q(i)
+sx = sx + x
+sy = sy + y
+sxy = sxy + x * y
+sx2 = sx2 + x ^ 2
+sy2 = sy2 + y ^ 2
+NEXT i
+A = (sx2 * sy - sx * sxy) / (n * sx2 - sx ^ 2)
+B = (n * sxy - sx * sy) / (n * sx2 - sx ^ 2)
+R = (n * sxy - sx * sy) / SQR((n * sx2 - sx ^ 2) * (n * sy2 - sy ^ 2))
+
+PRINT USING "A=#.##################"; A
+PRINT USING "B=#.##################"; B
+PRINT USING "R=#.##################"; R
+
+DATA 9.245, 485.3, 9.021, 698.6, 8.653, 809.3
+DATA 8.442, 993.4, 8.241, 1187.3, 9.241, 481.4
+
+

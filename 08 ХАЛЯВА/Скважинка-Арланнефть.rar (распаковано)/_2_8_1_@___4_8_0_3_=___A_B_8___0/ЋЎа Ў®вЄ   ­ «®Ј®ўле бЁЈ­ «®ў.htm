@@ -1,0 +1,974 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0044)http://www.vibration.ru/obrab_signalow.shtml -->
+<HTML><HEAD><TITLE>Обработка аналоговых сигналов</TITLE>
+<META content="text/html; charset=windows-1251" http-equiv=Content-Type><LINK 
+href="Обработка аналоговых сигналов.files/style.css" rel=stylesheet 
+type=text/css>
+<META content="MSHTML 5.00.2614.3500" name=GENERATOR></HEAD>
+<BODY aLink=#009933 bgColor=#ddeadb leftMargin=0 link=#003300 text=#000000 
+topMargin=0 vLink=#003300><A name=top></A>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD background="Обработка аналоговых сигналов.files/last_top_02.gif" 
+    width=728>
+      <P><IMG height=50 
+      src="Обработка аналоговых сигналов.files/last_top_01.gif" 
+      width=728><BR><IMG height=30 
+      src="Обработка аналоговых сигналов.files/last_top_03.gif" width=269><IMG 
+      align=top height=20 
+      src="Обработка аналоговых сигналов.files/last_top_04.gif" 
+width=459></P></TD>
+    <TD background="Обработка аналоговых сигналов.files/last_top_02.gif" 
+    vAlign=top></TD></TR>
+  <TR bgColor=#ddeadb vAlign=top>
+    <TD background="Обработка аналоговых сигналов.files/gray16_04.gif" colSpan=2 
+    height=5></TD></TR>
+  <TR bgColor=#cccccc vAlign=center>
+    <TD colSpan=2 height=25>
+      <TABLE align=center border=1 cellPadding=0 cellSpacing=0 width=760>
+        <TBODY>
+        <TR align=middle vAlign=center>
+          <TD width="20%"><B><FONT color=#333333 
+            face="Arial, Helvetica, sans-serif"><A 
+            href="http://www.vibration.ru/index.shtml">Новости</A></FONT></B></TD>
+          <TD width="20%"><B><FONT color=#333333 
+            face="Arial, Helvetica, sans-serif"><A 
+            href="http://www.vibration.ru/osnova.shtml"><FONT 
+            color=#ffffff>Основы</FONT></A></FONT></B></TD>
+          <TD width="20%"><B><FONT color=#333333 
+            face="Arial, Helvetica, sans-serif"><A 
+            href="http://www.vibration.ru/diagnostika.shtml">Диагностика</A> 
+            </FONT></B></TD>
+          <TD width="20%"><B><FONT color=#333333 
+            face="Arial, Helvetica, sans-serif"><A 
+            href="http://www.vibration.ru/sredstva.shtml">Средства</A></FONT></B></TD>
+          <TD width="20%"><B><FONT color=#333333 
+            face="Arial, Helvetica, sans-serif"><A 
+            href="http://www.vibration.ru/litetatura.shtml">Литература</A></FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+  <TR bgColor=#ddeadb>
+    <TD background="Обработка аналоговых сигналов.files/gray16_04.gif" 
+    bgColor=#ddeadb colSpan=2 height=5></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=20 width="100%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <P align=center><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><B><SPAN 
+      class=title>ОБРАБОТКА АНАЛОГОВЫХ СИГНАЛОВ НА IBM PC</SPAN></B><SPAN 
+      class=text><BR>Медведев С.Ю., к.ф.-м..н. </SPAN></FONT></P>
+      <P align=justify class=TITLE1><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><B>Шинная архитектура IBM 
+      PC.</B></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Успех 
+      персонального компьютера IBM PC был обусловлен в большой степени его 
+      открытой архитектурой, позволяющей, с одной стороны, расширять 
+      функциональные возможности машины, добавляя новые модули (дополнительную 
+      память. адаптеры внешних устройств и т.п.), а с другой стороны, 
+      гарантирующей широкому кругу пользователей и производителей оборудования 
+      работоспособность выпускаемых ими устройств на любом IBM-совместимом 
+      компьютере. Такую возможность предоставляет так называемая <I>шинная 
+      архитектура</I> компьютера. Шина представляет собой набор общих для всех 
+      компонентов компьютера проводников с фиксированным назначением сигналов. 
+      <BR>&nbsp;&nbsp;&nbsp;Упрощенное представление шины компьютера показано на 
+      рис.1.</FONT></P>
+      <P align=center class=ris><IMG height=257 
+      src="Обработка аналоговых сигналов.files/obrab_signalow1.gif" 
+      width=276></P>
+      <P align=justify></P>
+      <P align=center class=ris><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Рис.1. Упрощенное 
+      представление шины компьютера.</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Унифицированная 
+      система соединений позволяет любому компоненту (и, что особенно важно, 
+      новому компоненту) взаимодействовать с любым другим компонентом. Новые 
+      компоненты соединяются с шиной через слоты (разъемы) расширения. Подробнее 
+      о шинах компьютера можно прочитать, например, в [1,2]. 
+      &nbsp;&nbsp;&nbsp;Первая шина, разработанная IBM была 8-ми разрядной, т.е. 
+      по ней за один цикл передавались 8 двоичных разрядов (или один байт) 
+      данных. Позднее IBM и другие производители выпустили новые РС с другими 
+      конфигурациями шин. До сих пор наиболее популярной остается шина 
+      промышленной стандартной архитектуры (Industry Standard Architecture - 
+      ISA), разработанная фирмой IBM для персонального компьютера IBM PC/AT 
+      (поэтому эту шину часто называют AT-bus). ISA имеет 16-битовую шину 
+      данных, тактовую частоту 8 МГц и рассчитана на 98-контактный слот 
+      расширения. С появлением современных быстродействующих 32-х и 64-разрядных 
+      процессоров и скоростных жестких дисков стандартная шина стала "узким 
+      местом", ограничивающим производительность ЭВМ. Были разработаны 
+      32-разрядные шины (MicroChannel Architecture - MCA, применяемая в IBM 
+      PS/2, и Extended Industry Standard Architecture - EISA). Однако, с 
+      появлением так называемых<I> локальных шин</I>, вопрос о конфигурации 
+      основной шины ввода/вывода потерял свою остроту, поскольку процессор и 
+      системная память смогли "общаться" с дисплейными адаптерами и 
+      контроллерами дисков с высокой скоростью на основной частоте синхронизации 
+      системы (обычно 25 или 33 Мгц) с разрядностью передаваемых одновременно 
+      данных, равной разрядности процессора. На основной шине остались 
+      относительно медленные устройства ввода/вывода, например, модемы, мышь, 
+      принтеры, звуковые платы и т.п.<BR>&nbsp;&nbsp;&nbsp;Как говорилось выше, 
+      шины компьютера предназначены для подключения адаптеров внешних устройств. 
+      Такими устройствами могут быть, например, аналого-цифровой и 
+      цифро-аналоговый преобразователи, с помощью которых можно превратить ЭВМ в 
+      систему обработки аналоговых сигналов или систему управления неким внешним 
+      объектом. Однако, если не требуется высокая скорость ввода/вывода 
+      сигналов, то вовсе не обязательно разрабатывать адаптер, подключаемый к 
+      одной из шин компьютера. Задача решается гораздо проще, если подключить 
+      нужное устройство к одному из так называемых <I>портов</I> компьютера: 
+      параллельному или последовательному (как следует из названия, они 
+      различаются способами передачи цифровых данных: параллельно - 8 бит сразу, 
+      или последовательно - по одному биту друг за другом).</FONT></P>
+      <P align=center><IMG height=343 
+      src="Обработка аналоговых сигналов.files/obrab_signalow2.gif" 
+      width=314></P>
+      <P align=justify></P>
+      <P align=center class=ris><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Рис. 2. Структура компьютера 
+      с локальной шиной.</FONT></P>
+      <P align=justify class=TITLE1><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><B>Параллельный порт 
+      PC</B></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Параллельный 
+      порт, пожалуй, один из немногих (если не единственный) компонент 
+      персонального компьютера, который не претерпел изменений за 15 лет 
+      существования ПЭВМ.<BR>&nbsp;&nbsp;&nbsp;Изначально параллельный порт был 
+      предназначен для передачи данных на принтер, с чем он успешно справляется 
+      и по сей день. Порт передает сразу полный байт (8 битов) данных, 
+      представляющих собой код одного из печатаемых символов, поскольку каждый 
+      бит передается по отдельному проводу кабеля, соединяющего параллельный 
+      порт с принтером. С точки зрения программиста стандартный порт принтера 
+      IBM-совместимого компьютера представляет собой 3 восьмиразрядных 
+      (байтовых) порта ввода-вывода с отличающимися друг от друга на единицу 
+      адресами: порт (или регистр) данных, порт состояния принтера и, наконец, 
+      порт управления принтером. Рассмотрим назначение указанных портов 
+      ввода-вывода и отдельно каждого бита данных, записываемого или 
+      считываемого из них.</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;<I><B>Порт 
+      данных принтера</B></I> (табл. 1.) имеет один из стандартных адресов: 
+      278h, 378h или 3bch (h обозначает шестнадцатеричное число).</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Таблица 1. Формат порта 
+      данных принтера.</FONT></P>
+      <TABLE border=1 cellSpacing=0 width="50%">
+        <TBODY>
+        <TR>
+          <TD width="15%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Бит</FONT></DIV></TD>
+          <TD width="35%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Контакт 
+            разъема</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Название</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Назначение</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="15%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">0</FONT></DIV></TD>
+          <TD width="35%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">2</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">DP0</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">мл.разряд</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="15%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">1</FONT></DIV></TD>
+          <TD width="35%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">3</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">DP1</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">данные</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="15%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">2</FONT></DIV></TD>
+          <TD width="35%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">4</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">DP2</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">данные</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="15%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">3</FONT></DIV></TD>
+          <TD width="35%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">5</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">DP3</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">данные</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="15%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">4</FONT></DIV></TD>
+          <TD width="35%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">6</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">DP4</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">данные</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="15%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">5</FONT></DIV></TD>
+          <TD width="35%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">7</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">DP5</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">данные</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="15%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">6</FONT></DIV></TD>
+          <TD width="35%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">8</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">DP6</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">данные</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="15%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">7</FONT></DIV></TD>
+          <TD width="35%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">9</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">DP7</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">ст.разряд</FONT></DIV></TD></TR></TBODY></TABLE>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;После 
+      записи данных в порт соответствующие логические уровни сразу появятся на 
+      контактах разъема для подключения принтера (смотри табл.1). Однако, 
+      принтер не примет данные до тех пор, пока не обнаружит стробирующий сигнал 
+      STB, представляющий собой импульс с активным низким уровнем ( ----|_|---- 
+      ). Для формирования сигнала STB на разъеме параллельного порта необходимо 
+      записать в младший разряд <I>регистра (порта) управления</I>, имеющего 
+      адрес на два больший адреса регистра данных, сначала единицу (на контакте 
+      появится нулевой логический уровень), а затем ноль (на контакте появится 
+      напряжение, соответствующее логической единице, т.е. 2.4 - 5 вольт). Таким 
+      образом, для печати любого символа необходима последовательность из трех 
+      операций: записи кода символа в порт данных, записи единицы в младший бит 
+      регистра управления и, наконец, записи туда же нуля (подробнее о 
+      программировании портов IBM PC см. в [3]). Эту последовательность можно 
+      реализовать, записав следующий фрагмент программы ( ch - код символа, DP - 
+      адрес регистра данных параллельного порта, CTL - адрес регистра 
+      управления, CTL=DP +2 )</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">outportb(DP, 
+      ch);<BR>outportb(CTL,inportb(CTL)|1);<BR>outportb(CTL,inportb(CTL)&amp;0xfe);</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Здесь 
+      используются функции записи байта в порт outportb(addr,data) и чтения 
+      байта из порта inportb(addr). Для обеспечения изменения только одного бита 
+      в регистре управления используются логические побитовые операции 
+      <I><B>или</B></I> ( | ) и <I>и</I> ( &amp; ) предыдущего содержимого 
+      регистра с константами, содержащими в младшем бите единицу и ноль. 
+      Результатом операции <I><B>или</B></I> с единицей будет единица, операции 
+      <I><B>и</B></I> с нулем - нуль. <BR>&nbsp;&nbsp;&nbsp;Нулевой и остальные 
+      биты регистра управления принтером отвечают за формирование сигналов, 
+      представленных в табл. 2.<BR>&nbsp;&nbsp;&nbsp;Биты 5 - 7 не 
+      используются.<BR>&nbsp;&nbsp;&nbsp;Для обеспечения "обратной связи" - 
+      ввода в компьютер информации о состоянии принтера, предназначен <I>регистр 
+      состояния</I> порта принтера. Его адрес на единицу больше адреса регистра 
+      данных. <BR>Формат регистра представлен в 
+      табл.3.<BR>&nbsp;&nbsp;&nbsp;Наличие входных линий параллельного порта 
+      компьютера позволяет организовать через него не только вывод, но и ввод в 
+      компьютер цифровой или преобразованной в цифровую форму аналоговой 
+      информации. Более высокая скорость ввода/вывода данных по сравнению с 
+      последовательным портом и простота схемных решений объясняют растущую 
+      популярность использования параллельного порта для подключения таких 
+      устройств, как внешние накопители на магнитной ленте и жесткие диски, 
+      дисководы CD-ROM, сетевые адаптеры и звуковые платы (об 
+      усовершенствованных параллельных портах EPP и ECP можно прочитать, 
+      например, в [8]). <BR>&nbsp;&nbsp;&nbsp;Для вывода сигналов из ЭВМ 
+      достаточно зафиксировать данные, передаваемые через порт принтера, в 
+      регистре, выходы которого подсоединены к входам цифро-аналогового 
+      преобразователя (см. рис.3.). Для записи данных в регистр используется 
+      сигнал STB.</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Таблица 2. Формат регистра 
+      управления принтером.</FONT></P>
+      <TABLE border=1 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="10%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Бит</FONT></DIV></TD>
+          <TD width="20%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Контакт 
+            разъема</FONT></DIV></TD>
+          <TD width="20%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Название</FONT></DIV></TD>
+          <TD width="50%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Назначение</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="10%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">0</FONT></DIV></TD>
+          <TD width="20%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">1</FONT></DIV></TD>
+          <TD width="20%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">STB</FONT></DIV></TD>
+          <TD width="50%">
+            <DIV align=left class=text_l><FONT class=text_l 
+            face="Verdana, Arial, Helvetica, sans-serif">1 стробирует 
+            данные</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="10%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">1</FONT></DIV></TD>
+          <TD width="20%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">14</FONT></DIV></TD>
+          <TD width="20%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Auto LF</FONT></DIV></TD>
+          <TD width="50%">
+            <DIV align=left class=text_l><FONT class=text_l 
+            face="Verdana, Arial, Helvetica, sans-serif">1 заставляет принтер 
+            автоматически переводить строку после приема символа возврата 
+            каретки.</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="10%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">2</FONT></DIV></TD>
+          <TD width="20%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">16</FONT></DIV></TD>
+          <TD width="20%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Init</FONT></DIV></TD>
+          <TD width="50%">
+            <DIV align=left class=text_l><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><SPAN class=text_l>0 
+            вызывает сброс (инициализацию) принтера</SPAN>.</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="10%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">3</FONT></DIV></TD>
+          <TD width="20%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">17</FONT></DIV></TD>
+          <TD width="20%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">SLCT</FONT></DIV></TD>
+          <TD width="50%">
+            <DIV align=left class=text_l><FONT class=text_l 
+            face="Verdana, Arial, Helvetica, sans-serif">1 "выбирает" (логически 
+            подсоединяет) принтер.</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="10%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">4</FONT></DIV></TD>
+          <TD width="20%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Внутренний 
+            сигнал</FONT></DIV></TD>
+          <TD width="20%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">IRQ 
+          Enable</FONT></DIV></TD>
+          <TD width="50%">
+            <DIV align=left class=text_l><FONT class=text_l 
+            face="Verdana, Arial, Helvetica, sans-serif">1 разрешает порту 
+            принтера генерацию аппаратного прерывания 
+      </FONT></DIV></TD></TR></TBODY></TABLE>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Таблица 3. Формат регистра 
+      состояния порта принтера</FONT></P>
+      <TABLE border=1 cellSpacing=0 class=ris width="100%">
+        <TBODY>
+        <TR>
+          <TD width="30%">
+            <P align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Бит регистра 
+            состояния</FONT></P></TD>
+          <TD width="15%">
+            <DIV align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Контакт 
+            разъема</FONT></DIV></TD>
+          <TD width="15%">
+            <DIV align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Название</FONT></DIV></TD>
+          <TD width="40%">
+            <DIV align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Назначение</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="30%">
+            <DIV align=center class=text><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">3</FONT></DIV></TD>
+          <TD width="15%">
+            <DIV align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">15</FONT></DIV></TD>
+          <TD width="15%">
+            <DIV align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">ERR</FONT></DIV></TD>
+          <TD width="40%">
+            <DIV align=left class=text><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">0 - принтер 
+            сигнализирует об ошибке</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="30%">
+            <DIV align=center class=text><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">4</FONT></DIV></TD>
+          <TD width="15%">
+            <DIV align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">13</FONT></DIV></TD>
+          <TD width="15%">
+            <DIV align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">SEL</FONT></DIV></TD>
+          <TD width="40%">
+            <DIV align=left class=text><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">1 - принтер 
+            "выбран"</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="30%">
+            <DIV align=center class=text><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">5</FONT></DIV></TD>
+          <TD width="15%">
+            <DIV align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">12</FONT></DIV></TD>
+          <TD width="15%">
+            <DIV align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">PO</FONT></DIV></TD>
+          <TD width="40%">
+            <DIV align=left class=text><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">1 - нет 
+            бумаги</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="30%">
+            <DIV align=center class=text><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">6</FONT></DIV></TD>
+          <TD width="15%">
+            <DIV align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">10</FONT></DIV></TD>
+          <TD width="15%">
+            <DIV align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">ACK</FONT></DIV></TD>
+          <TD width="40%">
+            <DIV align=left class=text><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">0 - готов к приему 
+            следующ. символа</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="30%">
+            <DIV align=center class=text><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">7 (инвертирован по 
+            отношению к сигналу на контакте разъема)</FONT></DIV></TD>
+          <TD width="15%">
+            <DIV align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">11</FONT></DIV></TD>
+          <TD width="15%">
+            <DIV align=center><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">BSY</FONT></DIV></TD>
+          <TD width="40%">
+            <DIV align=left class=text><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">0 - занят или 
+            отключен</FONT></DIV></TD></TR></TBODY></TABLE>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Листинг 
+      функции dac_out(), обеспечивающей вывод данных через параллельный порт на 
+      цифро-аналоговый преобразователь, приведен в приложении 1.</FONT></P>
+      <P align=center class=ris><IMG height=303 
+      src="Обработка аналоговых сигналов.files/obrab_signalow3.gif" 
+      width=384></P>
+      <P align=justify></P>
+      <P align=center class=ris><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Рис.3. Фрагмент 
+      принципиальной схемы, содержащий цифро-аналоговый преобразователь с 
+      выходным усилителем и НЧ-фильтром.</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>&nbsp;&nbsp;&nbsp;Для 
+      ввода данных через стандартный параллельный порт потребуются 
+      дополнительные операции, поскольку входных линий всего пять. Двоичные 
+      данные с числом разрядов больше пяти должны вводиться по частям: по четыре 
+      - пять разрядов. Так, в примере, рассматриваемом в настоящей статье, ввод 
+      восьмиразрядного кода, полученного в результате аналого-цифрового 
+      преобразования, предлагается осуществить по частям: четыре младших 
+      разряда, затем четыре старших (смотри фрагмент принципиальной схемы на 
+      рис.4 и листинг программы i_o.c в приложении 1). Передача разных данных 
+      (DO2-DO5 и DO6-DO9) по одним и тем же линиям ( SEL, PO, ACK, ERR ) 
+      возможна благодаря применению в качестве буферных регистров схем с так 
+      называемым "третьим" или Z-состоянием, в котором выходные выводы 
+      отключены, и логический уровень на них определяется внешним сигналом. 
+      Выходной каскад микросхем представляет собой два последовательно 
+      соединенных n-p-n транзистора (смотри рис.5, подробнее в [4]). Выходной 
+      логический уровень определяется состоянием транзисторов VT1 и VT2 (табл. 
+      4). <BR>&nbsp;&nbsp;&nbsp;Выход микросхем находится в Z-состоянии, если 
+      логический уровень на входе "разрешение выхода" - OE пассивный, т.е. 
+      запрещающий выход. Выходы микросхем 555ИР15 включаются, если на входе OE 
+      микросхемы присутствует логический ноль ( т.е. активным является низкий 
+      логический уровень ). Таким образом, если младший бит DP0, записанный в 
+      регистр данных параллельного порта, равен нулю, разрешена выдача младших 
+      четырех бит DO2-DO5 кода АЦП. Если единице - старших бит DO6-DO9 (в 
+      рассматриваемом примере используются восемь старших разрядов 
+      десятиразрядного АЦП КР1113ПВ1). И та, и другая четверка бит при чтении 
+      регистра состояния принтера оказывается в битах DS3-DS6 (см. 
+      рис.6).<BR>&nbsp;&nbsp;&nbsp;Как видно из рисунка, для восстановления 
+      восьмиразрядного числа необходимо после чтения из регистра состояния 
+      параллельного порта младших 4 бит сдвинуть результат вправо на 3 разряда. 
+      После чтения старших 4 бит результат нужно сдвинуть влево на 1 разряд. 
+      <BR>&nbsp;&nbsp;&nbsp;Кратко обсудим временную диаграмму, отображающую 
+      работу аналого-цифрового преобразователя &nbsp;&nbsp;&nbsp; КР1113ПВ1 
+      (подробнее см. в [5]).<BR>&nbsp;&nbsp;&nbsp;Цикл работы АЦП начинается с 
+      приходом сигнала сброса длительностью не менее 2 микросекунд на вход 
+      B&amp;C (blank&amp;conversion). При этом выходы данных DO0 - DO9 переходят 
+      в третье состояние а сигнал готовности DR принимает высокий (пассивный) 
+      уровень. Преобразование аналогового сигнала в цифровую форму начинается 
+      сразу после окончания импульса сброса и занимает не более 30 микросекунд. 
+      В течение всего этого времени напряжение на аналоговом входе АЦП IN (см. 
+      рис.4) для получения правильного результата должно поддерживаться 
+      постоянным, что обеспечивается специальной микросхемой - устройством 
+      выборки/хранения U1КР1100СК2. Во время преобразования выходы данных 
+      остаются в Z-, а сигнал готовности - в высоком состоянии. Когда 
+      преобразование завершено (АЦП работает по алгоритму последовательного 
+      приближения, см. в [5]), сигнал готовности DR устанавливается в активное 
+      низкое состояние, а на выходах DO0-DO9 появляется результат - цифровой 
+      эквивалент напряжения на входе АЦП. Данные DO0-DO9 будут присутствовать на 
+      выходах АЦП до прихода следующего импульса сброса на вход B&amp;C. Если к 
+      этому моменту времени данные не считаны каким-либо внешним устройством, 
+      результат преобразования будет утерян. В схеме на рис.4 для фиксации 
+      данных используются регистры U3,U4 КР555ИР15.</FONT></P>
+      <P align=center class=ris><IMG height=434 
+      src="Обработка аналоговых сигналов.files/obrab_signalow4.gif" 
+      width=443></P>
+      <P align=justify><SPAN class=ris><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Рис.4. Фрагмент 
+      принципиальной схемы лабораторной установки, содержащий устройство 
+      выборки/хранения (U1), аналого-цифровой преобразователь (U2) и буферные 
+      четырехразрядные регистры (U3,4).</FONT></SPAN><SPAN class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR></FONT></SPAN></P>
+      <P align=center><FONT class=ris 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=120 
+      src="Обработка аналоговых сигналов.files/obrab_signalow5_0.gif" 
+      width=122><BR>Рис.5. Выходной каскад TTL-микросхемы.</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>Таблица 4. Логический 
+      уровень выходного каскада.<BR></FONT></P>
+      <TABLE border=1 cellSpacing=0 width="50%">
+        <TBODY>
+        <TR>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">VT1</FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">VT2</FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Выход</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Открыт</FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Закрыт</FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">1</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Закрыт</FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Открыт</FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">0</FONT></DIV></TD></TR>
+        <TR>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Закрыт</FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Закрыт</FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Z</FONT></DIV></TD></TR></TBODY></TABLE>
+      <P align=center class=ris><IMG height=240 
+      src="Обработка аналоговых сигналов.files/obrab_signalow5.gif" 
+      width=375><FONT face="Verdana, Arial, Helvetica, sans-serif"><BR>Рис.6. 
+      Ввод восьмиразрядных данных через параллельный порт.<BR></FONT></P>
+      <P align=center class=ris><IMG height=163 
+      src="Обработка аналоговых сигналов.files/obrab_signalow6.gif" 
+      width=327></P>
+      <P align=center class=ris><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Рис.7. Диаграмма работы АЦП 
+      КР1113ПВ1.</FONT></P>
+      <P align=justify></P>
+      <P align=justify class=TITLE1><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><B>Дискретизация и 
+      квантование сигнала</B></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;При 
+      обсуждении аналого-цифрового преобразования и цифровой обработки сигналов 
+      невозможно обойти стороной анализ явлений <I>дискретизации и 
+      квантования</I> и их воздействие на спектр сигналов (подробнее см. в 
+      [6,7]). Операцию дискретизации мы описали в предыдущей статье 
+      "Преобразование Фурье и классический цифровой спектральный анализ", теперь 
+      поговорим о квантовании.<BR>&nbsp;&nbsp;<I>&nbsp;Цифровой</I> сигнал 
+      описывается <I>квантованной</I> дискретной функцией x<SUB>k</SUB>(nT), 
+      т.е. функцией, принимающей лишь ряд дискретных значений h<SUB>1</SUB>, 
+      h<SUB>2</SUB>, ... , h<SUB>M </SUB>- так называемых "уровней квантования". 
+      &nbsp;&nbsp;&nbsp;Последовательность x<SUB>k</SUB>(nT) можно представить 
+      как результат преобразования последовательности x(nT) функцией квантования 
+      Ф<SUB>M</SUB>(x) (cм. рис.8): <BR>&nbsp;&nbsp;&nbsp;x<SUB>k</SUB>(nT)= 
+      Ф<SUB>M</SUB>[x(nT)]. <BR>&nbsp;&nbsp;&nbsp;Число уровней квантования M = 
+      2<SUP>N</SUP>, где N - число двоичных разрядов (бит) в представлении 
+      сигнала. <BR>&nbsp;&nbsp;&nbsp;Цифровой сигнал тем точнее представляет 
+      соответствующий дискретный сигнал, чем больше уровней квантования и, 
+      соответственно, разрядов цифрового представления данных. В настоящей 
+      статье рассматриваются 8-разрядные данные, обеспечивающие 256 уровней 
+      квантования. Разность между квантованным и неквантованным сигналом 
+      e(nT)=x<SUB>k</SUB>(nT) - x(nT) называется шумом квантования. Если 
+      записать последнее выражение как x<SUB>k</SUB>(nT)=x(nT)+e(nT), то станет 
+      ясно, что в любой цифровой системе обрабатывается не "чистый" дискретный 
+      сигнал, а его смесь с шумом квантования.<BR>&nbsp;&nbsp;&nbsp;Шум 
+      квантования равномерно распределен в интервале [0,h] 
+      (h=h<SUB>n</SUB>-h<SUB>n-1</SUB> - шаг квантования), его дисперсия равна 
+      h<SUP>2</SUP>/12. &nbsp;&nbsp;&nbsp;Шум квантования некоррелирован с 
+      сигналом и имеет постоянную спектральную плотность. Поэтому график 
+      типичного спектра гармонического сигнала, преобразованного с помощью АЦП в 
+      цифровую форму имеет вид, изображенный на рис.9. Относительный уровень 
+      шумового пьедестала спектра определяется, естественно, разрядностью 
+      цифрового представления сигнала. Отношение сигнал/шум определяется как 
+      частное от деления мощности сигнальной компоненты спектра на сумму 
+      мощностей шумовых компонент спектра (равную дисперсии шума квантования) в 
+      полосе частот от нуля до половины частоты выборки.<BR>&nbsp;&nbsp;&nbsp;В 
+      приложении 1 приведены примеры программ, позволяющих осуществить ввод и 
+      вывод аналогового сигнала с помощью простейших схем, изображенных на 
+      рис.3,4.</FONT></P>
+      <TABLE border=0 cellSpacing=0 width="90%">
+        <TBODY>
+        <TR>
+          <TD width="50%">
+            <DIV align=center>
+            <P class=ris><IMG height=192 
+            src="Обработка аналоговых сигналов.files/obrab_signalow8.gif" 
+            width=241></P>
+            <P class=ris><FONT face="Verdana, Arial, Helvetica, sans-serif">Рис. 
+            8. Функция квантования</FONT></P></DIV></TD>
+          <TD width="50%">
+            <DIV align=center>
+            <P><IMG height=125 
+            src="Обработка аналоговых сигналов.files/obrab_signalow9.gif" 
+            width=264></P>
+            <P class=text><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Рис.9. График спектра 
+            гармонического сигнала, преобразованного с помощью АЦП в цифровую 
+            форму. (Длина выборки выбрана кратной периоду сигнала для устранения 
+            явления "растекания спектра", обусловленного 
+            взвешиванием).</FONT></P></DIV></TD></TR></TBODY></TABLE>
+      <P align=right class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR></FONT></P>
+      <P align=right class=text><B><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>П Р И Л О Ж Е Н И Е 
+      1</FONT></B></P>
+      <P align=center class=text><B><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Листинги 
+      программ.</FONT></B></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Программа 
+      ввода/вывода сигналов I_O.C.</FONT></P>
+      <TABLE border=0 cellSpacing=0 width="90%">
+        <TBODY>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">#include 
+            &lt;dos.h&gt;<BR>#define DP 0x378<BR>#define STA DP+1<BR>#define CLA 
+            DP+2 </FONT></B></TD>
+          <TD width="60%">&nbsp;</TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">void main()<BR>{<BR>int 
+            i,Ndata; <BR>unsigned char adc,adc_low,adc_high;<BR>unsigned char 
+            array[512];<BR>Ndata=512;</FONT></B></TD>
+          <TD width="60%">&nbsp;</TD></TR>
+        <TR>
+          <TD class=text width="40%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><BR>/* цикл ввода 
+            сигнала */ </FONT></TD>
+          <TD width="60%">&nbsp;</TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><BR>for(i=0;i&lt;Ndata; 
+            i++ )<BR>{ </FONT></B></TD>
+          <TD width="60%">&nbsp;</TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">while((inportb(STA)&amp;0x80)==0);</FONT></B></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* пока АЦП не готов, 
+            ничего не делаем */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">outportb(DP,0);</FONT></B></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* разрешаем выдачу 
+            младшего полубайта */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">adc_low=( 
+            inportb(STA)&amp;0x78 ) &gt;&gt; 3;</FONT></B></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* вводим младший 
+            полубайт,выделяем нужные биты иставим их "на место" */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">outportb(DP,1);&nbsp;</FONT></B></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* разрешаем выдачу 
+            старшего полубайта */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">adc_high=( 
+            inportb(STA)&amp;0x78 ) &lt;&lt; 1;</FONT></B></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* вводим старший 
+            полубайт,выделяем нужные биты иставим их "на место" */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">adc=adc_low|adc_high; 
+            </FONT></B></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* объединяем младший и 
+            старший полубайты */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">array[i]=adc;</FONT></B></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* заполняем элемент 
+            массива */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><BR>dac_out(adc);</FONT></B></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* вывод сигнала 
+            */</FONT></TD></TR>
+        <TR>
+          <TD width="40%">&nbsp;</TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* АЦП может быть все 
+            еще готов! Если перейдем в начало цикла, то введем еще раз те же 
+            данные! Поэтому ... */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">while((inportb(STA)&amp;0x80)!=0); 
+            </FONT></B></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* пока АЦП готов, 
+            ничего не делаем &nbsp;&nbsp;&nbsp;*/</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">}</FONT></B></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* конец цикла ввода 
+            сигнала */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* Массив array 
+            заполнен выборками сигнала */</FONT></TD>
+          <TD width="60%">&nbsp;</TD></TR>
+        <TR>
+          <TD class=text width="40%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><BR><B>} </B></FONT></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* конец функции main() 
+            */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><BR>/* функция вывода 
+            данных на ЦАП */</FONT></TD>
+          <TD width="60%">&nbsp;</TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><BR>void dac_out(byte 
+            data) { </FONT></B></TD>
+          <TD width="60%">&nbsp;</TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">outportb(DP,data);</FONT></B></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* запись выборки в 
+            регистр данных порта принтера */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">outportb(CLA, 
+            inportb(CLA)|1 );</FONT></B></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><BR>/* формирование 
+            строба STB */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">outportb(CLA, 
+            inportb(CLA)&amp;0xfe );</FONT></B></TD>
+          <TD class=text width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* снятие строба 
+            */<BR>/* теперь данные записаны в регистр ЦАП */ </FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">} </FONT></B></TD>
+          <TD width="60%">&nbsp;</TD></TR></TBODY></TABLE>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp; 
+      &nbsp;&nbsp;<BR>&nbsp;&nbsp;&nbsp;Программа генерации сигналов 
+      GENERAT.C.</FONT></P>
+      <TABLE border=0 cellSpacing=0 width="90%">
+        <TBODY>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">#include 
+            &lt;dos.h&gt;</FONT></B></TD>
+          <TD class=text vAlign=top width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* включение файла с 
+            используемыми функциями */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">void main()<BR>{<BR>int 
+            i,Ndata;<BR>byte array[512];<BR>float 
+            freq=10;<BR>Ndata=512;</FONT></B></TD>
+          <TD vAlign=top width="60%">&nbsp;</TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">for(i=0;i&lt;Ndata;i++) 
+            <BR>array[i]=(byte)(127*cos(2* M_PI*freq*i/Ndata)+1.);</FONT></B></TD>
+          <TD class=text vAlign=top width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* заполнение массива 
+            одним периодом сигнала */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><BR>/* цикл вывода 
+            сигнала */</FONT></TD>
+          <TD vAlign=top width="60%">&nbsp;</TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">for(;;)<BR>for(i=0;i&lt;Ndata; 
+            i++ )<BR>{</FONT></B></TD>
+          <TD class=text vAlign=top width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* сигнал готовности 
+            АЦП используется для задания частоты вывода данных */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">while((inportb(STA)&amp;0x80)==0);<BR>while((inportb(STA)&amp;0x80)!=0);</FONT></B></TD>
+          <TD class=text vAlign=top width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">/* пока АЦП не готов, 
+            ничего не делаем */ <BR>/* пока АЦП готов, ничего не делаем 
+          */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">dac_out(array[i]);</FONT></B></TD>
+          <TD vAlign=top width="60%">&nbsp;</TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">}</FONT></B></TD>
+          <TD class=text vAlign=top width="60%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><BR>/* конец цикла 
+            вывода сигнала */</FONT></TD></TR>
+        <TR>
+          <TD class=text width="40%"><B><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">}</FONT></B></TD>
+          <TD vAlign=top width="60%">&nbsp;</TD></TR></TBODY></TABLE>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp; <BR></FONT></P>
+      <P align=justify></P>
+      <P align=center class=TITLE1><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><B>Л и т е р а т у р 
+      а</B></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">1. Питер Нортон, Кори 
+      Сандлер, Том Баджет, Персональный компьютер изнутри. М.: Бином, 
+      1995.<BR>2. Левкин Г.Н., Левкина В.Е. Введение в схемотехнику ПЭВМ IBM AT. 
+      М.:МПИ, 1991.<BR>3. Джордейн. Справочник программиста персонального 
+      компьютера IBM PC. <BR>4. Ред. Якубовский С.В. Аналоговые и цифровые 
+      интегральные схемы. М.:Радио и связь, 1985.<BR>5. Федорков Б.Г., Телец 
+      В.А. Микросхемы ЦАП и АЦП. М.:Энегроатомиздат, 1990.<BR>6. Рабинер Л., 
+      Гоулд Б. Теория и применение цифровой обработки сигналов. М.:Мир, 
+      1978.<BR>7. Марпл-мл. С.Л. Цифровой спектральный анализ и его приложения: 
+      Пер. с англ. -М.: Мир, 1990.<BR>8. Кенуорси К. Параллельный порт учится 
+      новым фокусам. Мир ПК, 7-8, 1995. </FONT></P>
+      <P align=justify></P>
+      <TABLE border=0 cellSpacing=0 width=200>
+        <TBODY>
+        <TR>
+          <TD align=middle bgColor=#003300 colSpan=2 height=2></TD></TR>
+        <TR>
+          <TD align=middle height=15 width="10%"><A 
+            href="http://www.vibration.ru/obrab_signalow.shtml#top"><IMG 
+            border=0 height=41 
+            src="Обработка аналоговых сигналов.files/strelka1.gif" 
+          width=31></A></TD>
+          <TD align=middle height=15>
+            <DIV align=left><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><A 
+            href="http://www.vibration.ru/obrab_signalow.shtml#top">В начало 
+            статьи</A></FONT></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><TR><TD 
+height="5" valign="middle" bgcolor="#CCCCCC">
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD background="Обработка аналоговых сигналов.files/gray16_04.gif" height=5 
+    width="100%"></TD></TR></TBODY></TABLE></TD></TR>
+<TABLE align=center border=0 cellPadding=0 cellSpacing=0 width="100%">
+  <TBODY>
+  <TR bgColor=#cccccc>
+    <TD height=20 vAlign=center width=25><FONT color=white 
+      face=Verdana><SMALL><SMALL><FONT color=#333333><B><IMG height=10 
+      src="Обработка аналоговых сигналов.files/email.gif" width=20> 
+      <BR></B></FONT></SMALL></SMALL></FONT></TD>
+    <TD height=20 vAlign=center><FONT color=white 
+      face=Verdana><SMALL><SMALL><FONT color=#333333><B><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif" size=1>Ваши отзывы и 
+      предложения ждем по адресу:<A href="mailto:info@encotes.ru"><FONT 
+      color=#333333 bgcolor="#330099"> 
+      info@encotes.ru</FONT></A></FONT></B></FONT></SMALL></SMALL></FONT></TD>
+    <TD align=right height=20 width=344>
+      <DIV align=right><FONT color=white face=Verdana><SMALL><SMALL><FONT 
+      color=#333333><B><FONT size=1>Cайт поддерживается ООО 
+      "ИНКОТЕС"</FONT></B></FONT></SMALL></SMALL></FONT></DIV></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD background="Обработка аналоговых сигналов.files/gray16_04.gif" height=5 
+    width="100%"></TD></TR></TBODY></TABLE></BODY></HTML>

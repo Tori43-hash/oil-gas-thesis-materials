@@ -1,0 +1,745 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Mask,math, Buttons, ExtCtrls, Grids, ValEdit, Menus;
+
+type
+  TForm1 = class(TForm)
+    t_N_dv: TMaskEdit;
+    t_nn_dv: TMaskEdit;
+    t_h1: TMaskEdit;
+    t_h2: TMaskEdit;
+    OpenDialog1: TOpenDialog;
+    qskv: TStaticText;
+    StaticText1: TStaticText;
+    StaticText2: TStaticText;
+    StaticText3: TStaticText;
+    Bevel1: TBevel;
+    Bevel2: TBevel;
+    SB1: TSpeedButton;
+    Bevel3: TBevel;
+    SB2: TSpeedButton;
+    VLE1: TValueListEditor;
+    Label1: TLabel;
+    Bevel4: TBevel;
+    VLE2: TValueListEditor;
+    Label2: TLabel;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure SB1Click(Sender: TObject);
+    procedure FormActivate(Sender: TObject);
+    procedure SB2Click(Sender: TObject);
+    procedure N1Click(Sender: TObject);
+    procedure FormPaint(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+peregr,peregr1:real;
+i_2:integer;
+i_1:real;
+s_1:string[2];
+koef,x,y,x1,x3,x4,x5,x6,x7,x8,x9,x10,
+y1,y2,y3,y7,y9:real;
+l_fas:real;
+f,f1:textfile;
+
+  s,s1:string;
+cod:integer;
+cod1:real;
+{2.4}
+n_vr,h1,n_dv,nn_dv,i12,h2,n_vh,n1,n2,n_vih,w1,w2,t1,t2:real;
+{2.5}
+h_hb,n_h_limb12,n_he_1,n_he_2,q_1,q_2,z_n1,z_n2,
+sigma_h1,sigma_h2,sigma_hr,k_h_betta,k_a,w_sht_ba,a_w,w_sht_bd,b_w,
+m:real;
+{2.2.5}
+betta,cos_betta,z_sum,z_1,z_2,a_w_tochn:real;
+{2.1.11}
+alfa_tw,alfa_t,x_1,x_2,d_1,d_2,d_w1,d_w2,d_f1,d_f2,d_a1,d_a2,d_b1,d_b2,alfa_ta1,
+alfa_ta2,E_alfa:real;
+{2.1.13}
+z_r,y_E,k_falfa,z_E,P_x,E_betta,betta_b,v,z_h,delta_h,g_0,w_hv,w_fv,w_bd,
+k_hbetta, k_fbetta,f_t,k_hv,k_halfa,k_h,step_toch1,z_x,sigma_h,sigma_hr_ut,
+ z_v,b_2,b_1,z_nu1,z_nu2,y_f,y_betta,delta_f,k_fv,k_f,sigma_f1,
+ sigma_f2,y_r,y_x1,y_x2,y_a,y_z,y_g,y_d,s_f,sigma_f_limb1,sigma_f_limb2,
+ n_f_limb,n_fe_1,n_fe_2,y_n1,y_n2,sigma_f_pred1,sigma_f_pred2:real;
+
+
+
+ implementation
+
+uses Unit2, Unit3, Unit4;
+
+{$R *.dfm}
+procedure valrasch;
+var d1,d2,rast,R_ax,R_ay,M_c,D_c,D_a:real;
+begin
+
+
+rast:=83*0.001;
+d2:=t2*/(0.2*25);
+d2:=ln(d2);
+d2:=3*d2;
+d2:=exp(d2);
+d2:=d2*0.01;
+R_ax:=2*t2/d2*tan(20)/cos(betta);
+R_ay:=2*t2/d2;
+M_c:=rast*sqrt(sqr(rast*R_ax)+sqr(rast*R_ay));
+D_c:=exp(3*ln(M_c/(0.1*80000000)));
+D_a:=exp(3*ln(t1/(0.2*80000000)));
+str(round(D_c*1000),s);
+form1.vle1.Values['Диаметр вала']:=s;
+str(round(D_a*1000),s);
+form1.vle1.Values['Диаметр подшипника']:=s;
+d1:=exp(3*ln(t1/(0.2*25000000)));
+d2:=exp(3*ln(t2/(0.2*25000000)));
+rast:=83*0.001;
+R_ax:=2*t2/d2*tan(20)/cos(betta);
+R_ay:=2*t2/d2;
+M_c:=rast*sqrt(t2+sqr(rast*R_ax)+sqr(rast*R_ay));
+D_c:=exp(3*ln(M_c/(0.1*80000000)));
+D_a:=exp(3*ln(t1/(0.2*80000000)));
+str(round(D_c*1000),s);
+form1.vle2.Values['Диаметр вала']:=s;
+str(round(D_a*1000),s);
+form1.vle2.Values['Диаметр подшипника']:=s;
+
+end;
+{рисование}
+procedure chertesh;
+type
+s_koord=string[6];
+var
+bol: boolean;
+xx:integer;
+procedure podg_fila;
+  var i,xx:integer;
+      s:string;
+  begin
+  bol:=true;
+  if form1.openDialog1.Execute then
+    begin
+    if form1.openDialog1.filename='C:\Мои документы\chert_nach.dxf' then
+    begin
+    form4.st1.caption:='Файл шаблона! Выберете другой файл.';
+    form4.ShowModal;
+    bol:=false;
+    end;
+    if bol then
+    begin
+    assignfile(f,form1.openDialog1.filename+'.dxf');
+    assignfile(f1,'c:\Мои документы\chert_nach.dxf');
+    Rewrite(F);
+    reset(f1);
+       while not Eof(F1) do
+       begin
+        Readln(F1, s);
+        Writeln(F,s);
+       end;
+    closefile(f1);
+    end;
+    end
+    else
+    bol:=false;
+  end;
+
+    procedure kones_fila;
+  var i:integer;
+  begin
+writeln(f,'ENDSEC');
+writeln(f,'  0');
+write(f,'EOF');
+closefile(f);
+  end;
+  procedure osn_linia(xx,yy,xx1,yy1:real);
+   begin
+writeln(f,'LINE');
+writeln(f,'  8');
+writeln(f,'LAYER0VIEW0');
+writeln(f,'  6');
+writeln(f,'K5LT_BASIC');
+writeln(f,'  62');
+writeln(f,'     5');
+writeln(f,'  10');
+writeln(f,xx:3:4);
+writeln(f,'  20');
+writeln(f,yy:3:4);
+writeln(f,'  30');
+writeln(f,'0.0000');
+writeln(f,'  11');
+writeln(f,xx1:3:4);
+writeln(f,'  21');
+writeln(f,yy1:3:4);
+writeln(f,'  31');
+writeln(f,'0.0000');
+writeln(f,'  0');
+   end;
+  procedure tonkaya_linia(xx,yy,xx1,yy1:real);
+   begin
+   form1.Canvas.moveto(round(xx),round(yy));
+   form1.Canvas.lineto(round(xx1),round(yy1));
+   end;
+  procedure osevaya_linia(xx,yy,xx1,yy1:real);
+   begin
+writeln(f,'LINE');
+writeln(f,'  8');
+writeln(f,'LAYER0VIEW0');
+writeln(f,'  6');
+writeln(f,'K5LT_AXLED');
+writeln(f,'  62');
+writeln(f,'     7');
+writeln(f,'  10');
+writeln(f,xx:3:4);
+writeln(f,'  20');
+writeln(f,yy:3:4);
+writeln(f,'  30');
+writeln(f,'0.0000');
+writeln(f,'  11');
+writeln(f,xx1:3:4);
+writeln(f,'  21');
+writeln(f,yy1:3:4);
+writeln(f,'  31');
+writeln(f,'0.0000');
+writeln(f,'  0');
+   end;
+
+begin
+podg_fila;
+if bol then
+begin
+osn_linia(x+x1,y+y1,x+x1,y+y2);
+osn_linia(x+x1,y+y2,x+x3,y+y3);
+osn_linia(x+x3,y+y3,x+x4,y+y3);
+osn_linia(x+x4,y+y3,x+x6,y+y2);
+osn_linia(x+x6,y+y2,x+x6,y+y1);
+osn_linia(x+x1,y+y9,x+x6,y+y9);
+osevaya_linia(x+x1-5,y+y1,x+x1+1000*b_1+5,y+y1);
+osevaya_linia(x+x1-5,y+y7,x+x1+1000*b_1+5,Y+y7);
+
+xx:=300;
+x:=100;
+y:=393;
+x1:=0;
+y1:=0;
+x9:=x1;
+y9:=1000*d_f2/2;
+x6:=1000*b_2;
+x5:=x6;
+l_fas:=1000*(d_a2-d_2)/2;
+if l_fas<1 then l_fas:=0 else
+if l_fas<1.6 then l_fas:=1 else
+if l_fas<2.5 then l_fas:=1.6 else
+if l_fas>2.5 then l_fas:=2.5;
+y2:=1000*d_a2/2-l_fas;
+x3:=l_fas;
+y3:=1000*d_a2/2;
+x4:=1000*b_2-l_fas;
+y7:=1000*d_2/2;
+osn_linia(xx+x1,y+y1,xx+x1,y+y2);
+osn_linia(xx+x1,y+y2,xx+x3,y+y3);
+osn_linia(xx+x3,y+y3,xx+x4,y+y3);
+osn_linia(xx+x4,y+y3,xx+x6,y+y2);
+osn_linia(xx+x6,y+y2,xx+x6,y+y1);
+osn_linia(xx+x1,y+y9,xx+x6,y+y9);
+osevaya_linia(xx+x1-5,y+y1,xx+x1+1000*b_1+5,y+y1);
+osevaya_linia(xx+x1-5,y+y7,xx+x1+1000*b_1+5,Y+y7);
+
+
+
+kones_fila;
+end;
+end;
+
+procedure TForm1.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+form3.show ;
+form1.Hide;
+
+end;
+procedure ris;
+label l1,l2;
+ procedure osn_linia(xx,yy,xx1,yy1:real);
+ begin
+ form1.Canvas.Pen.Color:=clblue;
+ form1.Canvas.Pen.style:=psSolid;
+ form1.Canvas.MoveTo(round(xx),round(yy));
+ form1.Canvas.LineTo(round(xx1),round(yy1));
+ end;
+  procedure osevaya_linia(xx,yy,xx1,yy1:real);
+ begin
+ form1.Canvas.Pen.Color:=clblack;
+ form1.Canvas.Pen.style:=psDashDotDot;
+ form1.Canvas.MoveTo(round(xx),round(yy));
+ form1.Canvas.LineTo(round(xx1),round(yy1));
+ end;
+
+begin
+{инициализация начальных данных}
+form1.canvas.Brush.Color:=clwhite;
+form1.Canvas.pen.color:=cllime;
+form1.Canvas.Pen.style:=psSolid;
+form1.Canvas.Rectangle(24,272,24+361,272+241);
+peregr:=1;
+form1.sb2.Enabled:=true;
+val(form1.t_h1.Text,h1,cod);
+val(form1.t_h2.Text,h2,cod);
+val(form1.t_n_dv.Text,n_dv,cod);
+val(form1.t_nn_dv.Text,nn_dv,cod);
+a_w:=0.10125;
+val(form3.maskedit22.Text,n_vr,cod);
+
+i12:=nn_dv/(10.08*n_vr);
+
+{2.4}
+n_vh:=n_dv*99/100;
+n1:=n_vh*0.99;
+n2:=n1*0.99*0.96;
+n_vih:=n2*0.99;
+
+w1:=pi*nn_dv/30;
+w2:=w1/i12;
+
+t1:=n_dv/w1*0.99*0.99;
+t2:=t1*0.96*i12;
+
+{2.5 }
+h_hb:=0.5*(h1+h2);
+n_h_limb12:=30*exp(2.4*ln(h_hb));
+{lh-10 let}
+n_he_1:=60*(10*365*24*60)*w1*30/pi;
+n_he_2:=60*(10*365*24*60)*w2*30/pi;
+if n_he_1<=n_h_limb12 then q_1:=6 else q_1:=20;
+if n_he_2<=n_h_limb12 then q_2:=6 else q_2:=20;
+z_n1:=exp(1/q_1*ln(n_h_limb12/n_he_1));
+z_n2:=exp(1/q_2*ln(n_h_limb12/n_he_2));
+sigma_h1:=(2*h1+70)*z_n1/1.1*0.9*1000000;
+sigma_h2:=(2*h2+70)*z_n2/1.1*0.9*1000000;
+sigma_hr:=0.45*(sigma_h1+sigma_h2);
+if  sigma_h1<sigma_h2 then
+ begin
+ if (sigma_hr<sigma_h1) then sigma_hr:=sigma_h1;
+ if (sigma_hr>(1.23*sigma_h1)) then sigma_hr:=1.23*sigma_h1;
+ end;
+if  sigma_h1>sigma_h2 then
+ begin
+ if (sigma_hr<sigma_h2) then sigma_hr:=sigma_h2;
+ if (sigma_hr>(1.23*sigma_h2)) then sigma_hr:=1.23*sigma_h2;
+ end;
+
+ {2.2 metodichkf}
+k_h_betta:=1.04;
+k_a:=4300;{косозубая передача}
+w_sht_ba:=t1*k_h_betta/(sqr(sigma_hr)*i12)*exp(3*ln(k_a*(i12+1)/a_w));
+w_sht_bd:=0.5*w_sht_ba*(i12+1);
+if w_sht_bd>1.4 then
+  begin
+  form4.st1.caption:='w_sht_bd>1.4';
+  form4.showmodal;
+  goto l2;
+  end;
+b_w:=a_w*w_sht_ba;
+l1:
+if peregr=1 then  m:=b_w/27 else m:=m*1000*1/peregr;
+if m<1.5 then m:=1.5 else
+if m<2.0 then m:=2.0 else
+if m<2.5 then m:=2.5 else
+if m<3 then m:=3 else
+if m<4 then m:=4 else
+if m<5 then m:=5 else
+if m<6 then m:=6 else
+if m<8 then m:=8 else
+if m<10 then m:=10 else
+if m<12 then m:=12 else
+if m<16 then m:=16 else
+if m<20 then m:=20 else
+if m<25 then m:=25 else
+if m<32 then m:=32 else
+if m<40 then m:=40 else
+if m<50 then m:=50 else
+if m<60 then m:=60 else
+if m<80 then m:=80;
+m:=m*0.001;
+
+{2.2.5 }
+
+betta:=12;
+cos_betta:=cos(betta*pi/180);
+z_sum:=2*a_w*cos_betta/m;
+z_1:=round(z_sum/(i12+1));
+z_2:=round(z_1*i12);
+a_w_tochn:=m*(z_1+z_2)/(2*cos_betta);
+cod1:=a_w_tochn-a_w;
+
+if abs(cod1)>0.00001 then
+  begin
+  cos_betta:=m*Z_sum/(2*a_w);
+  if cos_betta>1 then
+  begin
+  form4.st1.caption:='Косинус БЕТТА>0';
+  form4.showmodal;
+  goto l2;
+  end;
+  betta:=arccos(cos_betta)*180/pi;
+  end;
+
+{2.1.11}
+alfa_tw:=arctan(tan(20)/cos_betta);
+alfa_t:=alfa_tw;
+x_1:=0;
+x_2:=0;
+d_1:=m*z_1/cos_betta;
+d_2:=m*z_2/cos_betta;
+d_w1:=2*a_w*z_1/(z_1+z_2);
+d_w2:=2*a_w*z_2/(z_1+z_2);
+d_f1:=d_1-2*m*(1.25-x_1);
+d_f2:=d_2-2*m*(1.25-x_2);
+d_a1:=2*a_w-d_f2-0.5*m;
+d_a2:=2*a_w-d_f1-0.5*m;
+d_b1:=d_1*cos(alfa_t);
+d_b2:=d_2*cos(alfa_t);
+alfa_ta1:=arccos(d_b1/d_a1);
+alfa_ta2:=arccos(d_b2/d_a2);
+E_alfa:=
+(z_1*(tan(alfa_ta1)-tan(alfa_tw))+z_2*(tan(alfa_ta2)-tan(alfa_tw)))/(2*pi);
+P_x:=pi*m*sin(betta*pi/180);
+E_betta:=b_w/P_x;
+betta_b:=arcsin(sin(betta*pi/180)*cos(20));
+v:=pi*d_w1*nn_dv/60;
+if v<10 then step_toch1:=8 else step_toch1:=7;
+
+{2.1.13}
+
+z_h:=1/cos(alfa_t)*sqrt(2*cos(betta_b)/tan(alfa_tw));
+if E_betta<1 then z_E:=sqrt( ((4-E_alfa)*(1-E_betta))/3+E_betta/E_alfa ) else
+z_E:=sqrt(1/E_alfa);
+delta_h:=0.02;
+if m<3.55 then
+ begin
+ if step_toch1=7 then
+  begin
+  g_0:=4.7;
+  w_hv:=240;
+  w_fv:=240;
+  end;
+ if step_toch1=8 then
+  begin
+  g_0:=5.6;
+  w_hv:=380;
+  w_fv:=380;
+  end;
+ end;
+if (m>=3.55)and(m<10)then
+ begin
+ if step_toch1=7 then
+  begin
+  g_0:=5.3;
+  w_hv:=310;
+  w_fv:=310;
+  end;
+ if step_toch1=8 then
+  begin
+  g_0:=6.1;
+  w_hv:=410;
+  w_fv:=410;
+  end;
+  end;
+if m>10 then
+ begin
+ if step_toch1=7 then
+  begin
+  g_0:=6.4;
+  w_hv:=450;
+  w_fv:=450;
+  end;
+ if step_toch1=8 then
+  begin
+  g_0:=7.3;
+  w_hv:=590;
+  w_fv:=590;
+  end;
+ end;
+
+w_bd:=b_w/d_w1;
+if w_bd<0.2 then
+  begin
+  k_hbetta:=1;
+  k_fbetta:=1;
+  end else
+if w_bd<0.4 then
+  begin
+  k_hbetta:=1;
+  k_fbetta:=1.01;
+  end else
+if w_bd<0.6 then
+  begin
+  k_hbetta:=1.01;
+  k_fbetta:=1.02;
+  end else
+if w_bd<0.8 then
+  begin
+  k_hbetta:=1.03;
+  k_fbetta:=1.05;
+  end else
+if w_bd<1 then
+  begin
+  k_hbetta:=1.4;
+  k_fbetta:=1.8;
+  end else
+if w_bd<1.2 then
+  begin
+  k_hbetta:=1.05;
+  k_fbetta:=1.1;
+  end else
+if w_bd<1.4 then
+  begin
+  k_hbetta:=1.07;
+  k_fbetta:=1.13;
+  end else
+if w_bd<1.6 then
+  begin
+  k_hbetta:=1.8;
+  k_fbetta:=1.16;
+  end else
+if w_bd>1.6 then
+  begin
+  k_hbetta:=1.8;
+  k_fbetta:=1.16;
+  end;
+w_hv:=delta_h*g_0*v*sqrt(a_w/i12);
+f_t:=2*t1/d_1;
+k_hv:=1+(w_hv*b_w)/(f_t*1);
+k_halfa:=1.35;
+k_h:=1*k_hv*k_halfa*k_hbetta;
+if step_toch1=7 then z_r:=1;
+if step_toch1=8 then z_r:=0.9;
+z_x:=1;
+if v<5 then z_v:=1 else z_v:=0.85*exp(0.1*ln(v));
+sigma_h:=190*z_h*z_E*sqrt((f_t*k_h*(i12+1))/(b_w*d_2));
+sigma_hr_ut:=sigma_hr*z_r*z_x*z_v/0.9;
+if sigma_h>1.05*sigma_hr_ut then
+ begin
+ {предупреждение}
+ form4.ST1.Caption:='Условие контактной выносливости не выполнено';
+ form1.Show;form4.Hide;
+ goto l2;
+ end;
+
+{2.1.16}
+
+b_2:=round(b_w*1000000)/1000000;
+b_1:=b_2+0.004;
+z_nu1:=z_1/sqr(cos(betta*pi/360));
+z_nu2:=z_2/sqr(cos(betta*pi/360));
+if z_1<17 then y_f:=4.28 else
+if z_1<20 then y_f:=4.08 else
+if z_1<25 then y_f:=3.9 else
+if z_1<30 then y_f:=3.80 else
+if z_1<40 then y_f:=3.70 else
+if z_1<50 then y_f:=3.65 else
+if z_1<60 then y_f:=3.62 else
+if z_1>60 then y_f:=3.60;
+y_betta:=1-E_betta*betta/120.;
+if y_betta<0.7 then y_betta:=0.7;
+if E_betta<1 then y_E:=(0.2+0.8/E_alfa) else y_E:=1/E_alfa;
+delta_f:=0.06;
+w_fv:=delta_f*g_0*v*sqrt(a_w/i12);
+k_fv:=1+w_fv*b_w/f_t;
+k_falfa:=1.35;
+k_f:=k_fv*k_falfa*k_fbetta;
+sigma_f1:=f_t*k_f/(b_1*m)*y_f*y_betta*y_E;
+sigma_f2:=f_t*k_f/(b_2*m)*y_f*y_betta*y_E;
+
+{2.1.17}
+
+y_r:=1.2;
+y_x1:=1/05-0.000125*d_1;
+y_x2:=1/05-0.000125*d_2;
+y_a:=1;
+y_z:=1;
+y_g:=1.1;
+y_d:=1;
+s_f:=1.7;
+sigma_f_limb1:=1.75*h1;
+sigma_f_limb2:=1.75*h2;
+n_f_limb:=4000000;
+
+n_fe_1:=60*(10*365*24{*60})*w1*30/pi;
+n_fe_2:=60*(10*365*24{*60})*w2*30/pi;
+if n_fe_1<=n_f_limb then q_1:=6 else q_1:=20;
+if n_fe_2<=n_f_limb then q_2:=6 else q_2:=20;
+y_n1:=exp(1/q_1*ln(n_f_limb/n_fe_1));
+y_n2:=exp(1/q_2*ln(n_f_limb/n_fe_2));
+sigma_f_pred1:=(sigma_f_limb1*1000000)*y_n1/s_f*y_r*y_x1*y_a*y_z*y_g*y_d;
+sigma_f_pred2:=(sigma_f_limb2*1000000)*y_n2/s_f*y_r*y_x2*y_a*y_z*y_g*y_d;
+if sigma_f1>1.05*sigma_f_pred1 then
+begin
+ {предупреждение}
+ peregr1:=peregr;
+ peregr:=(1.05*sigma_f_pred1)/sigma_f1;
+ if (peregr<>1) and (peregr1>peregr) then goto l1
+ else
+ begin
+ form4.ST1.Caption:='Условие изгибной прочности не выполнено 1';
+ form4.showmodal;
+ goto l2;
+ end;
+end;
+if sigma_f2>1.05*sigma_f_pred2 then
+begin
+ {предупреждение}
+ peregr1:=peregr;
+ peregr:=(1.05*sigma_f_pred2)/sigma_f2;
+ if (peregr<>1) and (peregr1>peregr) then goto l1
+ else
+ begin
+ form4.ST1.Caption:='Условие изгибной прочности не выполнено 2';
+ form4.showmodal;
+ goto l2;
+ end;
+end;
+
+i_1:=Frac(d_a1*1000);
+str(i_1,s_1);
+i_2:=trunc(d_a1*1000);
+str(i_2,s);
+s:=s+','+s_1;
+form1.vle1.Values['d_a']:=s;
+i_1:=Frac(d_f1*1000);
+str(i_1,s_1);
+i_2:=trunc(d_f1*1000);
+str(i_2,s);
+s:=s+','+s_1;
+form1.vle1.Values['d_f']:=s;
+i_1:=Frac(d_1*1000);
+str(i_1,s_1);
+i_2:=trunc(d_1*1000);
+str(i_2,s);
+s:=s+','+s_1;
+form1.vle1.Values['d']:=s;
+i_1:=Frac(b_1*1000);
+str(i_1,s_1);
+i_2:=trunc(b_1*1000);
+str(i_2,s);
+s:=s+','+s_1;
+form1.vle1.Values['b']:=s;
+
+i_1:=Frac(d_a2*1000);
+str(i_1,s_1);
+i_2:=trunc(d_a2*1000);
+str(i_2,s);
+s:=s+','+s_1;
+form1.vle2.Values['d_a']:=s;
+i_1:=Frac(d_f2*1000);
+str(i_1,s_1);
+i_2:=trunc(d_f2*1000);
+str(i_2,s);
+s:=s+','+s_1;
+form1.vle2.Values['d_f']:=s;
+i_1:=Frac(d_2*1000);
+str(i_1,s_1);
+i_2:=trunc(d_2*1000);
+str(i_2,s);
+s:=s+','+s_1;
+form1.vle2.Values['d']:=s;
+i_1:=Frac(b_2*1000);
+str(i_1,s_1);
+i_2:=trunc(b_2*1000);
+str(i_2,s);
+s:=s+','+s_1;
+form1.vle2.Values['b']:=s;
+
+x:=100;
+y:=393;
+x1:=0;
+y1:=0;
+x9:=x1;
+y9:=1000*d_f1/2;
+x6:=1000*b_1;
+x5:=x6;
+l_fas:=1000*(d_a1-d_1)/2;
+if l_fas<1 then l_fas:=0 else
+if l_fas<1.6 then l_fas:=1 else
+if l_fas<2.5 then l_fas:=1.6 else
+if l_fas>2.5 then l_fas:=2.5;
+y2:=1000*d_a1/2-l_fas;
+x3:=l_fas;
+y3:=1000*d_a1/2;
+x4:=1000*b_1-l_fas;
+y7:=1000*d_1/2;
+if (2*y3>x4-x3) then koef:=221/(2*y3)
+else koef:=200/(x4-x3);
+
+osn_linia(x+koef*x1,y+koef*y1,x+koef*x1,y+koef*y2);
+osn_linia(x+koef*x1,y+koef*y2,x+koef*x3,y+koef*y3);
+osn_linia(x+koef*x3,y+koef*y3,x+koef*x4,y+koef*y3);
+osn_linia(x+koef*x4,y+koef*y3,x+koef*x6,y+koef*y2);
+osn_linia(x+koef*x6,y+koef*y2,x+koef*x6,y+koef*y1);
+osn_linia(x+koef*x1,y+koef*y9,x+koef*x6,y+koef*y9);
+
+osn_linia(x+koef*x1,y-koef*y1,x+koef*x1,y-koef*y2);
+osn_linia(x+koef*x1,y-koef*y2,x+koef*x3,y-koef*y3);
+osn_linia(x+koef*x3,y-koef*y3,x+koef*x4,y-koef*y3);
+osn_linia(x+koef*x4,y-koef*y3,x+koef*x6,y-koef*y2);
+osn_linia(x+koef*x6,y-koef*y2,x+koef*x6,y-koef*y1);
+osn_linia(x+koef*x1,y-koef*y9,x+koef*x6,y-koef*y9);
+
+
+osevaya_linia(x+koef*(x1-5),y+koef*y1,x+koef*(x1+1000*b_1+5),y+koef*y1);
+osevaya_linia(x+koef*(x1-5),y+koef*y7,x+koef*(x1+1000*b_1+5),Y+koef*y7);
+osevaya_linia(x+koef*(x1-5),y-koef*y7,x+koef*(x1+1000*b_1+5),Y-koef*y7);
+ valrasch;
+l2:
+end;
+
+procedure TForm1.SB1Click(Sender: TObject);
+begin
+ris;
+end;
+
+procedure TForm1.FormActivate(Sender: TObject);
+begin
+i:=vle1.InsertRow('d','',true);
+i:=vle1.InsertRow('d_a','',true);
+i:=vle1.InsertRow('d_f','',true);
+i:=vle1.InsertRow('b','',true);
+i:=vle1.InsertRow('Диаметр вала','',true);
+i:=vle1.InsertRow('Диаметр подшипника','',true);
+i:=vle2.InsertRow('d','',true);
+i:=vle2.InsertRow('d_a','',true);
+i:=vle2.InsertRow('d_f','',true);
+i:=vle2.InsertRow('b','',true);
+i:=vle2.InsertRow('Диаметр вала','',true);
+i:=vle2.InsertRow('Диаметр подшипника','',true);
+end;
+
+procedure TForm1.SB2Click(Sender: TObject);
+begin
+
+chertesh;
+end;
+
+procedure TForm1.N1Click(Sender: TObject);
+begin
+halt;
+end;
+
+procedure TForm1.FormPaint(Sender: TObject);
+begin
+ris;
+end;
+
+procedure TForm1.FormShow(Sender: TObject);
+begin
+ris;
+end;
+
+end.

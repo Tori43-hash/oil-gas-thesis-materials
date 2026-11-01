@@ -1,0 +1,31 @@
+Uses CRT;
+Const N=16;
+
+     Qg : Array [0..N] of Real = (0, 1.245, 23.339, 47.254, 50.299, 46.498,
+                         52.013, 48.649, 49.158, 46.877, 44.607, 43.521,
+                         41.535, 37.462, 35.022, 33.595, 34.996);
+Var
+      Qnak, Qsum, y, z, Qpr : Array [0..N] of Real;
+      i,j : Integer;
+      k : Real;
+BEGIN
+   ClrScr;
+   Qnak[0]:=0; Qpr[0]:=1;
+   For i:=1 to N do
+    begin
+     Qnak[i]:=Qg[i]+Qnak[i-1];
+     Qsum[0]:=0;
+     For j:=1 to i do Qsum[i]:=Qsum[i-1]+Qnak[j];
+     y[i]:=Qsum[i]/i;
+    end;
+   For i:=1 to N do
+    begin
+     if (i=1) or (i=2) then Qpr[i]:=((-3)*Qg[i]+4*Qg[i+1]-Qg[i+2])/2;
+     if (i=n) or (i=n-1) then Qpr[i]:=(Qg[i-2]-4*Qg[i-1]+3*Qg[i])/2;
+     if (i>2) and (i<n-1) then Qpr[i]:=((-2)*Qg[i-2]-Qg[i-1]+Qg[i+1]+2*Qg[i+2])/10;
+     k:=0; For j:=0 to i-1 do k:=k+Qg[j]*Qg[j]/Qpr[j];
+     z[i]:=(Qg[i]*Qg[i]/Qpr[i]+k)/i;
+    end;
+   For i:=1 to n do  Writeln('Qnak=',Qnak[i]:7:3,'   y=',y[i]:6:3,'   Qpr=',Qpr[i]:6:3,'    z=',z[i]:7:3);
+   Readln;
+END.

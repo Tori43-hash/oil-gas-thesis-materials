@@ -1,0 +1,69 @@
+BODY {
+	BACKGROUND-COLOR: #ddeadb; FONT-FAMILY: Verdana, "Arial Cyr", PragmaticaC, Tahoma, Arial; SCROLLBAR-FACE-COLOR: #999999; SCROLLBAR-HIGHLIGHT-COLOR: #999999; SCROLLBAR-SHADOW-COLOR: #999999; SCROLLBAR-3DLIGHT-COLOR: #cccccc; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #c0d8b8; SCROLLBAR-DARKSHADOW-COLOR: #cccccc
+}
+.text {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-STYLE: normal; TEXT-ALIGN: justify
+}
+.title {
+	COLOR: #003300; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 14px; FONT-STYLE: normal; FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+.TITLE1 {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+.TITLE_GL {
+	COLOR: #003300; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 18px; FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+.ris {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-ALIGN: center
+}
+.ris {
+	
+}
+.text_l {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-ALIGN: left
+}
+.title_l {
+	COLOR: #003300; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-ALIGN: left
+}
+A:hover {
+	COLOR: #990033
+}
+A:hover {
+	
+}
+A:hover {
+	
+}
+A {
+	TEXT-DECORATION: none
+}
+A {
+	
+}
+A:visited {
+	
+}
+A:visited {
+	
+}
+A:visited {
+	
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #009900
+}
+A:active {
+	
+}
+A:link {
+	COLOR: #006600
+}
+A:visited {
+	COLOR: #0000cc
+}
+.text_r {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-ALIGN: right
+}

@@ -1,0 +1,1407 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0042)http://www.vibration.ru/preobraz_fur.shtml -->
+<HTML><HEAD><TITLE>Преобразование Фурье</TITLE>
+<META content="text/html; charset=windows-1251" http-equiv=Content-Type><LINK 
+href="Преобразование Фурье.files/style.css" rel=stylesheet type=text/css>
+<META content="MSHTML 5.00.2614.3500" name=GENERATOR></HEAD>
+<BODY aLink=#009933 bgColor=#ddeadb leftMargin=0 link=#003300 text=#000000 
+topMargin=0 vLink=#003300><A name=top></A>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD background="Преобразование Фурье.files/last_top_02.gif" width=728>
+      <P><IMG height=50 src="Преобразование Фурье.files/last_top_01.gif" 
+      width=728><BR><IMG height=30 
+      src="Преобразование Фурье.files/last_top_03.gif" width=269><IMG align=top 
+      height=20 src="Преобразование Фурье.files/last_top_04.gif" 
+    width=459></P></TD>
+    <TD background="Преобразование Фурье.files/last_top_02.gif" 
+  vAlign=top></TD></TR>
+  <TR bgColor=#ddeadb vAlign=top>
+    <TD background="Преобразование Фурье.files/gray16_04.gif" colSpan=2 
+    height=5></TD></TR>
+  <TR bgColor=#cccccc vAlign=center>
+    <TD colSpan=2 height=25>
+      <TABLE align=center border=1 cellPadding=0 cellSpacing=0 width=760>
+        <TBODY>
+        <TR align=middle vAlign=center>
+          <TD width="20%"><B><FONT color=#333333 
+            face="Arial, Helvetica, sans-serif"><A 
+            href="http://www.vibration.ru/index.shtml">Новости</A></FONT></B></TD>
+          <TD width="20%"><B><FONT color=#333333 
+            face="Arial, Helvetica, sans-serif"><A 
+            href="http://www.vibration.ru/osnova.shtml"><FONT 
+            color=#ffffff>Основы</FONT></A></FONT></B></TD>
+          <TD width="20%"><B><FONT color=#333333 
+            face="Arial, Helvetica, sans-serif"><A 
+            href="http://www.vibration.ru/diagnostika.shtml">Диагностика</A> 
+            </FONT></B></TD>
+          <TD width="20%"><B><FONT color=#333333 
+            face="Arial, Helvetica, sans-serif"><A 
+            href="http://www.vibration.ru/sredstva.shtml">Средства</A></FONT></B></TD>
+          <TD width="20%"><B><FONT color=#333333 
+            face="Arial, Helvetica, sans-serif"><A 
+            href="http://www.vibration.ru/litetatura.shtml">Литература</A></FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+  <TR bgColor=#ddeadb>
+    <TD background="Преобразование Фурье.files/gray16_04.gif" bgColor=#ddeadb 
+    colSpan=2 height=5></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=20 width="100%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <DIV align=center>
+      <P><FONT face="Verdana, Arial, Helvetica, sans-serif"><B><SPAN 
+      class=title>ПРЕОБРАЗОВАНИЕ ФУРЬЕ И КЛАССИЧЕСКИЙ ЦИФРОВОЙ СПЕКТРАЛЬНЫЙ 
+      АНАЛИЗ.<BR>Медведев С.Ю., к.ф.-м..н. </SPAN></B></FONT></P>
+      <P><FONT face="Verdana, Arial, Helvetica, sans-serif"><B 
+      class=TITLE1>Введение</B></FONT></P></DIV>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Спектральный 
+      анализ - один из методов обработки сигналов, который позволяет 
+      охарактеризовать частотный состав измеряемого сигнала. Преобразование 
+      Фурье является математической основой, которая связывает временной или 
+      пространственный сигнал (или же некоторую модель этого сигнала) с его 
+      представлением в частотной области. Важную роль в спектральном анализе 
+      играют методы статистики, поскольку сигналы, как правило, имеют случайный 
+      характер или зашумлены при распространении или измерении. 
+      &nbsp;&nbsp;&nbsp;Если бы основные статистические характеристики сигнала 
+      были точно известны, или их можно было определить по конечному интервалу 
+      этого сигнала, то спектральный анализ представлял бы собой отрасль "точной 
+      науки". Однако, в действительности по отрезку сигнала можно получить 
+      только оценку его спектра. Поэтому практика спектрального анализа - некое 
+      ремесло (или искусство?) достаточно субъективного характера. Различие 
+      между спектральными оценками, получаемыми в результате обработки одного и 
+      того же отрезка сигнала разными методами, можно объяснить различием 
+      допущений, принятых относительно данных, различными способами усреднения и 
+      т .п. Если априори характеристики сигнала не известны, нельзя сказать 
+      какие из оценок лучше.</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Преобразование Фурье - 
+      математическая основа спектрального анализа<BR>&nbsp;&nbsp;&nbsp;Кратко 
+      обсудим разные виды преобразования Фурье (более подробно см. в [1]). 
+      <BR>&nbsp;&nbsp;&nbsp;Начнем с преобразования Фурье непрерывного во 
+      времени сигнала<BR></FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=49 
+      src="Преобразование Фурье.files/preobraz_fur1.gif" width=251>, 
+      (1)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">которое идентифицирует 
+      частоты и амплитуды тех комплексных синусоид (экспонент), на которые 
+      разлагается некоторое произвольное 
+      колебание.<BR>&nbsp;&nbsp;&nbsp;Обратное преобразование </FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=50 
+      src="Преобразование Фурье.files/preobraz_fur2.gif" width=251>. 
+      (2)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>&nbsp;&nbsp;&nbsp;Существование 
+      прямого и обратного преобразования Фурье (которое в дальнейшем мы будем 
+      называть непрерывно-временным преобразованием Фурье - НВПФ) определяется 
+      рядом условий. Достаточное - абсолютная интегрируемость сигнала</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=50 
+      src="Преобразование Фурье.files/preobraz_fur3.gif" 
+      width=109>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Менее 
+      ограничительное достаточное условие - конечность энергии 
+сигнала</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=51 
+      src="Преобразование Фурье.files/preobraz_fur4.gif" 
+      width=108>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>&nbsp;&nbsp;&nbsp;Приведем 
+      ряд основных свойств преобразования Фурье и функций, используемых далее, 
+      заметив, что прямоугольное окно определяется выражением </FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=64 
+      src="Преобразование Фурье.files/preobraz_fur5.gif" 
+      width=143>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">а функция sinc - 
+      выражением</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=41 
+      src="Преобразование Фурье.files/preobraz_fur6.gif" 
+      width=128>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Функция 
+      отсчетов во временной области определяется выражением<BR></FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=43 
+      src="Преобразование Фурье.files/preobraz_fur7.gif" 
+      width=163>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(7)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>Эту функцию иногда 
+      называют также функцией периодического продолжения.</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Таблица 1. Основные свойства 
+      НВПФ и функции</FONT></P>
+      <TABLE border=1 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Свойство, 
+            функция</FONT></DIV></TD>
+          <TD class=text_l width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Функция</FONT></DIV></TD>
+          <TD class=text_l width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Преобразование</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Линейность</FONT></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">ag( t ) + bh( t 
+            )</FONT></DIV></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">aG( f ) + bH( f 
+            )</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Сдвиг по времени 
+          </FONT></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT face="Verdana, Arial, Helvetica, sans-serif">h 
+            ( t - t<SUB>0</SUB> )</FONT></DIV></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT face="Verdana, Arial, Helvetica, sans-serif">H( 
+            f )exp( -j2pf t<SUB>0</SUB> )</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Сдвиг по частоте 
+            (модуляция)</FONT></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT face="Verdana, Arial, Helvetica, sans-serif">h 
+            ( t )exp( j2pf0 t )</FONT></DIV></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT face="Verdana, Arial, Helvetica, sans-serif">H( 
+            f - f<SUB>0</SUB> )</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Масштабирование</FONT></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT face="Verdana, Arial, Helvetica, sans-serif">( 
+            1 / |a| )h( t / a )</FONT></DIV></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT face="Verdana, Arial, Helvetica, sans-serif">H( 
+            af )</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Теорема свертки во 
+            временной области</FONT></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT face="Verdana, Arial, Helvetica, sans-serif">g( 
+            t )*h( t )</FONT></DIV></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><BR>G( f )H( f 
+            )</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Теорема свертки в 
+            частотной области</FONT></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT face="Verdana, Arial, Helvetica, sans-serif">g( 
+            t ) h( t )</FONT></DIV></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT face="Verdana, Arial, Helvetica, sans-serif">G( 
+            f )*H( f )</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Функция окна</FONT></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Aw( t / T 
+          )</FONT></DIV></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">2ATsinc( 2Tf 
+            )</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Функция sinc</FONT></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">2AFsinc( 2Ft 
+            )</FONT></DIV></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Aw( f / F 
+          )</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Импульсная 
+            функция</FONT></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Ad( t )</FONT></DIV></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">A</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Функция 
+          отсчетов</FONT></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><IMG height=18 
+            src="Преобразование Фурье.files/psi.gif" 
+          width=16>T(f)</FONT></DIV></TD>
+          <TD class=text_l width="33%">
+            <DIV class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">F<IMG align=bottom 
+            height=18 src="Преобразование Фурье.files/psi.gif" width=16>F(f), 
+            F=1/T</FONT></DIV></TD></TR></TBODY></TABLE>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Еще одно 
+      важное свойство устанавливается теоремой Парсеваля для двух функций g(t) и 
+      h(t):</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=49 
+      src="Преобразование Фурье.files/preobraz_fur8.gif" 
+      width=204>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Если 
+      положить g(t) = h(t), то теорема Парсеваля сводится к теореме для 
+      энергии<BR></FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=47 
+      src="Преобразование Фурье.files/preobraz_fur9.gif" 
+      width=193>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(9)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Выражение 
+      (9) - это, в сущности, просто формулировка закона сохранения энергии в 
+      двух областях (временной и частотной). В (9) слева стоит полная энергия 
+      сигнала, таким образом, функция </FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=25 
+      src="Преобразование Фурье.files/preobraz_fur10.gif" 
+      width=87>&nbsp;&nbsp;(10)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">описывает распределение 
+      энергии по частоте для детерминированного сигнала h(t) и поэтому 
+      называется спектральной плотностью энергии (СПЭ). С помощью выражений 
+      </FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=48 
+      src="Преобразование Фурье.files/preobraz_fur11.gif" 
+      width=247>(11)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">можно вычислить амплитудный и 
+      фазовый спектры сигнала h( t ).</FONT></P>
+      <P align=center class=TITLE1><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><B>Операции дискретизации и 
+      взвешивания</B></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;В следующем 
+      разделе мы введем дискретно-временной ряд Фурье (ДВРФ) или иначе 
+      дискретное преобразование Фурье (ДПФ) как частный случай 
+      непрерывно-временного преобразования Фурье (НВПФ) с использованием двух 
+      базовых операций обработки сигналов - взятия отсчетов 
+      (<I>дискретизации</I>) и <I>взвешивания</I> с помощью окна. Здесь 
+      рассмотрим влияние этих операций на сигнал и его преобразование. В таблице 
+      2 перечислены функции, с помощью которых осуществляется взвешивание и 
+      дискретизация .</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;При 
+      равномерных отсчетах с интервалом T секунд частота отсчетов F равна 1 /T 
+      Гц. Заметим, что взвешивающая функция и функция отсчетов во временной 
+      области обозначаются соответственно TW (time windowing) и TS (time 
+      sampling), а в частотной области - FW (frequency windowing) и FS 
+      (frequency sampling).</FONT></P>
+      <P align=justify><SPAN class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>Таблица 2. Взвешивание и 
+      дискретизирующие функции</FONT></SPAN></P>
+      <TABLE border=1 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Операция 
+          </FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Функция 
+            времени</FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Преобразование</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Взвешивание во 
+            временной области (ширина окна NT сек)</FONT></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">TW=w(2t / NT - 1) 
+            </FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center>
+            <P class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">F{TW}=NTsinc(NTf)•exp(-jpNTf) 
+            </FONT></P></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Взвешивание в частотной 
+            области (ширина окна 1/T Гц)</FONT></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><IMG height=35 
+            src="Преобразование Фурье.files/preobraz_fur11-1.gif" 
+            width=135></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">FW=w( 2Tf 
+          )</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Отсчеты во времени 
+            (интервалом T сек)</FONT></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">TS=T<IMG height=18 
+            src="Преобразование Фурье.files/psi.gif" width=16><SUB>T</SUB>(t) 
+            </FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><IMG height=27 
+            src="Преобразование Фурье.files/preobraz_fur11-3.gif" 
+            width=107></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Отсчеты по частоте (с 
+            интервалом 1/NT Гц) </FONT></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><IMG height=21 
+            src="Преобразование Фурье.files/preobraz_fur11-2.gif" 
+            width=122></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><IMG height=36 
+            src="Преобразование Фурье.files/preobraz_fur11-4.gif" 
+            width=150></DIV></TD></TR></TBODY></TABLE>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Предположим, 
+      что берутся отсчеты непрерывного действительного сигнала x(t) c 
+      ограниченным спектром, верхняя частота которого равна F0. НВПФ 
+      действительного сигнала - это всегда симметричная функция с полной шириной 
+      2F0, см. рис.1. <BR>&nbsp;&nbsp;&nbsp;Отсчеты сигнала x(t) могут быть 
+      получены посредством умножения этого сигнала на функцию 
+      отсчетов:</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=44 
+      src="Преобразование Фурье.files/preobraz_fur12.gif" 
+      width=247>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (12)</FONT></P>
+      <P align=center><IMG height=488 
+      src="Преобразование Фурье.files/preobraz_fur_ris1.gif" width=335></P>
+      <P align=justify></P>
+      <P align=justify></P>
+      <P align=justify></P>
+      <P align=justify></P>
+      <P align=justify></P>
+      <P align=justify class=ris><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Рис.1 - иллюстрация теоремы 
+      отсчетов во временной области для действительного сигнала с ограниченным 
+      спектром: <BR>а - исходная функция времени и ее преобразование Фурье; 
+      <BR>б - функция отсчетов во времени и ее преобразование Фурье; <BR>в - 
+      временные отсчеты исходной функции и ее периодически продолженное 
+      преобразование Фурье для случая Fo&lt;1/2T; <BR>г - частотное окно 
+      (идеальный фильтр нижних частот) и его преобразование Фурье (функция 
+      sinc); <BR>д - исходная функция времени, восстановленная посредством 
+      операции свертки с функцией sinc.</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>&nbsp;&nbsp;&nbsp;В 
+      соответствии с теоремой о свертке в частотной области, НВПФ сигнала x(t) - 
+      это просто свертка спектра сигнала x(t) и преобразования Фурье функции 
+      отсчетов по времени ( TS ):</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=46 
+      src="Преобразование Фурье.files/preobraz_fur14.gif" width=245>. 
+      (13)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Свертка X(f) c 
+      преобразованием Фурье функции отсчетов F {TS}=Y1/T( f ) просто 
+      периодически продолжает X(f) с частотным интервалом 1/T Гц. Поэтому XS(f) 
+      представляет собой периодически продолженный спектр X(f). В общем случае 
+      отсчеты в одной области (например, временной) приводят к периодическому 
+      продолжению в области преобразования (например, частотной). Если частота 
+      отсчетов выбрана достаточно низкой (F &lt; 2Fo ), то периодически 
+      продолженные спектры будут перекрываться с соседними. Это перекрытие носит 
+      название эффекта наложения в частотной области. <BR>&nbsp;&nbsp;&nbsp;Для 
+      того, чтобы восстановить исходный временной сигнал по его отсчетам, т.е. 
+      осуществить интерполяцию некоторого континуума значений между этими 
+      отсчетами, можно пропустить дискретизованные данные через идеальный фильтр 
+      нижних частот с прямоугольной частотной характеристикой ( рис. 1 
+      г)</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=14 
+      src="Преобразование Фурье.files/preobraz_fur13.gif" width=197> . 
+      (14)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">В результате (см. Рис. 1 д ) 
+      восстанавливается исходное преобразование Фурье. Используя теоремы о 
+      свертке во временной и частотной областях, получаем </FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=41 
+      src="Преобразование Фурье.files/preobraz_fur15.gif" width=432> 
+      .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(15)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Выражение 
+      (15) представляет собой математическую запись <I>теоремы отсчетов во 
+      временной области</I> ( теоремы Уиттекера, Котельникова, Шеннона - УКШ ), 
+      которая утверждает, что с помощью интерполяционной формулы (15) 
+      действительный сигнал с ограниченным спектром может быть точно 
+      восстановлен <I>по бесконечному числу</I> известных временных отсчетов, 
+      взятых с частотой F і 2F0. Дуальной к теореме (15) является теорема 
+      <I>отсчетов в частотной области</I> для сигналов с ограниченной 
+      длительностью.<BR>&nbsp;&nbsp;&nbsp;Операции во временной области, 
+      аналогичные (14), описываются выражением</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=15 
+      src="Преобразование Фурье.files/preobraz_fur16.gif" width=157> 
+      ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(16)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">а соответствующие 
+      преобразования - выражениями</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=118 
+      src="Преобразование Фурье.files/preobraz_fur17.gif" width=305> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></P>
+      <P align=justify></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Таким 
+      образом, НВПФ X(f) некоторого сигнала с ограниченной длительностью может 
+      быть однозначно восстановлено по эквидистантным отсчетам спектра такого 
+      сигнала, если выбранный интервал отсчетов по частоте удовлетворяет условию 
+      F<IMG height=15 src="Преобразование Фурье.files/men_rawno.gif" 
+      width=11>1/2T<SUB>0</SUB> Гц, где T<SUB>0</SUB> - длительность 
+      сигнала.</FONT></P>
+      <P align=justify class=TITLE1><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><B>Соотношения между 
+      непрерывными и дискретными преобразованиями</B></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Пара 
+      преобразований для обычного определения дискретного преобразования Фурье 
+      (ДПФ) N-точечной <B>временной последовательности</B> x[n] и 
+      соответствующей ей N-точечной <I>последовательности преобразования 
+      Фурье</I> X[k] дается выражениями</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=42 
+      src="Преобразование Фурье.files/preobraz_fur18.gif" 
+      width=194>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      (18)<BR><IMG height=41 src="Преобразование Фурье.files/preobraz_fur19.gif" 
+      width=193>. 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(19)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Чтобы по 
+      отсчетам данных получить спектральные оценки в соответствующих единицах 
+      измерения энергии или мощности, запишем дискретно-временной ряд Фурье 
+      (ДВРФ), который можно рассматривать как некоторую аппроксимацию 
+      непрерывно-временного преобразования Фурье (НВПФ), основанную на 
+      использовании конечного числа отсчетов данных:</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=87 
+      src="Преобразование Фурье.files/preobraz_fur20.gif" 
+      width=258>&nbsp;&nbsp;</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Для того, 
+      чтобы показать характер соответствия ДВРФ (<I>дискретные</I> функции и во 
+      временной и в частотной областях) и НВПФ (непрерывные функции во временной 
+      и в частотной областях), нам потребуется последовательность из четырех 
+      линейных коммутативных операций: взвешивания во временной и частотной 
+      областях и <I>взятия отсчетов или дискретизации</I> как во временной, так 
+      и в частотной областях. Если операция взвешивания выполняется в одной из 
+      этих областей, то, согласно теореме свертки, ей будет соответствовать 
+      выполнение операции фильтрации (свертки) в другой области с функцией sinc. 
+      Точно также, если в одной области выполняется дискретизация, то в другой 
+      выполняется операция периодического продолжения. Так как взвешивание и 
+      взятие отсчетов являются линейными и коммутативными операциями, то 
+      возможны различные способы их упорядочения, дающие одинаковый конечный 
+      результат при различных промежуточных результатах. На рис.2 показаны две 
+      возможные последовательности выполнения этих четырех операций.</FONT></P>
+      <P align=center class=ris><IMG height=347 
+      src="Преобразование Фурье.files/preobraz_fur_ris2.gif" width=463></P>
+      <P align=justify class=text><SPAN class=ris><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Рис. 2. Две возможные 
+      последовательности из двух операций взвешивания и двух операций взятия 
+      отсчетов, связывающие НВПФ и ДВРФ: FW - применение окна в частотной 
+      области; TW - применение окна во временной области; FS - взятие отсчетов в 
+      частотной области; TS - взятие отсчетов во временной области. <BR>1 - 
+      преобразование Фурье с непрерывным временем, уравнение (1);<BR>4 - 
+      преобразование Фурье с дискретным временем, уравнение (22); <BR>5 - ряд 
+      Фурье с непрерывным временем, уравнение (25);<BR>8 - ряд Фурье с 
+      дискретным временем, уравнение (27) </FONT></SPAN></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>&nbsp;&nbsp;&nbsp;В 
+      результате выполнения операций взвешивания и взятия отсчетов в узлах 1, 4, 
+      5 и 8 будут иметь место четыре различных типа соотношений Фурье. Узлы, в 
+      которых функция в <I>частотной области непрерывна</I>, относятся к 
+      <I>преобразованиям</I> Фурье, а узлы, в которых функция в частотной 
+      области <I>дискретна </I>относятся к<I> рядам Фурье</I> (подробнее см. в 
+      [1]). <BR>&nbsp;&nbsp;&nbsp;Так в узле 4 взвешивание в частотной и 
+      дискретизация во временной области порождает <I>дискретно-временное 
+      преобразование</I> Фурье (ДВПФ), которое характеризуется периодической 
+      функцией спектра в частотной области с периодом 1/T Гц:</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=42 
+      src="Преобразование Фурье.files/preobraz_fur22.gif" 
+      width=279>&nbsp;&nbsp;&nbsp; (22)</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=48 
+      src="Преобразование Фурье.files/preobraz_fur24.gif" 
+      width=277>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(23)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>&nbsp;&nbsp;&nbsp;Заметим, 
+      что выражение (22) определяет некоторую периодическую функцию, совпадающую 
+      с заданной в узле 1 исходной преобразованной функцией только на интервале 
+      частот от -1/2T до 1/2T Гц. Выражение (22) связано с Z-преобра-зованием 
+      дискретной последовательности x[n] соотношением </FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG 
+      src="Преобразование Фурье.files/preobraz_fur24-1.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( 
+      24 )</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Таким 
+      образом, ДВПФ - это просто Z-преобразование, вычисленное на единичной 
+      окружности и умноженное на T.<BR>&nbsp;&nbsp;&nbsp;Если продвигаться от 
+      узла 1 к узлу 8 на рис.2 по нижней ветви, в узле 5 операции взвешивания во 
+      временной области (ограничения длительности сигнала) и дискретизации в 
+      частотной порождают непрерывно-временной ряд Фурье (НВРФ). Используя 
+      приведенные в таблицах 1 и 2 свойства и определения функций, получим 
+      следующую пару преобразований<BR>&nbsp;&nbsp;&nbsp;&nbsp;<IMG height=48 
+      src="Преобразование Фурье.files/preobraz_fur24.gif" width=277>&nbsp;&nbsp; 
+      (25)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG height=44 
+      src="Преобразование Фурье.files/preobraz_fur26.gif" width=274> 
+      (26)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>&nbsp;&nbsp;&nbsp;Заметим, 
+      что выражение (26) определяет некоторую периодическую функцию, которая 
+      совпадает с исходной (в узле 1) только на интервале времени от 0 до 
+      NT.<BR>&nbsp;&nbsp;&nbsp;Независимо от того, какая из двух 
+      последовательностей четырех операций выбрана, окончательный результат в 
+      узле 8 будет одним и тем же - <I>дискретно-временным рядом Фурье</I>, 
+      которому соответствует следующая пара преобразований, полученных с 
+      использованием свойств, указанных в таблице 1.</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=44 
+      src="Преобразование Фурье.files/preobraz_fur27.gif" width=212>, 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(27)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">где k=-N/2, . . . 
+      ,N/2-1</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=45 
+      src="Преобразование Фурье.files/preobraz_fur28.gif" 
+      width=233>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      (28)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">где n=0, . . . ,N-1 
+      ,<BR>Теорема о энергии для этого ДВРФ имеет вид:</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG 
+      src="Преобразование Фурье.files/preobraz_fur29.gif">, 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(29)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">и характеризует энергию 
+      последовательности из N отсчетов данных. Обе последовательности x[n] и 
+      X[k] периодичны по модулю N, поэтому (28) можно записать в 
+форме</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG 
+      src="Преобразование Фурье.files/preobraz_fur30.gif">,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(30)</FONT></P>
+      <P align=justify><FONT class=text 
+      face="Verdana, Arial, Helvetica, sans-serif">где 0 <IMG height=15 
+      src="Преобразование Фурье.files/men_rawno.gif" width=11>n <IMG height=15 
+      src="Преобразование Фурье.files/men_rawno.gif" width=11> N. Множитель T в 
+      (27) - (30) необходим для того, чтобы (27) и (28) являлись в 
+      действительности аппроксимацией интегрального преобразования в области 
+      интегрирования</FONT></P>
+      <P align=left><IMG src="Преобразование Фурье.files/preobraz_fur31.gif"> 
+      <FONT class=text_l 
+      face="Verdana, Arial, Helvetica, sans-serif">.(31)</FONT></P>
+      <P align=center class=TITLE1><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><B>Дополнение 
+      нулями</B></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;С помощью 
+      процесса, называемого <I>дополнением нулями</I>, дискретно-временной ряд 
+      Фурье может быть изменен для интерполяции между N значениями исходного 
+      преобразования. Пусть имеющиеся отсчеты данных x[0],...,x[N-1] дополнены 
+      нулевыми значениями x[N],...X[2N-1]. ДВРФ этой дополненной нулями 
+      2N-точечной последовательности данных будет определяться 
+      выражением</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG 
+      src="Преобразование Фурье.files/preobraz_fur32.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(32)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">где верхний предел суммы 
+      справа изменен в соответствии с наличием нулевых данных. Пусть k=2m, так 
+      что <BR></FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=45 
+      src="Преобразование Фурье.files/preobraz_fur33.gif" width=229>, 
+      (33)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">где m=0,1,...,N-1, определяет 
+      четные значения X[k]. Отсюда видно, что при четных значениях индекса k 
+      2N-точечный дискретно-временной ряд Фурье сводится к N-точечному 
+      дискретно-временному ряду. Нечетные значения индекса k соответствуют 
+      интерполированным значениям ДВРФ, расположенным между значениями исходного 
+      N-точечного ДВРФ. По мере того, как все большее число нулей добавляется в 
+      исходную N-то-чечную последовательность, можно получить еще большее число 
+      интерполированных данных. В предельном случае бесконечного числа вводимых 
+      нулей ДВРФ может рассматриваться как дискретно-временное преобразование 
+      Фурье N-то-чечной последовательности данных:</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG height=46 
+      src="Преобразование Фурье.files/preobraz_fur34.gif" 
+      width=215>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      (34)<BR>&nbsp;&nbsp;</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;Преобразование (34) 
+      соответствует узлу 6 на рис.2. <BR>&nbsp;&nbsp;&nbsp;Бытует неправильное 
+      мнение о том, что дополнение нулями улучшает разрешение, поскольку оно 
+      увеличивает длину последовательности данных. Однако, как следует из рис.3, 
+      дополнение нулями <I>не улучшает</I> разрешающую способность 
+      преобразования, полученного по заданной конечной последовательности 
+      данных. Дополнение нулями просто позволяет получить интерполированное 
+      преобразование <I>более сглаженной формы</I>. Кроме того, оно устраняет 
+      неопределенности, обусловленные наличием узкополосных компонент сигнала, 
+      частоты которых лежат между N точками, соответствующими оцениваемым 
+      частотам исходного ДВРФ. При дополнении нулями повышается также и точность 
+      оценивания частоты спектральных пиков. Под термином спектральное 
+      разрешение мы будем понимать способность различать спектральные отклики 
+      двух гармонических сигналов. &nbsp;&nbsp;&nbsp;Общепринятое эмпирическое 
+      правило, часто используемое при спектральном анализе, гласит, что 
+      разнесение различаемых синусоид по частоте не может быть меньше 
+      <I>эквивалентной ширины полосы окна</I>, через которое наблюдаются 
+      сегменты (отрезки) этих синусоид.</FONT></P>
+      <P align=center><FONT face="Verdana, Arial, Helvetica, sans-serif"><SPAN 
+      class=ris><IMG height=195 
+      src="Преобразование Фурье.files/preobraz_fur_ris3.gif" 
+      width=622><BR></SPAN></FONT></P>
+      <P class=ris><FONT face="Verdana, Arial, Helvetica, sans-serif">Рис.3. 
+      Интерполяция за счет дополнения нулями: <BR>а - модуль ДВРФ 16-ти точечной 
+      записи данных, содержащих три синусоиды без дополнения нулями (видны 
+      неопределенности: нельзя сказать сколько в сигнале синусоид - две, три или 
+      четыре);<BR>б - модуль ДВРФ той же последовательности после двукратного 
+      увеличения числа ее отсчетов за счет дополнения 16 нулями 
+      (неопределенности разрешены, так как различимы все три синусоиды;<BR>в - 
+      модуль ДВРФ той же последовательности после четырехкратного увеличения 
+      числа ее отсчетов за счет дополнения нулями.</FONT></P>
+      <P align=justify class=text><SPAN class=ris><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"></FONT></SPAN><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>&nbsp;&nbsp;&nbsp;Эквивалентная 
+      ширина полосы окна может быть определена 
+      как<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG height=54 
+      src="Преобразование Фурье.files/preobraz_fur34-1.gif" 
+      width=128>&nbsp;&nbsp;&nbsp; где W(f) - дискретно-временное преобразование 
+      Фурье функции окна, например, прямоугольного (5). Аналогично можно ввести 
+      <I>эквивалентную длительность окна</I></FONT></P>
+      <P align=center class=text><IMG height=67 
+      src="Преобразование Фурье.files/preobraz_fur34-2.gif" width=108></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Можно 
+      показать, что эквивалентная длительность окна (или любого другого сигнала) 
+      и эквивалентная ширина полосы его преобразования являются взаимно 
+      обратными величинами: TeBe=1.</FONT></P>
+      <P align=center class=TITLE1><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><B>Быстрое преобразование 
+      Фурье</B></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Быстрое 
+      преобразование Фурье (БПФ) - это не еще одна разновидность преобразования 
+      Фурье, а название целого ряда эффективных <I>алгоритмов</I>, 
+      предназначенных для быстрого вычисления дискретно-временного ряда Фурье. 
+      &nbsp;&nbsp;&nbsp;Основная проблема, возникающая при практической 
+      реализации ДВРФ, заключена в большом количестве вычислительных операций, 
+      пропорциональном N2. Хотя еще задолго до появления компьютеров было 
+      предложено несколько эффективных вычислительных схем, позволяющих 
+      существенно сократить число вычислительных операций, настоящую революцию 
+      произвела публикация в 1965 году статьи Кули (Cooly) и Тьюки (Tukey) c 
+      практическим алгоритмом быстрого (число операций Nlog<SUB>2</SUB>N) 
+      вычисления ДВРФ. После этого было разработано множество вариантов, 
+      усовершенствований и дополнений основной идеи, составивших класс 
+      алгоритмов, известных под названием быстрого преобразования Фурье. 
+      Основная идея БПФ - деление N-точечного ДВРФ на два и более ДВРФ меньшей 
+      длины, каждый из которых можно вычислить отдельно, а затем линейно 
+      просуммировать с остальными, с тем чтобы получить ДВРФ исходной N-точечной 
+      последовательности.<BR>Представим дискретное преобразование Фурье (ДВРФ) в 
+      виде</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=45 
+      src="Преобразование Фурье.files/preobraz_fur35.gif" 
+      width=146>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(35)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">где величина 
+      W<SUB>N</SUB>=exp(-j2<SUB><IMG height=25 
+      src="Преобразование Фурье.files/pi.gif" width=11></SUB>/N) носит название 
+      поворачивающего множителя (здесь и далее в этом разделе период выборки 
+      T=1). Выделим из последовательности x[n] элементы с четными и нечетными 
+      номерами</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR><IMG 
+      src="Преобразование Фурье.files/preobraz_fur36.gif">. (36)<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Но так как<IMG height=15 
+      src="Преобразование Фурье.files/preobraz_fur36-1.gif" width=262> то 
+      <BR><IMG height=25 src="Преобразование Фурье.files/preobraz_fur36-2.gif" 
+      width=98>. Следовательно, (36) можно записать в виде</FONT></P>
+      <P align=center class=text><IMG height=26 
+      src="Преобразование Фурье.files/preobraz_fur37.gif" width=195><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(37)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">где каждое из слагаемых 
+      является преобразованием длины N/2</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;<IMG height=42 
+      src="Преобразование Фурье.files/preobraz_fur38.gif" 
+      width=275>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(38)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Заметим, 
+      что последовательность (WN/2)<SUP>nk</SUP> периодична по k с периодом N/2. 
+      Поэтому, хотя номер k в выражении (37) принимает значения от 0 до N-1, 
+      каждая из сумм вычисляется для значений k от 0 до N/2-1. Можно оценить 
+      число комплексных операций умножения и сложения, необходимых для 
+      вычисления преобразования Фурье в соответствии с алгоритмом (37)-(38). Два 
+      N/2-точечных преобразования Фурье по формулам (38) предполагают выполнение 
+      2(N/2)<SUP>2</SUP> умножений и приблизительно столько же сложений. 
+      Объединение двух N/2-точечных преобразований по формуле (37) требует еще N 
+      умножений и N сложений. Следовательно, для вычисления преобразования Фурье 
+      для всех N значений k необходимо произвести по N+N<SUP>2</SUP>/2 умножений 
+      и сложений. В то же время прямое вычисление по формуле (35) требует по 
+      N<SUP>2</SUP> умножений и сложений. Уже при N&gt;2 выполняется неравенство 
+      N+N<SUP>2</SUP>/2 &lt; N<SUP>2</SUP> , и, таким образом, вычисления по 
+      алгоритму (37)-(38) требуют меньшего числа математических операций по 
+      сравнению с прямым вычислением преобразования Фурье по формуле (35). Так 
+      как вычисление N-точечного преобразования Фурье через два N/2-точечных 
+      приводит к экономии вычислительных операций, то каждое из N/2-точечных ДПФ 
+      следует вычислять путем сведения их к N/4-точечным 
+      преобразованиям:</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=17 
+      src="Преобразование Фурье.files/preobraz_fur39.gif" width=322>, 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(39)<BR><IMG 
+      src="Преобразование Фурье.files/preobraz_fur40.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(40)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>&nbsp;&nbsp;&nbsp;При 
+      этом, вследствие периодичности последовательности 
+      W<SUP>nk</SUP><SUB>N/4</SUB> по k с периодом N/4, суммы (40) необходимо 
+      вычислять только для значений k от 0 до N/4-1. Поэтому расчет 
+      последовательности X[k] по формулам (37), (39) и (40) требует, как 
+      нетрудно подсчитать, уже по 2N+N<SUP>2</SUP>/4 операций умножения и 
+      сложения. <BR>&nbsp;&nbsp;&nbsp;Следуя таким путем, объем вычислений X[k] 
+      можно все более и более уменьшать. После m=log<SUB>2</SUB>N разложений 
+      приходим к двухточечным преобразованиям Фурье вида</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=16 
+      src="Преобразование Фурье.files/preobraz_fur41.gif" 
+      width=311>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(41)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">где "одноточечные 
+      преобразования" X<SUB>1</SUB>[k,p] представляют собой просто отсчеты 
+      сигнала x[n]: </FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">X<SUB>1</SUB>[k,q] = x[q]/N, 
+      q=0,1,...,N-1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      (42)<BR>&nbsp;&nbsp;</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;В итоге можно записать 
+      алгоритм БПФ, получивший по понятным причинам название <I>алгоритма с 
+      прореживанием по времени</I> : </FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">X<SUB>2</SUB>[k,p] = (x[p] + 
+      W<SUP>k</SUP><SUB>2</SUB>x[p+N/2]) / N,</FONT></P>
+      <P align=left class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">где k=0,1, p=0,1,...,N/2 
+      -1;</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">X<SUB>2N/M</SUB>[k,p] 
+      =X<SUB>N/M</SUB>[k,p] + 
+      W<SUP>k</SUP><SUB>2N/M</SUB>X<SUB>N/M</SUB>[k,p+M/2],</FONT></P>
+      <P align=left class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">где k=0,1,...,2N/M -1, 
+      p=0,1,...,M/2 -1;</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">..X[k] = X<SUB>N</SUB>[k] 
+      =X<SUB>N/2</SUB>[k,0] + 
+      W<SUP>k</SUP><SUB>N</SUB>X<SUB>N/2</SUB>[k,1],&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(43)</FONT></P>
+      <P align=left class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">где k=0,1,...,N-1 </FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;На каждом 
+      этапе вычислений производится по N комплексных умножений и сложений. А так 
+      как число разложений исходной последовательности на подпоследовательности 
+      половинной длины равно log<SUB>2</SUB>N, то полное число операций 
+      умножения-сложения в алгоритме БПФ равно Nlog<SUB>2</SUB>N. При больших N 
+      имеет место существенная экономия вычислительных операций по сравнению с 
+      прямым вычислением ДПФ. Например, при N = 2<SUP>10</SUP> = 1024 число 
+      операций уменьшается в 117 раз. <BR>&nbsp;&nbsp;&nbsp;Рассмотренный нами 
+      алгоритм БПФ с прореживанием по времени основан на вычислении 
+      преобразования Фурье путем формирования подпоследовательностей входной 
+      последовательности x[n]. Однако можно использовать также разложение на 
+      подпоследовательности преобразования Фурье X[k]. Алгоритм БПФ, основанный 
+      на этой процедуре, носит название алгоритма с<I> прореживанием по 
+      частоте.</I> Подробнее о быстром преобразовании Фурье можно прочитать, 
+      например, в [2].</FONT></P>
+      <P align=center class=TITLE1><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><B>Случайные процессы и 
+      спектральная плотность мощности</B></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Дискретный 
+      случайный процесс x[n,i] можно рассматривать как некоторую совокупность, 
+      или ансамбль, действительных или комплексных дискретных временных (или 
+      пространственных) последовательностей, каждую из которых можно было бы 
+      наблюдать как результат проведения некоторого эксперимента (n - временной 
+      индекс, i - номер наблюдения). Последовательность, полученную в результате 
+      одного из наблюдений будем обозначать x[n]. Операцию усреднения по 
+      ансамблю (т.е. <I>статистического усреднения</I>) будем обозначать 
+      посредством оператора &lt;&gt;. Таким образом, &lt;x[n]&gt; - среднее 
+      значение случайного процесса x[n] в момент времени n. 
+      <I>Автокорреляция</I> случайного процесса в два различных момента времени 
+      n1 и n2 определяется выражением 
+      r<SUB>xx</SUB>[n<SUB>1</SUB>,n<SUB>2</SUB>]=&lt;x[n<SUB>1</SUB>]x*[n<SUB>2</SUB>]&gt;. 
+      </FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Случайный 
+      процесс называется стационарным в <I>широком смысле</I>, если его среднее 
+      значение постоянно (не зависит от времени), а автокорреляция зависит 
+      только от разности индексов времени m=n1-n2 (временного сдвига или 
+      задержки между отсчетами). Таким образом, стационарный в широком смысле 
+      дискретный случайный процесс x[n] характеризуется постоянным средним 
+      значением &lt;x&gt;=&lt;x[n]&gt; и<I> автокорреляционной 
+      последовательностью</I> (АКП)<BR></FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">r<SUB>xx</SUB>[m] = &lt; 
+      x[n+m]x*[n] &gt;. 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(44)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Отметим 
+      следующие свойства АКП:</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">r<SUB>xx</SUB>[0] <IMG 
+      height=17 src="Преобразование Фурье.files/bol_ravno.gif" width=12> 
+      |r<SUB>xx</SUB>[m]| , r<SUB>xx</SUB>[-m] = r*<SUB>xx</SUB>[m] , 
+      (45)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">которые справедливы при всех 
+      m. <BR>&nbsp;&nbsp;&nbsp;Спектральная плотность мощности (СПМ) 
+      определяется как дискретно-временное преобразование Фурье (ДВПФ) 
+      автокорреляционной последовательности</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=46 
+      src="Преобразование Фурье.files/preobraz_fur46.gif" width=244>. 
+      (46)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;СПМ, ширина 
+      которой полагается ограниченной значениями ±1/2T Гц, является 
+      периодической функцией частоты с периодом 1/T Гц. Функция СПМ описывает 
+      распределение мощности случайного процесса по частоте. Для подтверждения 
+      избранного для нее названия рассмотрим обратное ДВПФ</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=53 
+      src="Преобразование Фурье.files/preobraz_fur47.gif" 
+      width=248>(47)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">вычисляемое при 
+m=0</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=53 
+      src="Преобразование Фурье.files/preobraz_fur48.gif" 
+      width=146>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(48)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Автокорреляция 
+      при нулевом сдвиге характеризует <I>среднюю мощность</I> случайного 
+      процесса. Согласно (48), площадь под кривой P<SUB>xx</SUB>(f) 
+      характеризует среднюю мощность, поэтому P<SUB>xx</SUB>(f) представляет 
+      собой функцию плотности (мощность на единицу измерения частоты), которая 
+      характеризует распределение мощности по частоте. Пару преобразований (46) 
+      и (47) часто называют <I>теоремой Винера-Хинчина</I> для случая 
+      дискретного времени. Поскольку r<SUB>xx</SUB>[-m]=r*<SUB>xx</SUB>[m], то 
+      СПМ должна быть строго действительной положительной функцией. Если АКП - 
+      строго действительная функция, то r<SUB>xx</SUB>[-m]=r<SUB>xx</SUB>[m] и 
+      СПМ можно записать в форме косинус-преобразования Фурье </FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=44 
+      src="Преобразование Фурье.files/preobraz_fur48-1.gif" 
+      width=223>,</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">что означает также, что 
+      P<SUB>xx</SUB>(f) = P<SUB>xx</SUB>(-f), т.е. СПМ - четная 
+      функция.<BR>&nbsp;&nbsp;&nbsp;До сих пор мы при определении среднего 
+      значения, корреляции и спектральной плотности мощности случайного процесса 
+      пользовались статистическим усреднением по ансамблю. Однако на практике 
+      обычно не удается получить ансамбль реализаций требуемого процесса, по 
+      которому можно было бы вычислить эти статистические характеристики. 
+      Желательно оценивать все статистические свойства по одной выборочной 
+      реализации x(t), заменяя у<I>среднение по ансамблю усреднением по 
+      времени</I>. Свойство, позволяющее такую замену осуществить называется 
+      эргодичностью. Говорят, что случайный процесс эргодичен, если с 
+      вероятностью, равной единице, все его статистические характеристики можно 
+      предсказать по одной реализации из ансамбля с помощью усреднения по 
+      времени. Иными словами, средние значения по времени почти всех возможных 
+      реализаций процесса с вероятностью единица сходятся к одной и той же 
+      постоянной величине - среднему значению по ансамблю</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG 
+      src="Преобразование Фурье.files/preobraz_fur49.gif">.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(49)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Этот 
+      предел, если он существует, сходится к истинному среднему значению тогда и 
+      только тогда, когда дисперсия среднего по времени стремится к нулю, что 
+      означает выполнение следующего условия:</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG 
+      src="Преобразование Фурье.files/preobraz_fur50.gif">.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(50)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>&nbsp;&nbsp;&nbsp;Здесь 
+      c<SUB>xx</SUB>[m] - истинное значение ковариации процесса x[n]. 
+      <BR>Аналогично, наблюдая значение произведения отсчетов процесса x[n] в 
+      два момента времени, можно ожидать, что среднее значение будет 
+      равно</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG 
+      src="Преобразование Фурье.files/preobraz_fur51.gif">(51)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Допущение 
+      об эргодичности позволяет не только ввести через усреднение по времени 
+      определения для среднего значения и автокорреляции, но также дать подобное 
+      определение и для спектральной плотности мощности</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG 
+      src="Преобразование Фурье.files/preobraz_fur52.gif">.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(52)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Эта 
+      эквивалентная форма СПМ получается посредством статистического усреднения 
+      модуля ДВПФ взвешенной совокупности данных, поделенного на длину записи 
+      данных, для случая, когда число отсчетов увеличивается до бесконечности. 
+      Статистическое усреднение необходимо здесь потому, что ДВПФ само является 
+      случайной величиной, изменяющейся для каждой реализации x[n]. Для того, 
+      чтобы показать, что (52) эквивалентно теореме Винера-Хинчина, представим 
+      квадрат модуля ДВПФ в виде произведения двух рядов и изменим порядок 
+      операций суммирования и статистического усреднения:</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG 
+      src="Преобразование Фурье.files/preobraz_fur53.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(53)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Используя известное 
+      выражение</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=43 
+      src="Преобразование Фурье.files/preobraz_fur54.gif" width=273>, 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(54)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><BR>соотношение (53) можно 
+      свести к следующему:</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG 
+      src="Преобразование Фурье.files/preobraz_fur55.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( 
+      55 )</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Заметим, 
+      что на последнем этапе вывода (55) использовалось допущение о том, что 
+      автокорреляционная последовательность "затухает", так что</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=42 
+      src="Преобразование Фурье.files/preobraz_fur56.gif" width=115>. 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(56)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Взаимосвязь 
+      двух определений СПМ (46) и (52) наглядно показывает диаграмма, 
+      представленная на рисунке 4. <BR>&nbsp;&nbsp;&nbsp;Если в выражении (52) 
+      не учитывать операцию математического ожидания, то получим оценку 
+      СПМ</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG 
+      src="Преобразование Фурье.files/preobraz_fur57.gif">,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( 
+      57)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">которая называется<I> 
+      выборочным спектром</I>.</FONT></P>
+      <P align=center class=ris><IMG height=290 
+      src="Преобразование Фурье.files/preobraz_fur_ris4.gif" width=585></P>
+      <P align=justify></P>
+      <P align=justify class=ris><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Рис. 4. Взаимосвязь двух 
+      способов оценивания спектральной плотности мощности</FONT></P>
+      <P align=center class=TITLE1><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><B>Периодограммный метод 
+      спектрального оценивания</B></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Выше мы 
+      ввели два формальных эквивалентных метода определения спектральной 
+      плотности мощности (СПМ). Косвенный метод основан на использовании 
+      бесконечной последовательности данных для расчета автокорреляционной 
+      последовательности, преобразование Фурье которой дает искомую СПМ. Прямой 
+      метод определения СПМ основан на вычислении квадрата модуля преобразования 
+      Фурье для бесконечной последовательности данных с использованием 
+      соответствующего статистического усреднения. СПМ, полученная без такого 
+      усреднения оказывается неудовлетворительной, поскольку среднеквадратичная 
+      ошибка такой оценки сравнима с ее средним значением. Сейчас мы рассмотрим 
+      методы усреднения, обеспечивающие получение гладких и статистически 
+      устойчивых спектральных оценок по конечному числу отсчетов. Оценки СПМ, 
+      основанные на прямом преобразовании данных и последующем усреднении, 
+      получили название периодограмм. &nbsp;&nbsp;&nbsp;Оценки СПМ, для 
+      получения которых по исходным данным сначала формируются корреляционные 
+      оценки, получили название <I>коррелограммных</I>. При использовании любого 
+      метода оценивания СПМ пользователю приходится принимать множество 
+      компромиссных решений, с тем чтобы по конечному количеству отсчетов 
+      получать статистически устойчивые спектральные оценки с максимально 
+      возможным разрешением. К этим компромиссам относятся, в частности, выбор 
+      окна для взвешивания данных и корреляционных оценок и таких параметров 
+      усреднения во временной и в частотной областях, которые позволяют 
+      сбалансировать требования к снижению уровня боковых лепестков, 
+      обусловленных взвешиванием, выполнению эффективного усреднения и к 
+      обеспечению приемлемого спектрального разрешения. На рис. 5 приведена 
+      диаграмма, отображающая основные этапы <I>периодограммного</I> 
+      <I>метода</I></FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=250 
+      src="Преобразование Фурье.files/preobraz_fur_ris5.gif" 
+      width=400><BR></FONT><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Рис. 5. Основные этапы 
+      оценивания СПМ с помощью периодограммного метода</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Применение 
+      метода начинается со сбора N отсчетов данных, которые берутся с интервалом 
+      T секунд на отсчет с последующим (по желанию) этапом устранения тренда. 
+      Для того, чтобы получить статистически устойчивую спектральную оценку, 
+      имеющиеся данные необходимо разбить на перекрывающиеся (по возможности) 
+      сегменты и в последующем усреднить выборочные спектры, полученные по 
+      каждому такому сегменту. Параметры этого усреднения изменяются посредством 
+      соответствующего выбора числа отсчетов на сегмент (NSAMP) и числа 
+      отсчетов, на которое необходимо сдвинуть начало следующего сегмента 
+      (NSHIFT), см. рис. 6. Количество сегментов выбирается в зависимости от 
+      требуемой степени гладкости (дисперсии) спектральной оценки и требуемого 
+      спектрального разрешения. При малом значении параметра NSAMP получается 
+      больше сегментов, по которым будет производиться усреднение, а 
+      следовательно будут получаться оценки с меньшей дисперсией, но также и 
+      меньшим частотным разрешением. Увеличение длины сегмента (параметра NSAMP) 
+      повышает разрешение, естественно за счет увеличения дисперсии оценки из-за 
+      меньшего числа усреднений. Стрелка возврата на рис.5 указывает на 
+      необходимость нескольких повторных проходов по данным при различных длинах 
+      и количествах сегментов, что позволяет получить больше информации об 
+      исследуемом процессе.</FONT></P>
+      <P align=center class=ris><IMG height=172 
+      src="Преобразование Фурье.files/preobraz_fur_ris6.gif" width=400></P>
+      <P align=justify></P>
+      <P align=justify></P>
+      <P align=justify></P>
+      <P align=justify></P>
+      <P align=justify></P>
+      <P align=justify></P>
+      <P align=center class=ris><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Рис.6. Разбиение данных на 
+      сегменты для вычисления периодограммы</FONT></P>
+      <P align=justify class=TITLE1><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><B>Окна</B></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Один из 
+      важных вопросов, который является общим для всех классических методов 
+      спектрального оценивания, связан с взвешиванием данных. Обработка с 
+      помощью окна используется для управления эффектами, обусловленными 
+      наличием боковых лепестков в спектральных оценках. Заметим, что имеющуюся 
+      конечную запись данных удобно рассматривать как некоторую часть 
+      соответствующей бесконечной последовательности, видимую через применяемое 
+      окно. Так последовательность наблюдаемых данных x<SUB>0</SUB>[n] из N 
+      отсчетов математически можно записать как произведение бесконечной 
+      последовательности x[n] и функции прямоугольного окна</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=49 
+      src="Преобразование Фурье.files/preobraz_fur60.gif" width=189></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x<SUB>0</SUB>[n]=x[n]·rect[n]. 
+      <BR>&nbsp;&nbsp;&nbsp;При этом принимается очевидное допущение о том, что 
+      все ненаблюдаемые отсчеты равны нулю независимо от того, так ли это на 
+      самом деле. Дискретно-временное преобразование Фурье взвешенной 
+      последовательности равно свертке преобразований последовательности x[n] и 
+      прямоугольного окна rect[n]</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X<SUB>0</SUB>(f)=X(f)*D<SUB>N</SUB>(f) 
+      , где <BR>D<SUB>N</SUB>(f)= 
+Texp(-j2pfT[N-1])sin(pfTN)/sin(pfT).</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Функция 
+      D<SUB>N</SUB>(f), называемая дискретной функцией sinc, или ядром Дирихле, 
+      представляет собой ДВПФ прямоугольной функции. Преобразование наблюдаемой 
+      конечной последовательности является искаженной версией преобразования 
+      бесконечной последовательности. Влияние прямоугольного окна на 
+      дискретно-временную синусоиду с частотой f<SUB>0</SUB> иллюстрирует 
+      рис.7.</FONT></P>
+      <P align=center><FONT face="Verdana, Arial, Helvetica, sans-serif"><IMG 
+      height=304 src="Преобразование Фурье.files/preobraz_fur_ris7.gif" 
+      width=622></FONT></P>
+      <P align=justify><FONT class=ris 
+      face="Verdana, Arial, Helvetica, sans-serif">Рис.7. Иллюстрация смещения 
+      дискретно-временного преобразования Фурье вследствие просачивания из-за 
+      взвешивания данных.: а,в - исходная и взвешенная последовательности; б, г 
+      - их преобразования Фурье.</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Из рисунка 
+      видно, что острые спектральные пики ДВПФ бесконечной синусоидальной 
+      последовательности расширились за счет свертки с преобразованием окна. 
+      Таким образом, минимальная ширина спектральных пиков взвешенной окном 
+      последовательности определяется шириной главного лепестка преобразования 
+      этого окна и не зависит от данных. Боковые лепестки преобразования окна 
+      будут изменять амплитуды соседних спектральных пиков (иногда это явление 
+      называют просачиванием). Поскольку ДВПФ - периодическая функция, то 
+      наложение боковых лепестков от соседних периодов может привести к 
+      дополнительному смещению. Увеличение частоты отсчетов позволяет ослабить 
+      эффект наложения боковых лепестков. Аналогичные искажения будут, 
+      естественно, наблюдаться и в случае несинусоидальных сигналов. 
+      Просачивание приводит не только к появлению амплитудных ошибок в спектрах 
+      дискретных сигналов, но может также маскировать присутствие слабых 
+      сигналов. Можно предложить ряд других функций окна, применение которых 
+      позволяет снизить уровень боковых лепестков по сравнению с тем, который 
+      имеется при использовании прямоугольного окна. Снижение уровня боковых 
+      лепестков будет уменьшать смещение спектральной оценки, однако это дается 
+      ценой расширения главного лепестка спектра окна, что, естественно, 
+      приводит к ухудшению разрешения. Следовательно и здесь должен выбираться 
+      какой-то компромисс между шириной главного лепестка и уровнем боковых 
+      лепестков. Для оценки качества окон используется несколько параметров. 
+      Традиционным показателем является ширина полосы главного лепестка на 
+      уровне половинной мощности. В качестве второго показателя используется 
+      эквивалентная ширина полосы, введенная выше. Два показателя используются и 
+      для оценки характеристик боковых лепестков. Первый - их максимальный 
+      уровень, второй - скорость спадания, характеризующая быстроту уменьшения 
+      боковых лепестков по мере удаления от главного лепестка. В таблице 3 
+      приведены определения некоторых общеупотребительных дискретно-временных 
+      функций окна, а в таблице 4 - их характеристики.<BR>Таблица 3. Определения 
+      типичных N-точечных дискретно-временных окон<BR></FONT></P>
+      <TABLE border=1 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Название окна 
+            </FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Дискретно-временная 
+            функция w[n] </FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Частотная 
+            характеристика W(f)</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Прямоугольное 
+            (равномерное)</FONT></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">1</FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">DN 
+        (f)</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Треугольное(окно 
+            Бартлетта)</FONT></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">1-2 | t [n] 
+            |</FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">(2/N)D<SUP>2</SUP><SUB>N</SUB>(f/2)</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Косинус-квадрат (окно 
+            Ханна)</FONT></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">cos<SUP>2</SUP>(<IMG 
+            height=20 src="Преобразование Фурье.files/pi.gif" 
+            width=11>t[n])=0.5+0.5cos(2<IMG height=20 
+            src="Преобразование Фурье.files/pi.gif" 
+          width=11>t[n])</FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><IMG height=52 
+            src="Преобразование Фурье.files/preobraz_fur_t4-1.gif" 
+            width=163></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Приподнятый косинус 
+            (окно Хэмминга)</FONT></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">0.54+0.46cos(2pt[n])</FONT></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><IMG height=48 
+            src="Преобразование Фурье.files/preobraz_fur_t4-2.gif" 
+            width=153></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="33%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Взвешенные косинусы 
+            (окно Наттолла)</FONT></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><IMG height=42 
+            src="Преобразование Фурье.files/preobraz_fur_t4-4.gif" 
+            width=112></DIV></TD>
+          <TD width="33%">
+            <DIV align=center class=ris><IMG 
+            src="Преобразование Фурье.files/preobraz_fur_t4-3.gif"></DIV></TD></TR></TBODY></TABLE>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">Таблица 4. Некоторые 
+      характеристики типичных N-точечных дискретно-временных окон</FONT></P>
+      <TABLE border=1 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Название 
+            окна</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Макс. уровень боковых 
+            лепестков, дБ</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Скорость спадания 
+            боков.лепестков, дБ/октава</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Эквивалентная ширина 
+            полосы</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="25%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Прямоугольное</FONT></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">-13.3</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">-6</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">1.00</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="25%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Треугольное</FONT></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">-26.5</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">-12</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">1.33</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="25%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Окно Ханна</FONT></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">-31.5</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">-18</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">1.50</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="25%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Окно Хэмминга</FONT></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">-43.0</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">-6</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">1.36</FONT></DIV></TD></TR>
+        <TR>
+          <TD class=text_l width="25%"><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">Окно Наттолла 
+            (R=3)</FONT></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">-98.0</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">-6</FONT></DIV></TD>
+          <TD width="25%">
+            <DIV align=center class=ris><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif">1.80</FONT></DIV></TD></TR></TBODY></TABLE>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;Ранее мы 
+      дали определение спектральной плотности мощности как дискретно-временное 
+      преобразование Фурье автокорреляционной последовательности</FONT></P>
+      <P align=center class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><IMG height=46 
+      src="Преобразование Фурье.files/preobraz_fur46_1.gif" 
+      width=244>.&nbsp;&nbsp;&nbsp;(46)</FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;<I>&nbsp;Коррелограммный 
+      метод</I> оценивания СПМ - это просто подстановка в выражение (46) 
+      конечной последовательности значений оценки автокорреляции 
+      (<I>коррелограммы</I>) вместо бесконечной последовательности неизвестных 
+      истинных значений автокорреляции. Подробнее о коррелограммном методе 
+      спектрального оценивания можно прочитать в [1].</FONT></P>
+      <P align=justify></P>
+      <P align=center class=TITLE1><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><B>Л и т е р а т у р 
+      а</B></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">1. Рабинер Л., Гоулд Б. 
+      Теория и применение цифровой обработки сигналов. М.:Мир, 
+      1978.<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">2. Марпл-мл. С.Л. Цифровой 
+      спектральный анализ и его приложения: Пер. с англ. -М.: Мир, 
+      1990.<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">3. Гольдберг Л.М., Матюшкин 
+      Б.Д., Поляк М.Н., Цифровая обработка сигналов.- М.: Радио и связь, 
+      1990.<BR></FONT></P>
+      <P align=justify class=text><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif">4. Отнес Р., Эноксон Л. 
+      Прикладной анализ временных рядов.- М.: Мир, 1982. </FONT></P>
+      <P align=justify></P>
+      <TABLE border=0 cellSpacing=0 width=200>
+        <TBODY>
+        <TR>
+          <TD align=middle bgColor=#003300 colSpan=2 height=2></TD></TR>
+        <TR>
+          <TD align=middle height=15 width="10%"><A 
+            href="http://www.vibration.ru/preobraz_fur.shtml#top"><IMG border=0 
+            height=41 src="Преобразование Фурье.files/strelka1.gif" 
+          width=31></A></TD>
+          <TD align=middle height=15>
+            <DIV align=left><FONT 
+            face="Verdana, Arial, Helvetica, sans-serif"><A 
+            href="http://www.vibration.ru/preobraz_fur.shtml#top">В начало 
+            статьи</A></FONT></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><TR><TD 
+height="5" valign="middle" bgcolor="#CCCCCC">
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD background="Преобразование Фурье.files/gray16_04.gif" height=5 
+    width="100%"></TD></TR></TBODY></TABLE></TD></TR>
+<TABLE align=center border=0 cellPadding=0 cellSpacing=0 width="100%">
+  <TBODY>
+  <TR bgColor=#cccccc>
+    <TD height=20 vAlign=center width=25><FONT color=white 
+      face=Verdana><SMALL><SMALL><FONT color=#333333><B><IMG height=10 
+      src="Преобразование Фурье.files/email.gif" width=20> 
+      <BR></B></FONT></SMALL></SMALL></FONT></TD>
+    <TD height=20 vAlign=center><FONT color=white 
+      face=Verdana><SMALL><SMALL><FONT color=#333333><B><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif" size=1>Ваши отзывы и 
+      предложения ждем по адресу:<A href="mailto:info@encotes.ru"><FONT 
+      color=#333333 bgcolor="#330099"> 
+      info@encotes.ru</FONT></A></FONT></B></FONT></SMALL></SMALL></FONT></TD>
+    <TD align=right height=20 width=344>
+      <DIV align=right><FONT color=white face=Verdana><SMALL><SMALL><FONT 
+      color=#333333><B><FONT size=1>Cайт поддерживается ООО 
+      "ИНКОТЕС"</FONT></B></FONT></SMALL></SMALL></FONT></DIV></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD background="Преобразование Фурье.files/gray16_04.gif" height=5 
+    width="100%"></TD></TR></TBODY></TABLE></BODY></HTML>
